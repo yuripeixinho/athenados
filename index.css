@@ -32,17 +32,17 @@ body {
 }
 
 .header-class ul {
-    width: 25%;
+    width: 40%;
     list-style: none;
     margin-top: 4%;
     position: relative;
     left: 45%;
-    background-color: lightsalmon;
+    text-align: center;
 }
 
 .header-class li {
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 12%;
 }
 
 .header-class a {
@@ -59,9 +59,9 @@ body {
 }
 
 .main-background {
-   width: 70%;
+   width: 80%;
    position: absolute;
-   left: -21%;
+   left: -27%;
    top: -23%;
 }
 
@@ -74,7 +74,7 @@ body {
 .footer-class {
     width: 100%;
     height: 20vh;
-    background-color: rgb(20, 99, 82));
+    background-color: rgb(20, 99, 82);
 }
 
 .footer-class h5 {
