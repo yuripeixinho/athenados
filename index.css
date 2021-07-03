@@ -34,7 +34,7 @@ body {
 }
 .header-class ul {
     list-style: none;
-    margin-left: 36%;
+    margin-left: 35%;
     margin-top: 0.5%;
 }
 .header-class li {
@@ -46,8 +46,9 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-    font-family: 'Poppins';
+    font-weight: 300;
     letter-spacing: 1px;
+    font-family: 'Poppins';
 }
 
 
@@ -66,7 +67,6 @@ body {
     transform: rotateY(180deg);
 }
 
-
 .main-text-container {
     width: 50%;
     height: 20vh;
@@ -76,6 +76,8 @@ body {
 }
 .main-text-container h1 {
     font-size: 70px;
+    font-family: 'Lato';
+    font-weight: 400;
 }
 .main-text-container p {
     width: 70%;
