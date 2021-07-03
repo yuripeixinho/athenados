@@ -4,7 +4,7 @@
 }
 
 body {
-    
+    background-color: rgb(172, 186, 204);
 }
 
 
@@ -14,6 +14,8 @@ body {
     height: 7vh;
     background-color: rgb(16, 55, 107);
     display: flex;
+    position: fixed;
+    z-index: 99999;
 }
 
 
@@ -108,53 +110,65 @@ body {
 
 
 
-/* =========================== DIVISOR =========================== */
-.divisor-class {
-    width: 100%;
-    height: 10vh;
-    background-color: rgb(255, 255, 255);
-}
-
-
-
 /* =========================== SERVICES =========================== */
-.services-class {
-    width: 100%;
-    height: 100vh;
+.benefits-class {
+    width: 90%;
+    height: 80vh;
     background-color: rgb(200, 215, 236);
+    position: relative;
+    margin
+    left: 5%;
+    background: url(simple-background-backgrounds-passion-simple-1-5c9b95bd34713.png);
+    
 }
 
-
+.benefits-class h2 {
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 10%;
+    font-family: 'Lato';
+}
 
 .card-container {
     width: 90%;
     height: 70vh;
     margin: 10% auto;
     display: flex;
+    
 }
 
 
 .card {
     width: 20%;
-    height: 46vh;
+    height: 43vh;
     background-color: rgb(255, 255, 255);
     margin-left: 4%;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.171);
+    overflow: hidden;
 }
 .card img {
-    width: 30%;
-    margin: 14% 34% 0%;
+    width: 26%;
+    margin: 14% 37% 0%;
 }
 .card h3 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 4%;
     margin-top: 6%;
+    font-family: 'Lato';
 }
 .card p {
     padding: 6%;
     margin: 0% 6%;
     text-align: center;
+    font-family: 'Poppins';
+}
+/* =========================== FOOTER =========================== */
+.footer-class {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
 }
 
