@@ -11,75 +11,82 @@ body {
 /* =========================== HEADER =========================== */
 .header-class {
     width: 100%;
-    height: 12vh;
+    height: 7vh;
+    background-color: rgb(7, 34, 75);
     display: flex;
 }
 
+
 .header-class h1 {
     flex: 1;
-    text-align: end;
-    margin-top: 2%;
-    font-size: 45px;
+    margin-top: 0.5%;
+    margin-left: 12%;
+    color: white;
     font-family: 'Poppins';
-    font-weight: 300;
-    letter-spacing: 2px;
-    z-index: 9999;
+    font-weight: 200;
 }
 
-/* ------------ NAV CLASS ------------ */
+
+/* ====== NAV ====== */
 .header-class nav {
-    flex: 3;
+    flex: 2;
 }
-
 .header-class ul {
-    width: 40%;
     list-style: none;
-    margin-top: 4%;
-    position: relative;
-    left: 45%;
-    text-align: center;
+    margin-left: 30%;
+    margin-top: 0.5%;
 }
-
 .header-class li {
     display: inline-block;
-    margin-left: 12%;
+    margin-left: 3%;
+    margin-top: 2.2%;
 }
-
 .header-class a {
     text-decoration: none;
-    font-size: 20px;
     text-transform: uppercase;
+    color: white;
+    font-family: 'Poppins';
 }
 
 
 /* =========================== MAIN =========================== */
 .main-class {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 
-.main-background {
-   width: 80%;
-   position: absolute;
-   left: -27%;
-   top: -23%;
+.main-class img {
+    width: 50%;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: rotateY(180deg);
 }
 
-.main-background img {
-    width: 100%;
-    height: 100%;
- }
+
+.main-text-container {
+    width: 50%;
+    height: 20vh;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+}
+.main-text-container h1 {
+    font-size: 70px;
+}
+.main-text-container p {
+    width: 60%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+.main-text-container button {
+    margin-top: 3%;
+    padding: 1%;
+    border: none;
+}
+.main-text-container  a {
+    text-decoration: none;
+    font-size: 16px;
+}
 
 /* =========================== FOOTER =========================== */
-.footer-class {
-    width: 100%;
-    height: 20vh;
-    background-color: rgb(20, 99, 82);
-}
-
-.footer-class h5 {
-    text-align: center;
-    font-weight: 100;
-    padding: 2%;
-    font-size: 14px;
-}
