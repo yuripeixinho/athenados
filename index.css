@@ -4,7 +4,7 @@
 }
 
 body {
-    overflow: hidden;
+    
 }
 
 
@@ -12,9 +12,8 @@ body {
 .header-class {
     width: 100%;
     height: 7vh;
-    background-color: rgb(7, 34, 75);
+    background-color: rgb(16, 55, 107);
     display: flex;
-    position: fixed;
 }
 
 
@@ -46,9 +45,8 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-    font-weight: 300;
     letter-spacing: 1px;
-    font-family: 'Poppins';
+    font-family: 'Baloo Da 2', cursive;
 }
 
 
@@ -56,7 +54,7 @@ body {
 .main-class {
     width: 100%;
     height: 100vh;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(200, 215, 236);
 }
 
 .main-class img {
@@ -95,7 +93,7 @@ body {
     padding: 1.5%;
     border: none;
     border-radius: 30px;
-    background-color: rgb(7, 34, 75);
+    background-color: rgb(122, 37, 139);
     cursor: pointer;
 }
 .main-text-container  a {
@@ -105,7 +103,58 @@ body {
     text-transform: uppercase;
     font-family: 'Poppins';
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
-/* =========================== FOOTER =========================== */
+
+
+/* =========================== DIVISOR =========================== */
+.divisor-class {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+/* =========================== SERVICES =========================== */
+.services-class {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(200, 215, 236);
+}
+
+
+
+.card-container {
+    width: 90%;
+    height: 70vh;
+    margin: 10% auto;
+    display: flex;
+}
+
+
+.card {
+    width: 20%;
+    height: 46vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 4%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.171);
+}
+.card img {
+    width: 30%;
+    margin: 14% 34% 0%;
+}
+.card h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 6%;
+}
+.card p {
+    padding: 6%;
+    margin: 0% 6%;
+    text-align: center;
+}
+
