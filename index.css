@@ -116,7 +116,7 @@ body {
     height: 80vh;
     background-color: rgb(200, 215, 236);
     position: relative;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-bottom: 2%;
     left: 5%;
     
@@ -132,7 +132,7 @@ body {
 
 .card-container {
     width: 90%;
-    height: 70vh;
+    height: 40vh;
     margin: 10% auto;
     display: flex;
     
