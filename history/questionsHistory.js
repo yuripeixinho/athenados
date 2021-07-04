@@ -1,10 +1,15 @@
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
+
 const questionContainerElement = document.getElementById('question-container')
+
 const questionElement = document.getElementById('question')
+
 const answerButtonsElement = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
+
+
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -62,6 +67,7 @@ function selectAnswer(e) {
   }
 }
 
+
 function setStatusClass(element, correct) {
   clearStatusClass(element)
   if (correct) {
@@ -94,7 +100,7 @@ const questions = [
       { text: 'afirmar o ideário cristão para reconquistar a grandeza perdida.', correct: false },
       { text: 'difundir os saberes ancestrais para moralizar os costumes sociais.', correct: false },
       { text: 'recompor a organização republicana para fortalecer a administração estatal.', correct: false },
-      { text: 'e) recompor a organização republicana para fortalecer a administração estatal.', correct: false }
+      { text: 'recompor a organização republicana para fortalecer a administração estatal.', correct: false }
 
     ]
   },
