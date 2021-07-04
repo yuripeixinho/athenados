@@ -37,12 +37,17 @@ function showQuestion(question) {
     const button = document.createElement('button')
     button.innerText = answer.text
     button.classList.add('btn')
+
+    button.addEventListener('click', resolutionStatusOn)
+
     if (answer.correct) {
       button.dataset.correct = answer.correct
     }
     button.addEventListener('click', selectAnswer)
     answerButtonsElement.appendChild(button)
   }) 
+
+
 }
 
 function resetState() {
@@ -55,10 +60,11 @@ function resetState() {
 
 
 
+
 function selectAnswer(e) {
   const selectedButton = e.target
-  resolutionElement.innerText = questions[currentQuestionIndex].resolution;
 
+  resolutionElement.innerText = questions[currentQuestionIndex].resolution;
 
   const correct = selectedButton.dataset.correct
   setStatusClass(document.body, correct)
@@ -68,7 +74,6 @@ function selectAnswer(e) {
   
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
-    console.log(questions.resolution)
   } else {
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
@@ -90,6 +95,16 @@ function setStatusClass(element, correct) {
 function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
+
+}
+
+function resolutionStatusOff() {
+  document.getElementById('resolution').style.visibility = 'hidden';
+  
+}
+
+function resolutionStatusOn() {
+  document.getElementById('resolution').style.visibility = 'visible';
 }
 
 const questions = [
