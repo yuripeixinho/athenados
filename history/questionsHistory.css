@@ -9,14 +9,74 @@
     --hue-correct: 145;
   }
   
-  
-  .container {
-    width: 90%;
-    height: 80vh;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 0 10px 2px;
+  .header-class {
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(16, 55, 107);
+    display: flex;
+    position: fixed;
+    z-index: 99999;
+}
+
+
+.header-class h1 {
+    flex: 1;
+    margin-top: 0.2%;
+    margin-left: 12%;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+
+/* ====== NAV ====== */
+.header-class nav {
+    flex: 2;
+}
+.header-class ul {
+    list-style: none;
+    margin-left: 35%;
+    margin-top: 0%;
+}
+.header-class li {
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 2.2%;
+}
+.header-class a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================== QUESTIONS CONTAINER ========================= */
+   .container {
+    width: 66%;
+    height: 60vh;
+    background-color: lightblue;
+    position: absolute;
+    top: 18%;
+    left: 17%;
   }
   
   .btn-grid {
