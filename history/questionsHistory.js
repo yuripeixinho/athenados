@@ -57,7 +57,7 @@ function resetState() {
 
 function selectAnswer(e) {
   const selectedButton = e.target
-
+  resolutionElement.innerText = questions[currentQuestionIndex].resolution;
 
 
   const correct = selectedButton.dataset.correct
@@ -74,8 +74,7 @@ function selectAnswer(e) {
     startButton.classList.remove('hide')
   }
 
-  resolutionElement.innerText = 'ola'
-  
+
 }
 
 
@@ -96,7 +95,7 @@ function clearStatusClass(element) {
 const questions = [
   {
     question: '(Enem/2013) É preciso ressaltar que, de todas as capitanias brasileiras, Minas era a mais urbanizada. Não havia ali hegemonia de um ou dois grandes centros. A região era repleta de vilas e arraiais, grandes e pequenos, em cujas ruas muita gente circulava. As regiões da América portuguesa tiveram distintas lógicas de ocupação. Uma explicação para a especificidade da região descrita no texto está identificada na: ',
-    resolution: 'dqjhwequheq rlkore qeuwhqie uqhe qiuwehqiueqh eqwijeq',
+    resolution: 'exemplo 1',
     answers: [
       { text: 'apropriação cultural diante das influências externas.', correct: false },
       { text: 'produção manufatureira diante do exclusivo comercial.', correct: false },
@@ -107,7 +106,7 @@ const questions = [
   },
   {
     question: '(Enem/2016) No aniversário do primeiro decênio da Marcha sobre Roma, em outubro de 1932, Mussolini irá inaugurar sua Via dell Impero; a nova Via Sacra do Fascismo, ornada com estátuas de César, Augusto, Trajano, servirá ao culto do antigo e à glória do Império Romano e de espaço comemorativo do ufanismo italiano. Às sombras do passado recriado ergue-se a nova Roma, que pode vangloriar-se e celebrar seus imperadores e homens fortes; seus grandes poetas e apólogos como Horácio e Virgílio.',
-    resolution: 'd1233242342424242',
+    resolution: 'exemplo 2',
     answers: [
       { text: 'utilizar os vestígios restaurados para justificar o regime político.', correct: true },
       { text: 'afirmar o ideário cristão para reconquistar a grandeza perdida.', correct: false },
@@ -119,7 +118,7 @@ const questions = [
   },
   {
     question: 'What is 4x2?',
-    resolution: 'oi',
+    resolution: 'exemplo 3',
     answers: [
       { text: '6', correct: false },
       { text: '8', correct: true },
