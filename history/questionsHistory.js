@@ -46,9 +46,10 @@ function showQuestion(question) {
     button.addEventListener('click', selectAnswer)
     answerButtonsElement.appendChild(button)
   }) 
-
-
 }
+
+
+
 
 function resetState() {
   clearStatusClass(document.body)
@@ -104,6 +105,15 @@ function resolutionStatusOff() {
 function resolutionStatusOn() {
   document.getElementById('resolution').style.visibility = 'visible';
 }
+
+
+
+
+
+
+
+
+
 
 const questions = [
   {

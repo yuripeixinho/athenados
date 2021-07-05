@@ -94,7 +94,6 @@
     gap: 2%;
     margin: 20px 0; 
   }
- 
 
 
 
@@ -159,6 +158,13 @@
     cursor: pointer;
     box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.13);
   }
+  .btn:hover {
+    background-color: lightblue;
+    transition-duration: 0;
+  }
+
+
+
 
   .btn.correct {
     background-color: hsl(var(--hue-correct), 50%, 47%);
@@ -206,6 +212,9 @@
   .hide {
     display: none;
   }
+
+
+  
   
   
   
