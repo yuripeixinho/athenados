@@ -81,17 +81,60 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
-
   .btn-grid {
     display: grid;
     grid-template-columns: 40%;
     gap: 2%;
-    margin: 20px 0;
+    margin: 20px 0; 
   }
+ 
+
+
+
+
+
   
+  .btn-grid-tesourinhas {
+    position: absolute;
+    top: 28.5%;
+    left: 7.5%;
+    display: grid;
+    height: 3vh;
+    gap: 1%;
+    grid-template-columns: 6% 6% 6% 6% 6%;
+  }
+
+  .btn-grid-tesourinhas button {
+    font-size: 10px;
+    padding: 5%;
+    border: 0.1px solid rgba(187, 187, 187, 0.514);
+    margin-top: 5%;
+    cursor: pointer;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.13);    
+    border-radius: 50px;
+  }
+
+  .btn-grid-tesourinhas img {
+    width: 30%;
+    position: relative;
+    right: 15%;
+  }
+
+  .btn-grid-tesourinhas span {
+    position: absolute;
+    font-size: 14px;
+    bottom: 4%;
+    text-decoration: line-through;
+  }
 
 
 
+
+
+
+
+
+  
   :root {
     --hue-neutral: 21;
     --hue-wrong: 0;

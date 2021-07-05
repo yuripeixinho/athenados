@@ -59,8 +59,6 @@ function resetState() {
 }
 
 
-
-
 function selectAnswer(e) {
   const selectedButton = e.target
 
