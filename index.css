@@ -4,7 +4,7 @@
 }
 
 body {
-    
+
 }
 
 
@@ -64,24 +64,6 @@ body {
     filter: invert(100%);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =========================== MAIN =========================== */
 .main-text-container {
     width: 50%;
     height: 20vh;
@@ -149,34 +131,37 @@ body {
 
 
 
-/* =========================== SERVICES =========================== */
+
+/* =========================== MAIN =========================== */
 .main-class {
     width: 100%;
 }
 
+
+/* ========== SERVICES =========== */
 .benefits-class {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
 }
 
 .benefits-class h2 {
     text-align: center;
     font-size: 35px;
     position: relative;
-    top: 10%;
+    top: 15%;
     font-family: 'Lato';
 }
 
 .card-container {
     width: 90%;
-    height: 40vh;
+    height: 30vh;
     margin: 10% auto;
     display: flex;
 }
 
 .card {
     width: 20%;
-    height: vh;
+    height: 20vh;
     background-color: rgb(255, 255, 255);
     margin-left: 4%;
     border-radius: 15px;
@@ -202,18 +187,52 @@ body {
     font-family: 'Poppins';
 }
 
-
-
-
-
-
-
-/* =========================== FOOTER =========================== */
-.container3 {
+/* ========== EXPLANATION CONTAINER =========== */
+.explanation-container {
     width: 100%;
-    height: 60vh;
-    background-color: lightblue;
+    height: 50vh;
+    background-color: rgb(218, 218, 77);
 }
+.explanation-elements {
+    width: 50%;
+    padding: 3%;
+    margin-left: 9%;
+}
+
+.explanation-container h2 {
+    font-size: 55px;
+    margin-bottom: 6%;
+}
+.explanation-container p {
+    font-size: 24px;
+    margin-bottom: 6%;
+}
+.explanation-container button {
+    width: 20%;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 500px;
+}
+.explanation-container a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -259,9 +278,55 @@ body {
 /* =========================== FOOTER =========================== */
 .footer-class {
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     background-color: rgb(21, 63, 114);
+    color: white;
 }
-.footer-class h1 {
+
+.footer-content {
+    width: 60%; 
+    position: relative;
+    top: 10%;
+    margin: auto;
+    border-top: 1px solid grey;
     border-bottom: 1px solid grey;
+    padding: 4% 10%;
 }
+
+.athenadosAbout {
+    width: 40%;
+    margin-left: -12%;
+}
+
+.footer-logo {
+    width: 30%;
+    position: relative;
+    left: 20%;
+    top: 6%;
+    left: 44%;
+}
+
+.links ul {
+    position: absolute;
+    list-style: none;
+    top: 31%;
+    left: 38%;
+}
+.developments ul {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 31%;
+}
+.yuripeixinho {
+    position: absolute;
+    left: 20%;
+    bottom: 2.8%;
+}
+.copyright {
+    position: absolute;
+    left: 76%;
+    bottom: -12%;
+    font-weight: 100;
+}
+
