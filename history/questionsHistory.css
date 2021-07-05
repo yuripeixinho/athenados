@@ -72,13 +72,20 @@
     top: 14%;
     left: 13%;
     padding: 4%;
-    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.322);
-    border-radius: 80px;
   }
 
   #question {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+  }
+
+  #resolution {
+    position: absolute;
+    top: 29%;
+    left: 45%;
+    width: 50%;
+    height: 30vh;
+    font-size: 20px;
   }
 
   .btn-grid {
@@ -96,7 +103,7 @@
   
   .btn-grid-tesourinhas {
     position: absolute;
-    top: 28.5%;
+    top: 80%;
     left: 7.5%;
     display: grid;
     height: 3vh;
@@ -172,7 +179,19 @@
 
   
   
-  .start-btn, .next-btn {
+  .start-btn{
+    position: absolute;
+    left: 18%;
+    top: 78%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+
+  .next-btn {
+    position: absolute;
+    left: 18%;
+    top: 78%;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
