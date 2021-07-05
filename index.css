@@ -11,7 +11,7 @@ body {
 .header-class {
     width: 100%;
     height: 7vh;
-    background-color: rgb(79, 141, 199);
+    background-color: rgb(29, 46, 119);
     display: flex;
     position: fixed;
     z-index: 99999;
@@ -54,7 +54,11 @@ body {
 
 
 /* ========== SUB-HEADER =========== */
-.
+.sub-header {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(36, 64, 226);
+}
 
 
 
@@ -73,7 +77,7 @@ body {
 .main-class {
     width: 100%;
     height: 100vh;
-    background-color: rgb(248, 246, 230);
+    background-color: rgb(250, 252, 225);
 }
 
 .main-class img {
@@ -88,14 +92,16 @@ body {
     width: 50%;
     height: 20vh;
     position: absolute;
-    top: 25%;
+    top: 16%;
     left: 12%;
 }
 .main-text-container h1 {
     font-size: 70px;
     font-family: 'Lato';
     font-weight: 400;
+    color: white;
 }
+
 .main-text-container p {
     width: 70%;
     margin-top: 2%;
@@ -103,6 +109,7 @@ body {
     font-family: 'Poppins';
     font-weight: 300;
     letter-spacing: 1px;
+    color: white;
 
 }
 .main-text-container button {
