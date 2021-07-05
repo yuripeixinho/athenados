@@ -72,8 +72,6 @@
     top: 14%;
     left: 13%;
     padding: 4%;
-    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.322);
-    border-radius: 80px;
   }
 
   #question {
@@ -81,17 +79,68 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
+  #resolution {
+    position: absolute;
+    top: 29%;
+    left: 45%;
+    width: 50%;
+    height: 30vh;
+    font-size: 20px;
+  }
 
   .btn-grid {
     display: grid;
     grid-template-columns: 40%;
     gap: 2%;
-    margin: 20px 0;
+    margin: 20px 0; 
   }
+
+
+
+
+
   
+  .btn-grid-tesourinhas {
+    position: absolute;
+    top: 85%;
+    left: 7.5%;
+    display: grid;
+    height: 3vh;
+    gap: 1%;
+    grid-template-columns: 6% 6% 6% 6% 6%;
+  }
+
+  .btn-grid-tesourinhas button {
+    font-size: 10px;
+    padding: 5%;
+    border: 0.1px solid rgba(187, 187, 187, 0.514);
+    margin-top: 5%;
+    cursor: pointer;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.13);    
+    border-radius: 50px;
+  }
+
+  .btn-grid-tesourinhas img {
+    width: 30%;
+    position: relative;
+    right: 15%;
+  }
+
+  .btn-grid-tesourinhas span {
+    position: absolute;
+    font-size: 14px;
+    bottom: 4%;
+    text-decoration: line-through;
+  }
 
 
 
+
+
+
+
+
+  
   :root {
     --hue-neutral: 21;
     --hue-wrong: 0;
@@ -109,6 +158,13 @@
     cursor: pointer;
     box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.13);
   }
+  .btn:hover {
+    background-color: lightblue;
+    transition-duration: 0;
+  }
+
+
+
 
   .btn.correct {
     background-color: hsl(var(--hue-correct), 50%, 47%);
@@ -129,7 +185,19 @@
 
   
   
-  .start-btn, .next-btn {
+  .start-btn{
+    position: absolute;
+    left: 18%;
+    top: 84%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+
+  .next-btn {
+    position: absolute;
+    left: 18%;
+    top: 84%;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
@@ -144,6 +212,9 @@
   .hide {
     display: none;
   }
+
+
+  
   
   
   
