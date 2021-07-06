@@ -16,13 +16,12 @@ body {
     display: flex;
     position: fixed;
     z-index: 99999;
+    opacity: 90%;
 }
 
 
 .header-class h1 {
     flex: 1;
-    margin-top: 0.5%;
-    margin-left: 12%;
     color: white;
     font-weight: 200;
 }
@@ -30,22 +29,25 @@ body {
 
 /* ====== NAV ====== */
 .header-class nav {
-    flex: 2;
+    flex: 1;
+    position: relative;
+    left: 35%;
 }
 .header-class ul {
     list-style: none;
-    margin-left: 35%;
-    margin-top: 0.5%;
+    width: 30%;
 }
 .header-class li {
     display: inline-block;
-    margin-left: 3%;
-    margin-top: 2.2%;
+    margin-left: 4%;
+    margin-top: 8.5%;
 }
 .header-class a {
     text-decoration: none;
     color: white;
-    font-family: 'Baloo Da 2', cursive;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 700;
 }
 
 /* ========== SUB-HEADER =========== */
