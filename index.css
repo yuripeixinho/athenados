@@ -189,8 +189,9 @@ body {
 .explanation-container {
     width: 100%;
     height: 50vh;
-    background-color: rgb(36, 64, 226);
+    background-color: rgb(33, 59, 202);
     color: white;
+    margin-bottom: 8%;
 }
 .explanation-elements {
     width: 44%;
@@ -229,6 +230,7 @@ body {
     font-family: 'Poppins';
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 1.5px;
 }
 
 .explanation-container img {
@@ -241,7 +243,7 @@ body {
 .testimony-class {
     width: 100%;
     height: 60vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(92, 179, 238);
 }
 
 
