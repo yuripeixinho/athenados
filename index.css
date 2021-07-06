@@ -67,7 +67,7 @@ body {
     width: 50%;
     height: 20vh;
     position: absolute;
-    top: 16%;
+    top: 13%;
     left: 12%;
 }
 .main-text-container h1 {
@@ -82,9 +82,7 @@ body {
     margin-top: 2%;
     font-size: 20px;
     color: white;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-family: 'Poppins';
 }
 .main-text-container button {
     width: 19%;
@@ -103,7 +101,7 @@ body {
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-family: 'Poppins';
-    font-weight: 300;
+    font-weight: 700;
     letter-spacing: 1.5px;
 }
 
@@ -140,27 +138,27 @@ body {
 /* ========== SERVICES =========== */
 .benefits-class {
     width: 100%;
-    height: 80vh;
+    height: 78vh;
 }
 
 .benefits-class h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     position: relative;
     top: 15%;
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 .card-container {
     width: 90%;
-    height: vh;
     margin: 10% auto;
     display: flex;
 }
 
 .card {
     width: 20%;
-    height: 40vh;
+    height: 38vh;
     background-color: rgb(255, 255, 255);
     margin-left: 4%;
     border-radius: 15px;
@@ -191,38 +189,59 @@ body {
 .explanation-container {
     width: 100%;
     height: 50vh;
-    background-color: rgb(243, 255, 177);
+    background-color: rgb(36, 64, 226);
+    color: white;
 }
 .explanation-elements {
-    width: 50%;
-    padding: 3%;
-    margin-left: 9%;
+    width: 44%;
+    padding: 6%;
+    margin-left: 42%;
+    position: relative;
+    bottom: 12%;
 }
 
 .explanation-container h2 {
-    font-size: 55px;
-    margin-bottom: 6%;
+    font-size: 43px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 4%;
+    
 }
 .explanation-container p {
-    font-size: 24px;
-    margin-bottom: 6%;
+    font-size: 18.5px;
+    margin-bottom: 4%;
+    font-family: 'Poppins';
+    
 }
 .explanation-container button {
-    width: 20%;
+    width: 19%;
+    height: 6vh;
+    margin-top: 3%;
+    padding: 1.5%;
     border: none;
-    padding: 13px 20px;
-    border-radius: 500px;
+    border-radius: 30px;
+    background-color: rgb(170, 249, 255);
+    cursor: pointer;
 }
 .explanation-container a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.explanation-container img {
+    position: absolute;
+    top: 120%;
+    width: 44%;
 }
 
 /* =========== TESTIMONY ============ */
 .testimony-class {
     width: 100%;
     height: 60vh;
-    background-color: rgb(210, 250, 217);
+    background-color: rgb(255, 255, 255);
 }
 
 
