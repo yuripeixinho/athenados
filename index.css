@@ -239,12 +239,6 @@ body {
     width: 44%;
 }
 
-/* =========== TESTIMONY ============ */
-.testimony-class {
-    width: 100%;
-    height: 60vh;
-    background-color: rgb(92, 179, 238);
-}
 
 
 
@@ -287,7 +281,7 @@ body {
 .footer-class {
     width: 100%;
     height: 40vh;
-    background-color: rgb(21, 63, 114);
+    background-color: rgb(7, 13, 41);
     color: white;
 }
 
@@ -305,6 +299,20 @@ body {
     width: 40%;
     margin-left: -12%;
 }
+.athenadosAbout h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+}
+.athenadosAbout p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 1% 0%;
+}
+
+
+
+
+
 
 .footer-logo {
     width: 30%;
@@ -314,17 +322,45 @@ body {
     left: 44%;
 }
 
+
+
+
 .links ul {
     position: absolute;
     list-style: none;
     top: 31%;
     left: 38%;
 }
+.links h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+.links li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+
+
+
 .developments ul {
     list-style: none;
     position: absolute;
-    left: 50%;
+    left: 53%;
     top: 31%;
+}
+.developments h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+.yagopeixinho a, .yuripeixinho a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
 }
 
 .yuripeixinho {
@@ -332,14 +368,17 @@ body {
     left: 20%;
     bottom: 2.8%;
 }
-.yuripeixinho img {
-    transform: invert(100%);
+
+.yuripeixinho img, .yagopeixinho img {
+    filter: invert(100%);
 }
+
 
 .copyright {
     position: absolute;
     left: 76%;
     bottom: -12%;
     font-weight: 100;
+    font-family: 'Raleway', sans-serif;
 }
 
