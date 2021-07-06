@@ -20,12 +20,16 @@ body {
 }
 
 
-.header-class h1 {
-    flex: 1;
-    color: white;
-    font-weight: 200;
-}
 
+.logo {
+    width: 20%;
+    margin-left: 12%;
+}
+.header-class img {
+    width: 50%;
+    position: relative;
+    top: -24%;
+}
 
 /* ====== NAV ====== */
 .header-class nav {
@@ -63,6 +67,11 @@ body {
     top: 5%;
     left: 60%;
     filter: invert(100%);
+}
+#athenas {
+    left: 50%;
+    width: 11%;
+    top: 26%;
 }
 
 .main-text-container {
