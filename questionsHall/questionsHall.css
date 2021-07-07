@@ -134,35 +134,47 @@ body {
     top: 3%;
     left: 5%;
     padding: 4%;
+    background-color: khaki;
 }
 .history h1 {
     margin-bottom: 2%;
 }
 /* ================= HISTORY CARDS ================= */
 .history-cards {
-    width: 100%;
-    height: 30vh;
-    background-color: rgb(235, 235, 235);
-}
-
-.history-cards ul {
-    list-style: none;
+    
 }
 .history-cards li {
-    width: 24%;
-    height: 12vh;
-    margin-left: 0.6%;
-    margin-top: 1%;
-    background-color: lightskyblue;
+    width: 22%;
     display: inline-block;
+    margin-top: 1%;
+    margin-left: 2.2%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.274);
     border-radius: 10px;
 }
+.liImage {
+    flex: 0.5;
+}
+.liImage img {
+    width: 68%;
+    margin-top: 32%;
+    margin-left: 24%;
+}
+.h3Title {
+    flex: 1;
+}
+.h3Title h3 {
+    color: black;
+    margin-left: 22%;
+    margin-top: 20%;
+    font-size: 20px;
 
+}
 
-
-
-
-
+.lih3 {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+}
 
 
 
