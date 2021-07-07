@@ -137,25 +137,25 @@ body {
 }
 .history h1 {
     margin-bottom: 2%;
-    margin-left: 1.5%;
 }
 /* ================= HISTORY CARDS ================= */
 .history-cards {
     width: 100%;
     height: 30vh;
-    background-color: lightblue;
+    background-color: rgb(235, 235, 235);
 }
 
 .history-cards ul {
-    background-color: yellow;
     list-style: none;
-
 }
 .history-cards li {
-    width: 20%;
-    height: 10vh;
+    width: 24%;
+    height: 12vh;
+    margin-left: 0.6%;
+    margin-top: 1%;
     background-color: lightskyblue;
-    list-style: none;
+    display: inline-block;
+    border-radius: 10px;
 }
 
 
@@ -201,36 +201,3 @@ body {
 
 
 
-
-
-
-.geography {
-    width: 82%;
-    height: 15%;
-    background-color: lightgreen;
-    position: relative;
-    top: 3%;
-    left: 5%;
-    padding: 4%;
-    margin-top: 5%;
-}
-.philosophy {
-    width: 82%;
-    height: 15%;
-    background-color: lightgreen;
-    position: relative;
-    top: 3%;
-    left: 5%;
-    padding: 4%;
-    margin-top: 5%;
-}
-.sociology {
-    width: 82%;
-    height: 15%;
-    background-color: lightgreen;
-    position: relative;
-    top: 3%;
-    left: 5%;
-    padding: 4%;
-    margin-top: 5%;
-}
