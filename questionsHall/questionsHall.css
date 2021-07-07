@@ -8,19 +8,12 @@ body {
 }
 
 /* ============================ HEADER ============================ */
-/* ======= NAV CLASS1 ======= */
-.header-class1 {
-    width: 100%;
-    height: 7vh;
-    background-color: rgb(29, 46, 119);
-}
-
-
-/* ======= NAV CLASS2 ======= */
+/* ======= NAV CLASS ======= */
 .header-class2 {
     width: 100%;
     height: 7vh;
-    background-color: rgb(44, 91, 177);
+    background-color: rgb(10, 17, 48);
+    position: fixed;
 }
 .header-class2 nav {
     text-align: center;
@@ -31,7 +24,7 @@ body {
     margin-top: 1.2%;
 }
 .header-class2 a {
-    font-size: 18px;
+    font-size: 13px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
@@ -47,7 +40,7 @@ body {
 .sub-header {
     background: linear-gradient(90deg, rgba(19,40,73,1) 15%, rgba(2,31,71,1) 56%, rgba(3,2,25,1) 90%);
     width: 100%;
-    height: 46vh;
+    height: 50vh;
 }
 .sub-headerAbout {
     width: 34%;
@@ -242,3 +235,107 @@ body {
 
 
 
+/* =========================== FOOTER =========================== */
+.footer-class {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(7, 13, 41);
+    color: white;
+}
+
+.footer-content {
+    width: 60%; 
+    position: relative;
+    top: 10%;
+    margin: auto;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 4% 10%;
+}
+
+.athenadosAbout {
+    width: 40%;
+    margin-left: -12%;
+}
+.athenadosAbout h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+}
+.athenadosAbout p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 1% 0%;
+}
+
+
+
+
+
+
+.footer-logo {
+    width: 30%;
+    position: relative;
+    left: 20%;
+    top: 6%;
+    left: 44%;
+}
+
+
+
+
+.links ul {
+    position: absolute;
+    list-style: none;
+    top: 31%;
+    left: 38%;
+}
+.links h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+.links li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+.developments ul {
+    list-style: none;
+    position: absolute;
+    left: 53%;
+    top: 31%;
+}
+.developments h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+.yagopeixinho a, .yuripeixinho a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.yuripeixinho {
+    position: absolute;
+    left: 20%;
+    bottom: 2.8%;
+}
+
+.yuripeixinho img, .yagopeixinho img {
+    filter: invert(100%);
+}
+
+
+.copyright {
+    position: absolute;
+    left: 76%;
+    bottom: -12%;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+}
