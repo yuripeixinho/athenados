@@ -1,0 +1,96 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+
+}
+
+/* ============================ HEADER ============================ */
+/* ======= NAV CLASS1 ======= */
+.header-class1 {
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(29, 46, 119);
+    display: flex;
+    z-index: 99999;
+    opacity: 90%;
+}
+.header-class1 nav {
+    flex: 1;
+    position: relative;
+    left: 35%;
+}
+.header-class1 ul {
+    list-style: none;
+    width: 30%;
+}
+.header-class1 li {
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 8.5%;
+}
+.header-class1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.header-class2 {
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(29, 29, 29);
+}
+
+.sub-header {
+    background-color: lightgreen;
+    width: 100%;
+    height: 40vh;
+}
+
+/* ======= NAV CLASS2 ======= */
+
+
+
+
+
+
+
+
+
+
+
+.sub-header {
+    background: url(../_image/background_estudos.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-class {
+    width: 100%;
+    height: 200vh;
+    background-color: lightblue;
+}
