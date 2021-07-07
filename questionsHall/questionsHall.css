@@ -130,14 +130,52 @@ body {
 .history {
     width: 82%;
     height: 15%;
-    background-color: lightgreen;
     position: relative;
     top: 3%;
     left: 5%;
     padding: 4%;
+    background-color: lightgreen;
+}
+.history h1 {
+    margin-bottom: 2%;
+}
+
+/* ======= HISTORY CARDS ========= */
+.history-cards {
+    background-color: lightcoral;
+    display: flex;
 }
 
 
+/* ======= MATERIA 1 ========= */
+.materia1 {
+    width: 23.5%;
+    height: 10vh;
+    background-color: lightblue;
+}
+/* ======= MATERIA 2 ========= */
+.materia2 {
+    width: 23.5%;
+    height: 10vh;
+    background-color: lightblue;
+    margin-left: 2%;
+}
+/* ======= MATERIA 3 ========= */
+.materia3 {
+    width: 23.5%;
+    height: 10vh;
+    background-color: lightblue;
+    margin-left: 2%;
+}
+/* ======= MATERIA ========= */
+.materia4 {
+    width: 23.5%;
+    height: 10vh;
+    background-color: lightblue;
+    margin-left: 2%;
+}
+/* ======= MATERIA 1========= */
+/* ======= MATERIA 1========= */
 
 
 
