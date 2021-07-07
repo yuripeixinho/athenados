@@ -14,12 +14,10 @@ body {
     height: 7vh;
     background-color: rgb(29, 46, 119);
     display: flex;
-    z-index: 99999;
     opacity: 90%;
 }
 .header-class1 nav {
     flex: 1;
-    position: relative;
     left: 35%;
 }
 .header-class1 ul {
@@ -42,13 +40,14 @@ body {
 .header-class2 {
     width: 100%;
     height: 7vh;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(44, 91, 177);
 }
 
 .sub-header {
     background-color: lightgreen;
     width: 100%;
     height: 40vh;
+    
 }
 
 /* ======= NAV CLASS2 ======= */
@@ -64,15 +63,8 @@ body {
 
 
 .sub-header {
-    background: url(../_image/background_estudos.jpg);
+    background-color: rgb(134, 202, 202);
 }
-
-
-
-
-
-
-
 
 
 
@@ -91,6 +83,50 @@ body {
 
 .main-class {
     width: 100%;
-    height: 200vh;
-    background-color: lightblue;
+}
+
+
+
+.subjective-container {
+    width: 70%;
+    height: 150vh;
+    background-color: lightcoral;
+    margin: 0% auto;
+}
+
+
+.history {
+    width: 90%;
+    height: 20%;
+    background-color: lightgreen;
+    position: relative;
+    top: 3%;
+    left: 5%;
+}
+.geography {
+    width: 90%;
+    height: 20%;
+    background-color: lightgreen;
+    position: relative;
+    top: 3%;
+    left: 5%;
+    margin-top: 5%;
+}
+.philosophy {
+    width: 90%;
+    height: 20%;
+    background-color: lightgreen;
+    position: relative;
+    top: 3%;
+    left: 5%;
+    margin-top: 5%;
+}
+.sociology {
+    width: 90%;
+    height: 20%;
+    background-color: lightgreen;
+    position: relative;
+    top: 3%;
+    left: 5%;
+    margin-top: 5%;
 }
