@@ -13,18 +13,22 @@ body {
     width: 100%;
     height: 7vh;
     background-color: rgb(29, 46, 119);
-    display: flex;
     position: fixed;
     z-index: 99999;
     opacity: 90%;
 }
 
-
+/* ====== LOGO  ====== */
+.logo-class {
+    width: 64%;
+    position: absolute;
+    top: -40%;
+    left: 10%;
+}
 /* ====== NAV ====== */
 .header-class nav {
-    flex: 1;
     position: relative;
-    left: 35%;
+    left: 82%;
 }
 .header-class ul {
     list-style: none;
@@ -33,6 +37,7 @@ body {
 }
 .header-class li {
     display: inline-block;
+    margin-left: 1.8%;
 }
 .header-class a {
     text-decoration: none;
@@ -126,7 +131,7 @@ body {
     cursor: pointer;
     transition-duration: 0.5s;
     animation-name: background-button;
-    animation-duration: 8s;
+    animation-duration: 1s;
 }
 .main-text-container button:hover {
     transition-duration: 0.5s;
