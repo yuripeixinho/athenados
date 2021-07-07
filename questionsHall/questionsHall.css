@@ -43,35 +43,38 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ============================ SUB HEADER ============================ */
 .sub-header {
     background: linear-gradient(90deg, rgba(19,40,73,1) 15%, rgba(2,31,71,1) 56%, rgba(3,2,25,1) 90%);
     width: 100%;
-    height: 40vh;
+    height: 46vh;
 }
 .sub-headerAbout {
-    width: 40%;
-    height: 30vh;
+    width: 34%;
+    height: 28vh;
     position: relative;
     left: 20%;
-    top: 30%;
+    top: 26%;
+}
+.sub-headerAbout p {
+    padding: 2% 0%;
+    font-size: 20px;
+    color: white;
+}
+.sub-headerAbout h1 {
+    color: yellow;
+    text-transform: uppercase;
+}
+.sub-headerImage img {
+    position: absolute;
+    width: 14%;
+    left: 66%;
+    top: 22%;
 }
 
 
 
-
+/* ============================ NAV SUBJECTIVES ============================ */
 .nav-subjectives {
     width: 100%;
     height: 8vh;
@@ -102,54 +105,120 @@ body {
 
 
 
-
+/* ============================ MAIN-CLASS ============================ */
 .main-class {
     width: 100%;
+    height: 195vh;
 }
-
-
 
 .subjective-container {
     width: 70%;
-    height: 150vh;
+    height: 190vh;
     margin: 0% auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 
+
+
+
+
+
+/* ============================ HISTORY CONTAINER ============================ */
 .history {
-    width: 90%;
-    height: 20%;
+    width: 82%;
+    height: 15%;
     background-color: lightgreen;
     position: relative;
     top: 3%;
     left: 5%;
+    padding: 4%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================ GEOGRAPHY CONTAINER ============================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .geography {
-    width: 90%;
-    height: 20%;
+    width: 82%;
+    height: 15%;
     background-color: lightgreen;
     position: relative;
     top: 3%;
     left: 5%;
+    padding: 4%;
     margin-top: 5%;
 }
 .philosophy {
-    width: 90%;
-    height: 20%;
+    width: 82%;
+    height: 15%;
     background-color: lightgreen;
     position: relative;
     top: 3%;
     left: 5%;
+    padding: 4%;
     margin-top: 5%;
 }
 .sociology {
-    width: 90%;
-    height: 20%;
+    width: 82%;
+    height: 15%;
     background-color: lightgreen;
     position: relative;
     top: 3%;
     left: 5%;
+    padding: 4%;
     margin-top: 5%;
 }
