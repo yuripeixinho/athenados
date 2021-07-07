@@ -13,63 +13,85 @@ body {
     width: 100%;
     height: 7vh;
     background-color: rgb(29, 46, 119);
-    display: flex;
-    opacity: 90%;
-}
-.header-class1 nav {
-    flex: 1;
-    left: 35%;
-}
-.header-class1 ul {
-    list-style: none;
-    width: 30%;
-}
-.header-class1 li {
-    display: inline-block;
-    margin-left: 4%;
-    margin-top: 8.5%;
-}
-.header-class1 a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-family: 'Raleway';
-    font-weight: 700;
 }
 
+
+/* ======= NAV CLASS2 ======= */
 .header-class2 {
     width: 100%;
     height: 7vh;
     background-color: rgb(44, 91, 177);
 }
+.header-class2 nav {
+    text-align: center;
+}
+.header-class2 li {
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 1.2%;
+}
+.header-class2 a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .sub-header {
-    background-color: lightgreen;
+    background: linear-gradient(90deg, rgba(19,40,73,1) 15%, rgba(2,31,71,1) 56%, rgba(3,2,25,1) 90%);
     width: 100%;
     height: 40vh;
-    
 }
-
-/* ======= NAV CLASS2 ======= */
-
-
-
-
-
-
-
-
-
-
-
-.sub-header {
-    background-color: rgb(134, 202, 202);
+.sub-headerAbout {
+    width: 40%;
+    height: 30vh;
+    position: relative;
+    left: 20%;
+    top: 30%;
 }
 
 
 
 
-
+.nav-subjectives {
+    width: 100%;
+    height: 8vh;
+    background-color: lightblue;
+}
+.nav-subjectives nav {
+    text-align: center;
+}
+.nav-subjectives li {
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 1.5%;
+}
+.nav-subjectives a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
 
 
 
@@ -90,8 +112,9 @@ body {
 .subjective-container {
     width: 70%;
     height: 150vh;
-    background-color: lightcoral;
     margin: 0% auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 
