@@ -108,16 +108,14 @@ body {
 /* ============================ MAIN-CLASS ============================ */
 .main-class {
     width: 100%;
-    height: 195vh;
 }
 
 .subjective-container {
     width: 70%;
-    height: 190vh;
     margin: 0% auto;
     margin-top: 2%;
     margin-bottom: 2%;
-    border: 1px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 
@@ -125,32 +123,19 @@ body {
 
 
 
-
-/* ============================ HISTORY CONTAINER ============================ */
-.history {
-    width: 82%;
-    height: 15%;
-    position: relative;
-    top: 3%;
-    left: 5%;
-    padding: 4%;
-    background-color: khaki;
-}
-.history h1 {
-    margin-bottom: 2%;
-}
-/* ================= HISTORY CARDS ================= */
-.history-cards {
+/* ================= CARDS ================= */
+.subject-cards {
     
 }
-.history-cards li {
+.subject-cards li {
     width: 22%;
     display: inline-block;
     margin-top: 1%;
     margin-left: 2.2%;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.274);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 10px 10px;
     border-radius: 10px;
 }
+
 .liImage {
     flex: 0.5;
 }
@@ -184,12 +169,56 @@ body {
 
 
 
-/* ============================ GEOGRAPHY CONTAINER ============================ */
 
 
 
 
 
+/* ============================ HISTORY ============================ */
+.history {
+    width: 82%;
+    padding: 4%;
+    margin: 0% auto;
+}
+.history h1 {
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+
+/* ============================ GEOGRAPHY ============================ */
+.geography {
+    width: 82%;
+    padding: 4%;
+    margin: 0% auto;
+}
+.geography h1 {
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+
+/* ============================ PHILOSOPHY ============================ */
+.philosophy {
+    width: 82%;
+    padding: 4%;
+    margin: 0% auto;
+}
+.philosophy h1 {
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+/* ============================ SOCIOLOGY ============================ */
+.sociology {
+    width: 82%;
+    padding: 4%;
+    margin: 0% auto;
+}
+.sociology h1 {
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
 
 
 
