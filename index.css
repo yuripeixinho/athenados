@@ -224,12 +224,15 @@ body {
 .card {
     width: 20%;
     height: 38vh;
-    background-color: rgb(255, 255, 255);
     margin-left: 4%;
     border-radius: 15px;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.171);
+    box-shadow: 0px 4px 16px rgba(148, 148, 148, 0.993);
     overflow: hidden;
-    transition-duration: 2s;
+    transition-duration: 1s;
+}
+.card:hover {
+    box-shadow: none;
+    transform: translateY(7%);
 }
 
 .card img {
@@ -250,6 +253,28 @@ body {
     text-align: center;
     font-family: 'Poppins';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ========== EXPLANATION CONTAINER =========== */
 .explanation-container {
@@ -282,12 +307,18 @@ body {
 .explanation-container button {
     width: 19%;
     height: 6vh;
-    margin-top: 3%;
+    margin-top: 1%;
     padding: 1.5%;
     border: none;
     border-radius: 30px;
     background-color: rgb(170, 249, 255);
     cursor: pointer;
+    transition: 0.5s;
+}
+.explanation-container button:hover {
+    transition-duration: 0.5s;
+    transform: translateY(4%);
+    background-color: rgb(238, 235, 71);
 }
 .explanation-container a {
     text-decoration: none;
@@ -347,14 +378,15 @@ body {
 .footer-class {
     width: 100%;
     height: 40vh;
-    background-color: rgb(7, 13, 41);
+    margin-top: 0;
+    background-color: rgb(10, 18, 53);
     color: white;
 }
 
 .footer-content {
     width: 60%; 
     position: relative;
-    top: 10%;
+    top: -6%;
     margin: auto;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
@@ -380,12 +412,9 @@ body {
 
 
 
-.footer-logo {
-    width: 30%;
-    position: relative;
-    left: 20%;
-    top: 6%;
-    left: 44%;
+.footer-logo img{ 
+    width: 12%;
+    margin-left: 44%;
 }
 
 
