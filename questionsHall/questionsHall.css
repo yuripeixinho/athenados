@@ -60,16 +60,16 @@ body {
     width: 34%;
     height: 28vh;
     position: relative;
-    left: 20%;
+    left: 23%;
     top: 35%;
 }
 
 .sub-headerAbout h1 {
     font-size: 35px;
-    color: yellow;
+    color: rgb(244, 222, 96);
     text-transform: uppercase;
     font-family: 'Raleway';
-    margin-bottom: 3%;
+    margin-bottom: 3.5%;
 }
 
 .sub-headerAbout p {
@@ -99,8 +99,14 @@ body {
 .nav-subjectives li {
     display: inline-block;
     margin-left: 3%;
-    margin-top: 1.5%;
+    margin-top: 2.5%;
+    transition-duration: 0.5s;
 }
+.nav-subjectives li:hover {
+    transform: translateY(9%);
+    transition-duration: 0.5s;
+}
+
 .nav-subjectives a {
     font-size: 17px;
     text-transform: uppercase;
@@ -108,7 +114,13 @@ body {
     font-family: 'Lato';
     font-weight: bold;
     color: black;
+    transition-duration: 0.2s;
 }
+.nav-subjectives a:hover {
+    color: rgb(244, 222, 96);
+    transition-duration: 0.2s;
+}
+
 
 
 
@@ -139,34 +151,36 @@ body {
 
 /* ================= CARDS ================= */
 .subject-cards {
-    
+
 }
 .subject-cards li {
     width: 22%;
+    height: 10vh;
     display: inline-block;
     margin-top: 1%;
     margin-left: 2.2%;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 10px 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .liImage {
     flex: 0.5;
 }
 .liImage img {
-    width: 68%;
-    margin-top: 32%;
+    width: 58%;
+    margin-top: 35%;
     margin-left: 24%;
 }
 .h3Title {
     flex: 1;
 }
 .h3Title h3 {
+    width: 80%;
     color: black;
-    margin-left: 22%;
-    margin-top: 20%;
-    font-size: 20px;
-
+    margin-left: 10%;
+    margin-top: 18%;
+    font-size: 14px;
+    font-family: 'Lato';
 }
 
 .lih3 {
