@@ -12,7 +12,7 @@ body {
 .header-class2 {
     width: 100%;
     height: 7vh;
-    background-color: rgb(29, 46, 119);
+    background-color: rgb(10, 17, 48);
     position: fixed;
     z-index: 9999;
 }
@@ -47,61 +47,22 @@ body {
 
 
 
-/* ============================ NAV SUBJECTIVES ============================ */
-.nav-subjectives {
-    width: 100%;
-    height: 6vh;
-    position: fixed;
-    top: 7%;
-    background-color: rgb(32, 83, 177);
-    z-index: 99999;
-}
-.nav-subjectives nav {
-    text-align: center;
-    height: 7.5vh;
-}
-.nav-subjectives li {
-    display: inline-block;
-    margin-left: 3%;
-    margin-top: 1%;
-    transition-duration: 0.5s;
-}
-.nav-subjectives li:hover {
-    transform: translateY(9%);
-    transition-duration: 0.5s;
-}
-
-.nav-subjectives a {
-    font-size: 14px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: 'Lato';
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    transition-duration: 0.2s;
-}
-.nav-subjectives a:hover {
-    color: rgb(244, 222, 96);
-    transition-duration: 0.2s;
-}
-
-
 
 
 
 
 /* ============================ SUB HEADER ============================ */
 .sub-header {
-    background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
+    background: linear-gradient(90deg, rgba(19,40,73,1) 15%, rgba(2,31,71,1) 56%, rgba(3,2,25,1) 90%);
     width: 100%;
-    height: 58vh;
+    height: 50vh;
 }
 .sub-headerAbout {
     width: 34%;
     height: 28vh;
     position: relative;
     left: 23%;
-    top: 40%;
+    top: 35%;
 }
 
 .sub-headerAbout h1 {
@@ -122,11 +83,44 @@ body {
     position: absolute;
     width: 14%;
     left: 66%;
-    top: 18%;
+    top: 14%;
 }
 
 
 
+/* ============================ NAV SUBJECTIVES ============================ */
+.nav-subjectives {
+    width: 100%;
+    height: 8vh;
+}
+.nav-subjectives nav {
+    text-align: center;
+    height: 7.5vh;
+}
+.nav-subjectives li {
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 2.5%;
+    transition-duration: 0.5s;
+}
+.nav-subjectives li:hover {
+    transform: translateY(9%);
+    transition-duration: 0.5s;
+}
+
+.nav-subjectives a {
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: black;
+    transition-duration: 0.2s;
+}
+.nav-subjectives a:hover {
+    color: rgb(244, 222, 96);
+    transition-duration: 0.2s;
+}
 
 
 
@@ -141,7 +135,7 @@ body {
 /* ============================ MAIN-CLASS ============================ */
 .main-class {
     width: 100%;
-    height: 238vh;
+    height: 218vh;
 }
 
 .subjective-container {
@@ -161,6 +155,7 @@ body {
 /* ================= CARDS ================= */
 .subject-cards a {
     text-decoration: none;
+
 }
 .subject-cards li {
     width: 22%;
@@ -189,7 +184,6 @@ body {
 .h3Title {
     flex: 1;
 }
-
 .h3Title h3 {
     width: 80%;
     color: black;
@@ -203,7 +197,6 @@ body {
     width: 100%;
     height: 12vh;
     display: flex;
-
 }
 
 
@@ -303,18 +296,17 @@ body {
 .footer-class {
     width: 100%;
     height: 40vh;
-    margin-top: 0;
-    background-color: rgb(6, 15, 53);
+    background-color: rgb(7, 13, 41);
     color: white;
 }
 
 .footer-content {
     width: 60%; 
     position: relative;
-    top: -6%;
+    top: 10%;
     margin: auto;
-    border-top: 1px solid rgb(255, 234, 49);
-    border-bottom: 1px solid rgb(255, 234, 49);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
     padding: 4% 10%;
 }
 
@@ -337,9 +329,12 @@ body {
 
 
 
-.footer-logo img{ 
-    width: 12%;
-    margin-left: 44%;
+.footer-logo {
+    width: 30%;
+    position: relative;
+    left: 20%;
+    top: 6%;
+    left: 44%;
 }
 
 
@@ -397,9 +392,8 @@ body {
 
 .copyright {
     position: absolute;
-    left: 77%;
+    left: 76%;
     bottom: -12%;
     font-weight: 100;
-    font-size: 12px;
     font-family: 'Raleway', sans-serif;
 }
