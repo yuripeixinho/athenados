@@ -47,7 +47,6 @@ body {
     font-weight: 700;
 }
 .header-class a:hover {
-    text-decoration: underline;
     color: rgb(244, 222, 96);
 }
 
@@ -279,7 +278,7 @@ body {
 /* ========== EXPLANATION CONTAINER =========== */
 .explanation-container {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     background-color: rgb(33, 59, 202);
     color: white;
     margin-bottom: 8%;

@@ -14,10 +14,19 @@ body {
     height: 7vh;
     background-color: rgb(10, 17, 48);
     position: fixed;
+    z-index: 9999;
 }
 .header-class2 nav {
     text-align: center;
 }
+
+.header-class2 img {
+    width: 11%;
+    position: absolute;
+    top: -30%;
+    left: -1%;
+}
+
 .header-class2 li {
     display: inline-block;
     margin-left: 4%;
@@ -29,6 +38,11 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: white;
+    font-family: 'Raleway';
+    word-spacing: 2px;
+}
+.header-class2 a:hover {
+    color: rgb(244, 222, 96);
 }
 
 
@@ -47,22 +61,28 @@ body {
     height: 28vh;
     position: relative;
     left: 20%;
-    top: 26%;
+    top: 35%;
 }
-.sub-headerAbout p {
-    padding: 2% 0%;
-    font-size: 20px;
-    color: white;
-}
+
 .sub-headerAbout h1 {
+    font-size: 35px;
     color: yellow;
     text-transform: uppercase;
+    font-family: 'Raleway';
+    margin-bottom: 3%;
+}
+
+.sub-headerAbout p {
+    padding: 2% 0%;
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins';
 }
 .sub-headerImage img {
     position: absolute;
     width: 14%;
     left: 66%;
-    top: 22%;
+    top: 14%;
 }
 
 
@@ -71,10 +91,10 @@ body {
 .nav-subjectives {
     width: 100%;
     height: 8vh;
-    background-color: lightblue;
 }
 .nav-subjectives nav {
     text-align: center;
+    height: 7.5vh;
 }
 .nav-subjectives li {
     display: inline-block;
@@ -82,10 +102,11 @@ body {
     margin-top: 1.5%;
 }
 .nav-subjectives a {
-    font-size: 18px;
+    font-size: 17px;
     text-transform: uppercase;
-    font-weight: bold;
     text-decoration: none;
+    font-family: 'Lato';
+    font-weight: bold;
     color: black;
 }
 
