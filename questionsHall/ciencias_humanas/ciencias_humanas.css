@@ -144,7 +144,6 @@ body {
     margin-top: 2%;
     margin-bottom: 2%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    
 }
 
 
@@ -153,8 +152,8 @@ body {
 
 
 /* ================= CARDS ================= */
-.subject-cards ul{
-    list-style: none;
+.subject-cards a {
+    text-decoration: none;
 
 }
 .subject-cards li {
@@ -376,6 +375,7 @@ body {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
+    text-decoration: none;
 }
 
 .yuripeixinho {
