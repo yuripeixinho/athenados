@@ -159,7 +159,7 @@
     box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.13);
   }
   .btn:hover {
-    background-color: lightblue;
+    background-color: rgb(252, 252, 252);
     transition-duration: 0;
   }
 

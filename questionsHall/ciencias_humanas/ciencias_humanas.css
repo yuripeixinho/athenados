@@ -102,6 +102,15 @@ body {
     position: relative;
     left: 23%;
     top: 40%;
+    animation-name: subHeader;
+    animation-duration: 3s;
+}
+@keyframes subHeader {
+    from {
+        left: -40%;
+    } to {
+        left: 23%;
+    }
 }
 
 .sub-headerAbout h1 {
@@ -121,8 +130,17 @@ body {
 .sub-headerImage img {
     position: absolute;
     width: 14%;
-    left: 66%;
-    top: 18%;
+    right: 18%;
+    top: 20%;
+    animation-duration: 3s;
+    animation-name: subHeaderImage;
+}
+@keyframes subHeaderImage {
+    from {
+        right: -30%;
+    } to {
+        right: 18%;
+    }
 }
 
 
