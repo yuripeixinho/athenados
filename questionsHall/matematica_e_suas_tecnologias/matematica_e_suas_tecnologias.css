@@ -141,12 +141,12 @@ body {
 /* ============================ MAIN-CLASS ============================ */
 .main-class {
     width: 100%;
-    height: 330vh;
+    height: 185vh;
 }
 
 .subjective-container {
     width: 70%;
-    height: 300vh;
+    height: 160vh;
     margin: 0% auto;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -219,13 +219,13 @@ body {
 
 
 
-/* ============================ PORTUGUES ============================ */
-.portugues {
+/* ============================ FÍSICA ============================ */
+.fisica {
     width: 82%;
     padding: 4%;
     margin: 0% auto;
 }
-.portugues h1 {
+.fisica h1 {
     margin-bottom: 2%;
     margin-left: 2.5%;
     font-family: 'Raleway';
@@ -234,13 +234,13 @@ body {
 }
 
 
-/* ============================ LITERATURA ============================ */
-.literatura {
+/* ============================ QUÍMICA ============================ */
+.quimica {
     width: 82%;
     padding: 4%;
     margin: 0% auto;
 }
-.literatura h1 {
+.quimica h1 {
     margin-bottom: 2%;
     margin-left: 2.5%;
     font-family: 'Raleway';
@@ -249,54 +249,13 @@ body {
 }
 
 
-/* ============================ ARTES ============================ */
-.artes {
+/* ============================ BIOLOGIA ============================ */
+.biologia {
     width: 82%;
     padding: 4%;
     margin: 0% auto;
 }
-.artes h1 {
-    margin-bottom: 2%;
-    margin-left: 2.5%;
-    font-family: 'Raleway';
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-/* ============================ EDFISICA ============================ */
-.edFisica {
-    width: 82%;
-    padding: 4%;
-    margin: 0% auto;
-}
-.edFisica h1 {
-    margin-bottom: 2%;
-    margin-left: 2.5%;
-    font-family: 'Raleway';
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-/* ============================ INGLES ============================ */
-.ingles {
-    width: 82%;
-    padding: 4%;
-    margin: 0% auto;
-}
-.ingles h1 {
-    margin-bottom: 2%;
-    margin-left: 2.5%;
-    font-family: 'Raleway';
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-/* ============================ ESPANHOL ============================ */
-.espanhol {
-    width: 82%;
-    padding: 4%;
-    margin: 0% auto;
-}
-.espanhol h1 {
+.biologia h1 {
     margin-bottom: 2%;
     margin-left: 2.5%;
     font-family: 'Raleway';
