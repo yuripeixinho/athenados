@@ -10,7 +10,7 @@ menuItems.forEach(item => {
 
 function smoothScroll(event) {
     event.preventDefault();
-    const element = event.target;
+    const element = event.target
     const id = element.getAttribute('href');
     const to = document.querySelector(id).offsetTop;
 
