@@ -46,7 +46,7 @@ body {
     height: 6vh;
     position: fixed;
     top: 7%;
-    background: radial-gradient(circle, rgb(202, 211, 119) 36%, rgb(207, 206, 107) 62%, rgb(253, 255, 105) 90%);
+    background: radial-gradient(circle, rgba(236,209,107,1) 14%, rgba(218,201,114,1) 52%, rgba(247,233,137,1) 90%);
     z-index: 99999;
 }
 .nav-subjectives nav {
@@ -74,7 +74,7 @@ body {
     transition-duration: 0.2s;
 }
 .nav-subjectives a:hover {
-    color: rgb(244, 222, 96);
+    color: rgb(0, 0, 0);
     transition-duration: 0.2s;
 }
 
