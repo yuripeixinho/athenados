@@ -20,13 +20,6 @@ body {
     text-align: center;
 }
 
-.header-class2 img {
-    width: 11%;
-    position: absolute;
-    top: -30%;
-    left: -1%;
-}
-
 .header-class2 li {
     display: inline-block;
     margin-left: 4%;
@@ -53,7 +46,7 @@ body {
     height: 6vh;
     position: fixed;
     top: 7%;
-    background-color: rgb(32, 83, 177);
+    background: radial-gradient(circle, rgb(202, 211, 119) 36%, rgb(207, 206, 107) 62%, rgb(253, 255, 105) 90%);
     z-index: 99999;
 }
 .nav-subjectives nav {
@@ -105,13 +98,6 @@ body {
     animation-name: subHeader;
     animation-duration: 3s;
 }
-@keyframes subHeader {
-    from {
-        left: -40%;
-    } to {
-        left: 23%;
-    }
-}
 
 .sub-headerAbout h1 {
     font-size: 35px;
@@ -135,13 +121,7 @@ body {
     animation-duration: 3s;
     animation-name: subHeaderImage;
 }
-@keyframes subHeaderImage {
-    from {
-        right: -30%;
-    } to {
-        right: 18%;
-    }
-}
+
 
 
 

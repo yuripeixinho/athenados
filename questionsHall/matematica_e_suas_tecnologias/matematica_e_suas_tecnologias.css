@@ -42,7 +42,7 @@ body {
     word-spacing: 2px;
 }
 .header-class2 a:hover {
-    color: rgb(244, 222, 96);
+    color: rgb(241, 67, 67);
 }
 
 
@@ -53,7 +53,7 @@ body {
     height: 6vh;
     position: fixed;
     top: 7%;
-    background-color: rgb(32, 83, 177);
+    background: radial-gradient(circle, rgb(214, 87, 87) 36%, rgb(201, 103, 103) 62%, rgb(255, 105, 105) 90%);
     z-index: 99999;
 }
 .nav-subjectives nav {
@@ -81,7 +81,7 @@ body {
     transition-duration: 0.2s;
 }
 .nav-subjectives a:hover {
-    color: rgb(244, 222, 96);
+    color: rgb(0, 0, 0);
     transition-duration: 0.2s;
 }
 
@@ -105,17 +105,11 @@ body {
     animation-name: subHeader;
     animation-duration: 3s;
 }
-@keyframes subHeader {
-    from {
-        left: -40%;
-    } to {
-        left: 23%;
-    }
-}
+
 
 .sub-headerAbout h1 {
     font-size: 35px;
-    color: rgb(244, 222, 96);
+    color: rgb(241, 67, 67);
     text-transform: uppercase;
     font-family: 'Raleway';
     margin-bottom: 3.5%;
@@ -135,13 +129,7 @@ body {
     animation-duration: 3s;
     animation-name: subHeaderImage;
 }
-@keyframes subHeaderImage {
-    from {
-        right: -30%;
-    } to {
-        right: 18%;
-    }
-}
+
 
 
 

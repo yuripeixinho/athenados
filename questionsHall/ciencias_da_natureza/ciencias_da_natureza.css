@@ -20,13 +20,6 @@ body {
     text-align: center;
 }
 
-.header-class2 img {
-    width: 11%;
-    position: absolute;
-    top: -30%;
-    left: -1%;
-}
-
 .header-class2 li {
     display: inline-block;
     margin-left: 4%;
@@ -42,8 +35,7 @@ body {
     word-spacing: 2px;
 }
 .header-class2 a:hover {
-    color: rgb(244, 222, 96);
-}
+    color: rgb(105, 177, 83);}
 
 
 
@@ -53,7 +45,7 @@ body {
     height: 6vh;
     position: fixed;
     top: 7%;
-    background-color: rgb(32, 83, 177);
+    background: radial-gradient(circle, rgb(83, 172, 80) 36%, rgb(69, 155, 76) 62%, rgb(74, 128, 84) 90%);
     z-index: 99999;
 }
 .nav-subjectives nav {
@@ -78,10 +70,9 @@ body {
     font-family: 'Lato';
     font-weight: bold;
     color: rgb(255, 255, 255);
-    transition-duration: 0.2s;
 }
 .nav-subjectives a:hover {
-    color: rgb(244, 222, 96);
+    color: rgb(0, 0, 0);
     transition-duration: 0.2s;
 }
 
@@ -105,17 +96,10 @@ body {
     animation-name: subHeader;
     animation-duration: 3s;
 }
-@keyframes subHeader {
-    from {
-        left: -40%;
-    } to {
-        left: 23%;
-    }
-}
 
 .sub-headerAbout h1 {
-    font-size: 35px;
-    color: rgb(244, 222, 96);
+    font-size: 40 px;
+    color: rgb(105, 177, 83);
     text-transform: uppercase;
     font-family: 'Raleway';
     margin-bottom: 3.5%;
@@ -123,7 +107,7 @@ body {
 
 .sub-headerAbout p {
     padding: 2% 0%;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     font-family: 'Poppins';
 }
@@ -135,13 +119,7 @@ body {
     animation-duration: 3s;
     animation-name: subHeaderImage;
 }
-@keyframes subHeaderImage {
-    from {
-        right: -30%;
-    } to {
-        right: 18%;
-    }
-}
+
 
 
 
