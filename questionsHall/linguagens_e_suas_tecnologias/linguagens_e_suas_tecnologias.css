@@ -38,6 +38,18 @@ body {
     color: rgb(208, 125, 211);
 }
 
+#matematicaHover:hover {
+    color: rgb(224, 93, 93);
+}
+#naturezaHover:hover {
+    color: rgb(114, 170, 114);
+}
+#linguagensHover:hover {
+    color: rgb(223, 111, 223);
+}
+#humanasHover:hover {
+    color: rgb(244, 222, 96);
+}
 
 
 /* ============================ NAV SUBJECTIVES ============================ */
