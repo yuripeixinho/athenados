@@ -109,7 +109,14 @@ body {
     left: 23%;
     top: 40%;
     animation-name: subHeader;
-    animation-duration: 3s;
+    animation-duration: 2s;
+}
+@keyframes subHeader {
+    from {
+        left: -300%;
+    } to {
+        left: 23%;
+    }
 }
 .sub-headerAbout h1 {
     font-size: 35px;
@@ -130,11 +137,17 @@ body {
     width: 14%;
     right: 18%;
     top: 20%;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: subHeaderImage;
     filter: invert(100%);
 }
-
+@keyframes subHeaderImage {
+    from {
+        right: -200%;
+    } to {
+        right: 18%;
+    }
+}
 
 
 

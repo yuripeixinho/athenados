@@ -58,15 +58,13 @@ body {
     margin: 2% auto;
     background-color: rgb(255, 255, 255);
     display: grid;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: mainClassStart;
 }
 @keyframes mainClassStart {
     from {
-        margin-left: -10%;
         opacity: 0%;
     } to {
-        margin-left: 5%;
         opacity: 100%;
     }
 }
