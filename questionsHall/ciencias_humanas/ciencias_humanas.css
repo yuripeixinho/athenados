@@ -113,10 +113,10 @@ body {
 }
 @keyframes subHeader {
     from {
-        top: -50%;
+        top: 25%;
     } 
     to {
-        top: 0%;
+        top: 25%;
     }
 }
 .sub-headerAbout h1 {
