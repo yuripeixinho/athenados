@@ -95,6 +95,7 @@ body {
 
 
 
+
 /* ============================ SUB HEADER ============================ */
 .sub-header {
     background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
@@ -131,6 +132,7 @@ body {
     top: 20%;
     animation-duration: 3s;
     animation-name: subHeaderImage;
+    filter: invert(100%);
 }
 
 

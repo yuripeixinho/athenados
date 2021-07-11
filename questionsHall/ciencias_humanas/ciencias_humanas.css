@@ -133,6 +133,7 @@ body {
     top: 20%;
     animation-duration: 3s;
     animation-name: subHeaderImage;
+    filter: invert(100%);
 }
 
 

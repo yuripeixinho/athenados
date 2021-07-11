@@ -1,0 +1,159 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+/* =========================== HEADER =========================== */
+.header-class {
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(29, 46, 119);
+    z-index: 99999;
+    opacity: 90%;
+}
+
+/* ====== LOGO  ====== */
+.logo-class {
+    width: 64%;
+    position: absolute;
+    top: -40%;
+    left: 10%;
+}
+/* ====== NAV ====== */
+.header-class nav {
+    position: relative;
+    left: 48.8%;
+    top: 34%;
+}
+.header-class ul {
+    list-style: none;
+    width: 30%;
+}
+.header-class li {
+    display: inline-block;
+    margin-left: 1.8%;
+}
+.header-class a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.header-class a:hover {
+    color: rgb(244, 222, 96);
+}
+
+/* ==================== MAIN ===================== */
+.mainClass {
+    width: 90%;
+    height: 86vh;
+    margin: 2% auto;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    animation-duration: 2s;
+    animation-name: mainClassStart;
+}
+@keyframes mainClassStart {
+    from {
+        margin-left: -10%;
+        opacity: 0%;
+    } to {
+        margin-left: 5%;
+        opacity: 100%;
+    }
+}
+.mainClass h1 {
+    text-align: center;
+    margin: 6% auto;
+    font-family: 'Raleway';
+    font-size: 28px;
+}
+.mainClass a {
+    text-decoration: none;
+    color: black;
+}
+.mainClass img {
+    margin: -1% 39%;
+    width: 24%;
+}
+
+
+.cHumanas {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 1%;
+    background-color: rgb(255, 251, 251);
+    transition-duration: 0.5s;
+    box-shadow: 1px 15px 15px 1px rgb(196, 196, 196);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cHumanas:hover {
+    transition-duration: 0.5s;
+    background-color: rgb(254, 255, 184);
+}
+
+
+.tLinguagens {
+    margin: 1%;
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+    box-shadow: 1px 15px 15px 1px rgb(196, 196, 196);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.tLinguagens:hover {
+    background-color: rgb(248, 206, 248);
+    transition-duration: 0.5s;
+}
+
+
+.cNaturais {
+    margin: 1%;
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+    box-shadow: 1px 15px 15px 1px rgb(196, 196, 196);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.cNaturais:hover {
+    background-color: rgb(192, 253, 184);
+    transition-duration: 0.5s;
+
+}
+
+.tMatematica {
+    margin: 1%;
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 1px 15px 15px 1px rgb(196, 196, 196);
+    border-radius: 5px;
+
+}
+.tMatematica:hover {
+    background-color: rgb(255, 130, 130);
+    transition-duration: 0.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+

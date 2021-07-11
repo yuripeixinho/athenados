@@ -120,7 +120,7 @@ body {
 
 .sub-headerAbout h1 {
     font-size: 35px;
-    color: rgb(241, 67, 67);
+    color: rgb(216, 103, 103);
     text-transform: uppercase;
     font-family: 'Raleway';
     margin-bottom: 3.5%;
@@ -139,6 +139,7 @@ body {
     top: 20%;
     animation-duration: 3s;
     animation-name: subHeaderImage;
+    filter: invert(100%);
 }
 
 
