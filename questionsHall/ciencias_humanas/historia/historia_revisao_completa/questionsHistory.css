@@ -2,51 +2,53 @@
   padding: 0%;
   margin: 0%;
 }
+body {
+}
 
   
-  .header-class {
-    width: 100%;
-    height: 5vh;
-    background-color: rgb(16, 55, 107);
-    display: flex;
-    position: fixed;
-    z-index: 99999;
+/* =========================== HEADER =========================== */
+.header-class {
+  width: 100%;
+  height: 7vh;
+  background-color: rgb(29, 46, 119);
+  position: fixed;
+  z-index: 99999;
+  opacity: 90%;
 }
 
-
-.header-class h1 {
-    flex: 1;
-    margin-top: 0.2%;
-    margin-left: 12%;
-    color: white;
-    font-family: 'Poppins';
-    font-weight: 200;
+/* ====== LOGO  ====== */
+.logo-class {
+  width: 64%;
+  position: absolute;
+  top: -40%;
+  left: 10%;
 }
-
-
 /* ====== NAV ====== */
 .header-class nav {
-    flex: 2;
+  position: relative;
+  left: 82%;
 }
 .header-class ul {
-    list-style: none;
-    margin-left: 35%;
-    margin-top: 0%;
+  list-style: none;
+  width: 30%;
+  margin-top: 1.3%;
 }
 .header-class li {
-    display: inline-block;
-    margin-left: 3%;
-    margin-top: 2.2%;
+  display: inline-block;
+  margin-left: 1.8%;
 }
 .header-class a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 1px;
-    font-family: 'Baloo Da 2', cursive;
-    font-size: 14px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
 }
-
+.header-class a:hover {
+  color: rgb(244, 222, 96);
+}
 
 
 
@@ -72,6 +74,8 @@
     top: 14%;
     left: 13%;
     padding: 4%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(235, 235, 235);
   }
 
   #question {
@@ -83,9 +87,13 @@
     position: absolute;
     top: 29%;
     left: 45%;
-    width: 50%;
-    height: 30vh;
+    width: 46%;
+    height: 24vh;
     font-size: 20px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 15px;
+    padding: 2%;
+    visibility: hidden;
   }
 
   .btn-grid {
@@ -187,17 +195,18 @@
   
   .start-btn{
     position: absolute;
-    left: 18%;
-    top: 84%;
+    left: 44.8%;
+    top: 30%;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
+    z-index: 9999;
   }
 
   .next-btn {
     position: absolute;
     left: 18%;
-    top: 84%;
+    top: 80%;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;

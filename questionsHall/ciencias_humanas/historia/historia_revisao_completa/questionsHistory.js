@@ -1,3 +1,32 @@
+function startReset () {
+  var buttonStart = document.getElementById('start-btn')
+  buttonStart.style.left = '18%';
+  buttonStart.style.top = '80%';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 
