@@ -68,38 +68,62 @@ body {
 
 
 /* ======================== QUESTIONS CONTAINER ========================= */
-   .container {
-    width: 80%;
-    height: 60vh;
-    padding: 2.5%;
-    margin: 2% auto;
+:root {
+  --hue-neutral: 21;
+  --hue-wrong: 0;
+  --hue-correct: 147;
+}
+
+
+  .container {
+     width: 80%;
+     height: 75vh;
+     padding: 2.5%;
+     margin: 2% auto;
   }
 
   #question {
     width: 100%;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-family: 'Arial', Times, serif;
     text-align: justify;
+    margin-bottom: 2%;
   }
 
-
   #resolution {
-    width: 45%;
+    width: 80%;
     position: absolute;
-    top: 29%;
-    left: 45%;
+    top: 74%;
+    left: 10%;
     height: 24vh;
-    font-size: 20px;
     visibility: hidden;
-    font
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Arial', Times, serif;
   }
 
   .btn-grid {
     display: grid;
-    grid-template-columns: 40%;
-    gap: 2%;
-    margin: 20px 0; 
+    grid-template-columns: max-content;
+    gap: 0%;
   }
+  
+  .btn {
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 0%, 96%);
+    padding: 6.5px;
+    border: 0.1px solid rgba(218, 218, 218, 0.514);
+    margin-top: 2.8%;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .btn:hover {
+    background-color: rgb(252, 252, 252);
+    transition-duration: 0;
+  }
+
+
 
 
 
@@ -111,27 +135,8 @@ body {
 
 
   
-  :root {
-    --hue-neutral: 21;
-    --hue-wrong: 0;
-    --hue-correct: 147;
-  }
 
-  .btn {
-    --hue: var(--hue-neutral);
-    background-color: hsl(var(--hue), 0%, 96%);
-    padding: 1.5%;
-    border: 0.1px solid rgba(187, 187, 187, 0.514);
-    border-radius: 50px;
-    margin-top: 5%;
-    font-size: 15px;
-    cursor: pointer;
-    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.13);
-  }
-  .btn:hover {
-    background-color: rgb(252, 252, 252);
-    transition-duration: 0;
-  }
+
 
 
 
@@ -155,9 +160,10 @@ body {
 
   
   
-  .start-btn{
+  .start-btn {
+    width: 20%;
     position: absolute;
-    left: 44.8%;
+    left: 4%;
     top: 30%;
     font-size: 1.5rem;
     font-weight: bold;
@@ -166,12 +172,14 @@ body {
   }
 
   .next-btn {
+    width: 20%;
     position: absolute;
-    left: 18%;
-    top: 80%;
+    left: 40%;
+    top: 79%;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
+    z-index: 10000;
   }
   
   .controls {
