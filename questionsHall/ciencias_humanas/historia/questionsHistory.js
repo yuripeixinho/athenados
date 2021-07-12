@@ -1,7 +1,7 @@
 function startReset () {
   var buttonStart = document.getElementById('start-btn')
   buttonStart.style.left = '40%';
-  buttonStart.style.top = '79%';
+  buttonStart.style.top = '85%';
 }
 
 
