@@ -12,10 +12,9 @@ body {
 .header-class {
     width: 100%;
     height: 7vh;
-    background-color: rgb(29, 46, 119);
+    background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
     position: fixed;
     z-index: 99999;
-    opacity: 90%;
 }
 
 /* ====== LOGO  ====== */
@@ -377,7 +376,7 @@ body {
 /* =========================== FOOTER =========================== */
 .footer-class {
     width: 100%;
-    height: 40vh;
+    height: 41vh;
     margin-top: 0;
     background-color: rgb(6, 15, 53);
     color: white;
@@ -388,8 +387,8 @@ body {
     position: relative;
     top: -6%;
     margin: auto;
-    border-top: 1px solid rgb(255, 234, 49);
-    border-bottom: 1px solid rgb(255, 234, 49);
+    border-top: 1px solid rgb(112, 112, 112);
+    border-bottom: 1px solid rgb(112, 112, 112);
     padding: 4% 10%;
 }
 
@@ -434,6 +433,9 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
+.links a {
+    color: white;
+}
 
 
 
@@ -472,9 +474,9 @@ body {
 
 .copyright {
     position: absolute;
-    left: 77%;
+    left: 84%;
     bottom: -12%;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
 }

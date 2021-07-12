@@ -314,7 +314,7 @@ body {
 /* =========================== FOOTER =========================== */
 .footer-class {
     width: 100%;
-    height: 40vh;
+    height: 41vh;
     margin-top: 0;
     background-color: rgb(6, 15, 53);
     color: white;
@@ -325,8 +325,8 @@ body {
     position: relative;
     top: -6%;
     margin: auto;
-    border-top: 1px solid rgb(255, 234, 49);
-    border-bottom: 1px solid rgb(255, 234, 49);
+    border-top: 1px solid rgb(112, 112, 112);
+    border-bottom: 1px solid rgb(112, 112, 112);
     padding: 4% 10%;
 }
 
@@ -371,6 +371,9 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
+.links a {
+    color: white;
+}
 
 
 
@@ -409,9 +412,9 @@ body {
 
 .copyright {
     position: absolute;
-    left: 77%;
+    left: 84%;
     bottom: -12%;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
 }
