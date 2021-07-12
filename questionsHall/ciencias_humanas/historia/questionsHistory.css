@@ -11,7 +11,7 @@ body {
 .header-class {
   width: 100%;
   height: 7vh;
-  background-color: rgb(29, 46, 119);
+  background: linear-gradient(90deg, rgb(21, 50, 126) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
   opacity: 90%;
 }
 
@@ -91,15 +91,20 @@ body {
   }
 
   #resolution {
-    width: 80%;
+    width: 76%;
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 10%;
-    height: 24vh;
+    padding: 2%;
+    border-radius: 12px;
+    height: 10vh;
     visibility: hidden;
-    text-align: justify;
     font-size: 18px;
     font-family: 'Arial', Times, serif;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: justify;
+    background: linear-gradient(90deg, rgb(21, 50, 126) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
+    color: white;
   }
 
 
@@ -111,7 +116,7 @@ body {
   .btn {
     --hue: var(--hue-neutral);
     background-color: hsl(var(--hue), 0%, 96%);
-    border: 0.1px solid rgba(218, 218, 218, 0.514);
+    border: 0.1px solid rgba(196, 194, 194, 0.74);
     margin-top: 2.8%;
     font-size: 15px;
     cursor: pointer;
@@ -119,8 +124,8 @@ body {
     border-radius: 8px;
   }
   .btn:hover {
-    background-color: rgba(29, 46, 119, 0.473);
-    transition-duration: 0;
+    background: linear-gradient(90deg, rgb(21, 50, 126) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%); 
+    color: white;
   }
 
 
