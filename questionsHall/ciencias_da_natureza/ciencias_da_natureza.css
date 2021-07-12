@@ -110,9 +110,12 @@ body {
 }
 @keyframes subHeader {
     from {
-        left: -300%;
-    } to {
-        left: 23%;
+        top: 60%;
+        opacity: 0%;
+    } 
+    to {
+        bottom: 0%;
+        opacity: 100%;
     }
 }
 
@@ -141,9 +144,11 @@ body {
 }
 @keyframes subHeaderImage {
     from {
-        right: -200%;
+        top: 30%;
+        opacity: 0%;
     } to {
-        right: 18%;
+        bottom: 0%;
+        opacity: 100%;
     }
 }
 
