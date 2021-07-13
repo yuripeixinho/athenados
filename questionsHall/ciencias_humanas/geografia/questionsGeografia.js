@@ -302,11 +302,11 @@ const questions = [
     
     resolution: 'O segundo texto discorda que o aparecimento de mais casos da doença está relacionado à tragédia de Mariana',
     answers: [
-      { text: 'poluição dos rios locais.      ', correct: false },
-      { text: 'identificação da área afetada.      ', correct: false },
-      { text: 'destruição da vegetação nativa.      ', correct: false },
-      { text: 'aparecimento de enfermidade endêmica.      ', correct: true },
-      { text: 'surgimento de comunidades desabrigadas.      ', correct: false },
+      { text: 'poluição dos rios locais.', correct: false },
+      { text: 'identificação da área afetada.', correct: false },
+      { text: 'destruição da vegetação nativa.', correct: false },
+      { text: 'aparecimento de enfermidade endêmica.', correct: true },
+      { text: 'surgimento de comunidades desabrigadas.', correct: false },
     ]
   },
  

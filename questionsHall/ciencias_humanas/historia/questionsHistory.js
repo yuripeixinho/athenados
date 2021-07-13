@@ -337,19 +337,32 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) \O cântico da terra \n Eu sou a terra, eu sou a vida. \n A ti, ó lavrador, tudo quanto é meu. \n Teu arado, tua foice, teu machado. \n O berço pequenino de teu filho. \n O algodão de tua veste \n',
+    question: '(ENEM - 2020) O cântico da terra \n\n Eu sou a terra, eu sou a vida. \n A ti, ó lavrador, tudo quanto é meu. \n Teu arado, tua foice, teu machado. \n O berço pequenino de teu filho. \n O algodão de tua veste \n e o pão de tua casa. \n E um dia bem distante \n a mim tu voltarás. \n E no canteiro materno de meu seio \n tranquilo dormirás. \n Plantemos a roça \n Lavremos a gleba. \n\n No contexto das distintas formas de apropriação da terra, o poema de Cora Coralina valoriza a relação entre',
     
-    resolution: ' No contexto do Período Joanino, diversos grupos regionais disputavam a atenção da corte que se instaurara no Brasil em detrimento do contexto internacional. Os textos demonstram o modo como em cada jornal o interesse dos grupos regionais que controlam tais meios de comunicação sobre o regime.',
+    resolution: 'Observa-se no texto um eu lirico que se dirige ao lavrador e se dispõe a servi-lo, além de toda relação familiar para com a terra.',
     answers: [
-      { text: 'quadros dirigentes em torno da abolição da ordem escravocrata.', correct: false },
-      { text: 'grupos regionais acerca da configuração político-territorial.', correct: true },
-      { text: 'intelectuais laicos acerca dda revogação do domínio eclesiástico.', correct: false },
-      { text: 'homens livres  em torno da extensão do direito de voto.', correct: false },
-      { text: 'elites locais acerca da ordenação do monopólio fundiário.', correct: false },
+      { text: 'grileiros e controle territorial.', correct: false },
+      { text: 'meeiros e divisão do trabalho.', correct: false },
+      { text: 'camponeses e uso da natureza.', correct: true },
+      { text: 'indígenas e manejo agroecológico.', correct: false },
+      { text: 'latifundiários e fertilização do solo.', correct: false },
     ]
   },
 
+  {
+    question: '(ENEM - 2020) Afirmar que a cartografia da época moderna integrou o processo de invenção da América por parte dos europeus significa que os conhecimentos dos ameríndios sobre o território foram ignorados pela cartografia europeia ou que eles foram privados de sua representação territorial e da autoridade que seus conhecimentos tinham sobre o espaço. \n\n\n Na análise contida no texto, a representação cartográfica da América foi marcada por',
 
+    images: '../../_image/discordia.png',
+    
+    resolution: 'Pois, essa negação faz parte do processo de dominação, onde o dominador ignora qualquer conhecimento do dominado por se considerar superior em diversos aspectos.',
+    answers: [
+      { text: 'asserção da cultura dos nativos.', correct: false },
+      { text: 'avanço dos estudos do ambiente.', correct: false },
+      { text: 'afirmação das formas de dominação.', correct: true },
+      { text: 'exatidão da demarcação das regiões.', correct: false },
+      { text: 'aprimoramento do conceito de fronteira.', correct: false },
+    ]
+  },
 
 
 
