@@ -146,63 +146,63 @@ function resolutionStatusOn() {
 
 const questions = [
   {
-    question: '(Enem/2013) É preciso ressaltar que, de todas as capitanias brasileiras, Minas era a mais urbanizada. Não havia ali hegemonia de um ou dois grandes centros. A região era repleta de vilas e arraiais, grandes e pequenos, em cujas ruas muita gente circulava. As regiões da América portuguesa tiveram distintas lógicas de ocupação. Uma explicação para a especificidade da região descrita no texto está identificada na:',
-    resolution: 'fiscalização estatal diante das particularidades econômicas. Por conta da extração do ouro, Minas Gerais sempre foi mais vigiada pelo poder público a fim de garantir que as riquezas encontradas chegariam à Corte. As outras opções não refletem a realidade histórica da região neste período com exageros como "produção manufatureira" e "autonomia administrativa".',
+    question: '(ENEM - 2020) Dois grandes eventos históricos tomaram possível um caso como o de Menocchio: a invenção da impresa e a Reforma. A imprensa lhe permitiu confrontar os livros com a tradição oral em que havia crescido e lhe forneceu as palavras para organizar o amontoado de ideias e fantasias que nele conviviam. A Reforma lhe deu audácia para comunicar o que pensava ao padre do vilarejo, conterrâneos, inquisidores - mesmo não tendo conseguido dizer tudo diante do papa, dos cardeais e dos príncipes, como queria. Os acontecimentos históricos citados ajudaram esse indivíduo, no século XVI, a repensar a visão católica do mundo ao possibilitarem a...',
+    resolution: 'O protestantismo defendia a livre interpretação dos textos bíblicos.',
     answers: [
-      { text: 'apropriação cultural diante das influências externas.', correct: false },
-      { text: 'produção manufatureira diante do exclusivo comercial.', correct: false },
-      { text: 'insubordinação religiosa diante da hierarquia eclesiástica.', correct: false },
-      { text: 'fiscalização estatal diante das particularidades econômicas.', correct: true },
-      { text: 'autonomia administrativa diante das instituições metropolitanas.', correct: false },
+      { text: ' Consulta pública das bibliotecas reais.', correct: false },
+      { text: ' Sofisticação barroca do ritual litúrgico.', correct: false },
+      { text: 'Aceitação popular da educação secular.', correct: false },
+      { text: 'Interpretação autônoma dos textos bíblicos.', correct: true },
+      { text: 'correção doutrinária das heresias medievais.', correct: false },
     ]
   },
   {
-    question: '(Enem/2016) No aniversário do primeiro decênio da Marcha sobre Roma, em outubro de 1932, Mussolini irá inaugurar sua Via dell Impero; a nova Via Sacra do Fascismo, ornada com estátuas de César, Augusto, Trajano, servirá ao culto do antigo e à glória do Império Romano e de espaço comemorativo do ufanismo italiano. Às sombras do passado recriado ergue-se a nova Roma, que pode vangloriar-se e celebrar seus imperadores e homens fortes; seus grandes poetas e apólogos como Horácio e Virgílio. A retomada da Antiguidade clássica pela perspectiva do patrimônio cultural foi realizada com o objetivo de',
-    resolution: 'utilizar os vestígios restaurados para justificar o regime político. Mussolini utiliza o passado do Império Romano para mostrar a continuidade entre os dois regimes e assim, empregava vários símbolos desta época a fim de reforçar esta ligação. Desta maneira, ele reforçava a ideia de um passado expansionista para justificar as conquistas na África, por exemplo. As demais opções não são corretas, pois o regime de Mussolini não tinha intenção de "afirmar o ideário cristão para reconquistar a grandeza perdida" e também não utilizou a Antiguidade para "favorecer a participação política".',
+    question: '(ENEM - 2020) A arté pré-histórica africana foi incontestavelmente um veículo de mensagens pedagógicas e sociais. Os San, que constituem hoje o povo mais próximo da realidade das representações rupestres, afirmam que seus antepassados lhes explicaram sua visão do mundo a partir desse gigantesco livro de imagens que são as galerias. A educação dos povos que desconhecem a escrita está baseada sobretudo na imagem e no som, no audiovisual. De acordo com o texto, a arte mencionada é importante para os povos que a cultivam por colaborar para o(a)',
+    resolution: 'Ao final do texto se afirma: “A educação dos povos que desconhecem a escrita está baseada sobretudo na imagem e no som, no audiovisual.” ',
     answers: [
-      { text: 'utilizar os vestígios restaurados para justificar o regime político.', correct: true },
+      { text: 'transmissão dos saberes acumulados.', correct: true },
       { text: 'afirmar o ideário cristão para reconquistar a grandeza perdida.', correct: false },
-      { text: 'difundir os saberes ancestrais para moralizar os costumes sociais.', correct: false },
-      { text: 'recompor a organização republicana para fortalecer a administração estatal.', correct: false },
-      { text: 'recompor a organização republicana para fortalecer a administração estatal.', correct: false }
+      { text: 'ruptura da disciplina hierárquica.', correct: false },
+      { text: 'surgimento dos laços familiares.', correct: false },
+      { text: 'rejeição de práticas exógenas.', correct: false }
 
     ]
   },
   {
-    question: '(Enem/2016) É hoje a nossa festa nacional. O Brasil inteiro, da capital do Império à mais remota e insignificante de suas aldeolas, congrega-se unânime para comemorar o dia que o tirou dentre as nações dependentes para colocá-lo entre as nações soberanas, e entregou-lhes seus destinos, que até então haviam ficado a cargo de um povo estranho. As festividades em torno da Independência do Brasil marcam o nosso calendário desde os anos imediatamente posteriores ao de setembro de 1822. Essa comemoração está diretamente relacionada com:',
+    question: '(ENEM - 2020) Desde o mundo antigo e sua filosofia, que o trabalho tem sido compreendido como expressão de vida e degradação, criação e infelicidade, atividade vital e escravidão, felicidade social e servidão. Trabalho e fadiga. Na modernidade, sob o comando do mundo da mercadoria e do dinheiro, a prevalência do negócio (negar o ócio) veio sepultar o império do repouso, da folga e da preguiça, criando uma ética positiva do trabalho. O processo de ressignificação do trabalho nas sociedades modernas teve início a partir do surgimento de uma nova mentalidade, influenciada pela...',
     
-    resolution: 'utilizar os vestígios restaurados para justificar o regime político. Mussolini utiliza o passado do Império Romano para mostrar a continuidade entre os dois regimes e assim, empregava vários símbolos desta época a fim de reforçar esta ligação. Desta maneira, ele reforçava a ideia de um passado expansionista para justificar as conquistas na África, por exemplo. As demais opções não são corretas, pois o regime de Mussolini não tinha intenção de "afirmar o ideário cristão para reconquistar a grandeza perdida" e também não utilizou a Antiguidade para "favorecer a participação política".',
+    resolution: 'Weber trabalha muito a ideia de que a nova visão protestante, especialmente a Calvista, trouxe a ideia do trabalho como positivo, há uma racionalização do trabalho secular que apresenta a ideia de que este leva o indivíduo a um caminho de rentabilidade.',
     answers: [
-      { text: 'a construção e manutenção de símbolos para a formação de uma identidade nacional.', correct: true },
-      { text: 'o domínio da elite brasileira sobre os principais cargos políticos, que se efetivou logo após 1822.', correct: false },
-      { text: 'os interesses de senhores de terras que, após a Independência, exigiram a abolição da escravidão.', correct: false },
-      { text: 'o apoio popular às medidas tomadas pelo governo imperial para a expulsão de estrangeiros do país.', correct: false },
-      { text: 'a consciência da população sobre os seus direitos adquiridos posteriormente à transferência da Corte para o Rio de Janeiro. ', correct: false },
+      { text: 'reforma higienista, que combateu o caráter excessivo e insalubre do trabalho fabril.', correct: false },
+      { text: 'Reforma Protestante, que expressou a importância das atividades laboriais no mundo secularizado.', correct: true },
+      { text: 'força do sindicalismo, que emergiu no esteio do anarquismo reivindicando direitos trabalhistas.', correct: false },
+      { text: 'participação das mulheres em movimentos sociais, defendendo o direito ao trabalho.', correct: false },
+      { text: 'visão do catolicismo, que, desde a Idade Média, defendia a dignidade do trabalho e do lucro.', correct: false },
     ]
   },
   {
-    question: '(Enem/2010) Para o Paraguai, portanto, essa foi uma guerra pela sobrevivência. De todo modo, uma guerra contra dois gigantes estava fadada a ser um teste debilitante e severo para uma economia de base tão estreita. Lopez precisava de uma vitória rápida e, se não conseguisse vencer rapidamente, provavelmente não venceria nunca. A Guerra do Paraguai teve consequências políticas importantes para o Brasil, pois',
+    question: '(ENEM - 2020) Sexto rei sumério (governante entre os século XVIII e XVII a.C.) e nascido em Babel, "Khammu-rabi" (pronúncia em babilônio) foi fundado do I Império Babilônico (correspondente ao atual Iraque), unificando amplamente o mundo mesopotâmico, unindo os semitas e os sumérios e levando a Babilônia ao máximo esplendor. O nome de Hamurábi permanece indissociavelmente ligado ao código jurídico tido como o mais remoto já descoberto: o Código de Hamurábi. O legislador babilônico consolidou a tradição jurídica, harmonizou os costumes e estendeu o direito e a lei a todos os súditos. Nesse contexto de organização da vida social, as leis contidas no código citado tinham o sentido de...',
     
-    resolution: 'O Exército brasileiro saiu fortalecido do conflito e passou a exigir mais participação no cenário político, o que acabaria redundando no golpe republicano. As demais opções não são corretas. Afinal, o Brasil não conquista a hegemonia da Bacia Platina e nem os escravos negros são emancipados.',
+    resolution: 'O Código de Hamurabi é um conjunto de leis que tange majoritariamente sobre punições. É conhecido principalmente devido a lei de Talião “olho por olho, dente por dente."',
     answers: [
-      { text: 'representou a afirmação do Exército Brasileiro como um ator político de primeira ordem.', correct: true },
-      { text: 'confirmou a conquista da hegemonia brasileira sobre a Bacia Platina.', correct: false },
-      { text: 'concretizou a emancipação dos escravos negros.', correct: false },
-      { text: 'incentivou a adoção de um regime constitucional monárquico.', correct: false },
-      { text: 'solucionou a crise financeira, em razão das indenizações recebidas.', correct: false },
+      { text: 'assegurar garantias individuais aos cidadãos livres.', correct: false },
+      { text: 'tipificar as regras referentes aos atos dignos de punição.', correct: true },
+      { text: 'conceder benefícios de indulto aos prisioneiros de guerra.', correct: false },
+      { text: 'promover distribuição de terras aos desempregados urbanos.', correct: false },
+      { text: 'conferir prerrogativas políticas aos descendentes de estrangeiros.', correct: false },
     ]
   },
 
   {
-    question: '(Enem/2011) Se a mania de fechar, verdadeiro habitus da mentalidade medieval nascido talvez de um profundo sentimento de insegurança, estava difundida no mundo rural, estava do mesmo modo no meio urbano, pois que uma das características da cidade era de ser limitada por portas e por uma muralha. As práticas e os usos das muralhas sofreram importantes mudanças no final da Idade Média, quando elas assumiram a função de pontos de passagem ou pórticos. Este processo está diretamente relacionado com:',
+    question: '(ENEM - 2020) É difícil imaginar que nos anos 1990, num país com setores da população na pobreza absoluta e sem uma rede de benefícios sociais em que se apoiar, um governo possa abandonar o papel de promotor de programas de geração de emprego, de assistência social, de desenvolvimento da infraestrutura e de promoção de regiões excluídas, na expectativa de que o mercado venha algum dia a dar uma resposta adequada a tudo isso. Nesse contexto, a criticada postura dos governos frente à situação social do país coincidiu com a priorização de que medidas?',
     
-    resolution: 'o crescimento das atividades comerciais e urbanas. No começo da Idade Média, as muralhas tinha função defensiva. No entanto, com o aumento populacional e o deslocamento de pessoas e mercadorias, urgia controlar a entrada e saída nas cidades, além de cobrar os respectivos impostos. As demais opções não são corretas. A opção e) "a contenção das epidemias e doenças" já era uma função das muralhas e a alternativa c) "a expansão dos parques industriais e fabris" não corresponde aos fatos históricos da época.',
+    resolution: 'Na década de 90 um dos grandes problemas do Brasil era sem dúvidas a inflação como uma consequência da década de 80. Os governos focaram em tentar controlar a inflação e em reformas políticas macroeconômica.',
     answers: [
-      { text: 'o crescimento das atividades comerciais e urbanas.', correct: true },
-      { text: 'a migração de camponeses e artesãos.', correct: false },
-      { text: 'a expansão dos parques industriais e fabris.', correct: false },
-      { text: 'o aumento do número de castelos e feudos.', correct: false },
-      { text: 'a contenção das epidemias e doenças.', correct: false },
+      { text: 'Expansão dos investimentos nas empresas públicas e nos bancos estatais.', correct: false },
+      { text: 'Democratização do crédito habitacional e da aquisição de moradias populares..', correct: false },
+      { text: 'Enxugamento da carga fiscal individual e da contribuição tributária empresarial.', correct: false },
+      { text: 'Reformulação do acesso ao ensino superior e do financiamento científico nacional.', correct: false },
+      { text: 'Reforma das políticas macroeconômicas e dos mecanismos de controle inflacionário.', correct: true },
     ]
   }
 
