@@ -324,15 +324,28 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) É difícil imaginar que nos anos 1990, num país com setores da população na pobreza absoluta e sem uma rede de benefícios sociais em que se apoiar, um governo possa abandonar o papel de promotor de programas de geração de emprego, de assistência social, de desenvolvimento da infraestrutura e de promoção de regiões excluídas, na expectativa de que o mercado venha algum dia a dar uma resposta adequada a tudo isso. Nesse contexto, a criticada postura dos governos frente à situação social do país coincidiu com a priorização de que medidas?',
+    question: '(ENEM - 2020) O movimento sedicioso ocorrido na capitania de Pernambuco, no ano 1817, foi analisado de formas diferentes por dois meios de comunicação daquela época. O Correio Braziliense apontou para o fato de ser "a comoção do Brasil motivada por um descontentamento geral, e não por maquinações de alguns indivíduos". Já a Gazeta do Rio de Janeiro considerou o movimento como um "pontual desvio de norma, apenas uma "mancha" nas páginas da "História Portuguesa", tão distinta pelos testemunhos de amor e respeito que os vassalos desta nação consagram ao seu soberano. Os fragmentos das matérias jornalísticas sobre o acontecimento, embora com percepções diversas, relacionam-se a um aspecto do processo de independência da colônia luso-americana expresso em dissensões entre',
     
-    resolution: 'Na década de 90 um dos grandes problemas do Brasil era sem dúvidas a inflação como uma consequência da década de 80. Os governos focaram em tentar controlar a inflação e em reformas políticas macroeconômica.',
+    resolution: ' No contexto do Período Joanino, diversos grupos regionais disputavam a atenção da corte que se instaurara no Brasil em detrimento do contexto internacional. Os textos demonstram o modo como em cada jornal o interesse dos grupos regionais que controlam tais meios de comunicação sobre o regime.',
     answers: [
-      { text: 'Expansão dos investimentos nas empresas públicas e nos bancos estatais.', correct: false },
-      { text: 'Democratização do crédito habitacional e da aquisição de moradias populares..', correct: false },
-      { text: 'Enxugamento da carga fiscal individual e da contribuição tributária empresarial.', correct: false },
-      { text: 'Reformulação do acesso ao ensino superior e do financiamento científico nacional.', correct: false },
-      { text: 'Reforma das políticas macroeconômicas e dos mecanismos de controle inflacionário.', correct: true },
+      { text: 'quadros dirigentes em torno da abolição da ordem escravocrata.', correct: false },
+      { text: 'grupos regionais acerca da configuração político-territorial.', correct: true },
+      { text: 'intelectuais laicos acerca dda revogação do domínio eclesiástico.', correct: false },
+      { text: 'homens livres  em torno da extensão do direito de voto.', correct: false },
+      { text: 'elites locais acerca da ordenação do monopólio fundiário.', correct: false },
+    ]
+  },
+
+  {
+    question: '(ENEM - 2020) Eu sou a terra, eu sou a vida. ',
+    
+    resolution: ' No contexto do Período Joanino, diversos grupos regionais disputavam a atenção da corte que se instaurara no Brasil em detrimento do contexto internacional. Os textos demonstram o modo como em cada jornal o interesse dos grupos regionais que controlam tais meios de comunicação sobre o regime.',
+    answers: [
+      { text: 'quadros dirigentes em torno da abolição da ordem escravocrata.', correct: false },
+      { text: 'grupos regionais acerca da configuração político-territorial.', correct: true },
+      { text: 'intelectuais laicos acerca dda revogação do domínio eclesiástico.', correct: false },
+      { text: 'homens livres  em torno da extensão do direito de voto.', correct: false },
+      { text: 'elites locais acerca da ordenação do monopólio fundiário.', correct: false },
     ]
   },
 

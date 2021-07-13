@@ -202,19 +202,114 @@ const questions = [
       { text: 'aos referenciais de posição relativa.', correct: true },
       { text: 'às distorções das formas continentais.', correct: false },
     ]
+  },
+
+  {
+    question: '(Enem/2020) A demanda mundial para a produção de alimentos aumenta progressivamente a taxas muito altas. Atualmente, na maioria dos países, continentes e regiões, a água consumida na agricultura é de cerca de 70% da disponibilidade total. Para que haja a redução da pressão sobre o recurso natural mencionado, a expansão da agricultura demanda melhorias no(a)',
+    
+    resolution: 'Com maior eficiência das técnicas de irrigação, teríamos um menor consumo de água, ajudando a resolver o problema exposto pelo texto.',
+    answers: [
+      { text: 'fertilização química do solo.', correct: false },
+      { text: 'escoamento hídrico do terreno.', correct: false },
+      { text: 'manutenção de poços artesianos.', correct: false },
+      { text: 'eficiência das técnicas de irrigação.', correct: true },
+      { text: 'velocidade das máquinas colheitadeiras.', correct: false },
+    ]
+  },
+
+  {
+    question: '(Enem/2020) O planejamento deixou de controlar o crescimento urbano e passou a encorajá-lo por todos os meios possíveis e imagináveis. Cidades, a nova mensagem soou em alto e bom som, eram máquinas de produzir riquezas. o primeiro e principal objetivo do planejamento devia ser o de azeitar a máquina. O modelo de planejamento urbano problematizado no texto é marcado pelo(a)    ' ,
+    
+    resolution: 'A participação empresarial nos grandes centros urbanos gerou esse intenso lucro que intensificou o processo de urbanização, sem regulamentação incisiva do Estado, já que, o mesmo, goza dessa riqueza gerada nas cidades.',
+    answers: [
+      { text: 'primazia da gestão popular.', correct: false },
+      { text: 'uso de práticas sustentáveis.', correct: false },
+      { text: 'construção do bem-estar social.', correct: false },
+      { text: 'soberania do poder governamental.', correct: false },
+      { text: 'ampliação da participação empresarial.', correct: true },
+    ]
+  },
+
+  {
+    question: '(Enem/2020) No caso do Departamento de Defesa dos Estados Unidos, a ênfase está posta no traçado de uma estratégia geral de desarticulação, não só dos inimigos reais como dos potenciais. Inserida na concepção preventiva que supõe que a mínima dissidência é um sinal de perigo e de guerra futura. Deve-se ter capacidade para responder a uma guerra convencional tanto quanto para enfrentar um inimigo difuso, atentando simultaneamente para todas as áreas geográficas do planeta. Trata-se, sem dúvida, da estratégia com pretensões mais abrangentes que se desenvolveu até agora.  Tomando o texto como parâmetro, qual tendência contemporânea impulsiona a formulação de estratégias mais abrangentes por parte do Estado americano?' ,
+    
+    resolution: 'As novas redes de comunicações permite uma nova organização dos agentes causadores de conflitos, como vimos no terrorismo europeu da última década, por isso, são necessárias novas estratégias para conseguir resolver esses problemas.',
+    answers: [
+      { text: 'Erradicação dos conflitos em territórios.', correct: false },
+      { text: 'Propagação de organizações em redes.', correct: true },
+      { text: 'Eliminação das diferenças regionais.', correct: false },
+      { text: 'Ampliação do modelo democrático.', correct: false },
+      { text: 'Projeção da diplomacia mundial.', correct: false },
+    ]
+  },
+
+  {
+    question: '(Enem/2020) Escudos antigos ou maciços cristalinos são blocos imensos de rochas antigas. Estes escudos são constituídos por rochas cristalinas (magmático-plutônicas), formadas em eras pré-cambrianas, ou por rochas metamórficas (material sedimentar) do Paleozóico. São resistentes, estáveis, porém bastante desgastadas. Correspondem a 36% da área territorial e dividem-se em duas grandes porções: o Escudo das Guianas (norte da Planície Amazônica) e o Escudo  Brasileiro (porção centro-oriental brasileira). As estruturas geológicas indicadas no texto são importantes economicamente para o brasil por concentrarem' ,
+    
+    resolution: 'Os maciços cristalinos são ricos, justamente, em minerais metálicos, provenientes do resfriamento do magma.',
+    answers: [
+      { text: 'fontes de águas termais.', correct: false },
+      { text: 'afloramentos de sal-gema.', correct: false },
+      { text: 'jazidas de minerais metálicos.', correct: true },
+      { text: 'depósitos de calcário agrícola.', correct: false },
+      { text: 'reservas de combustível fóssil.', correct: false },
+    ]
+  },
+
+  {
+    question: '(Enem/2020) Os seringueiros amazônicos eram invisíveis no cenário nacional nos anos 1970. Começaram a se articular como um movimento agrário no início dos anos 1980, e na década seguinte conseguiram reconhecimento nacional, obtendo a implantação das primeiras reservas extrativas após o assassinato de Chico Mendes. Assim, em vinte anos, os camponeses da floresta passaram da invisibilidade à posição de paradigma de desenvolvimento sustentável com participação popular. De acordo com o texto, a visibilidade dos seringueiros amazônicos foi estabelecida pela relação entre' ,
+    
+    resolution: 'A reivindicação de terras preservadas para o extrativismo da seringueira e a necessidade de preservar a mata nativa para manter essa espécie endêmica, foram os fatores que evidenciaram os serigueiros nesse contexto.',
+    answers: [
+      { text: 'crescimento econômico e migração de trabalhadores.', correct: false },
+      { text: 'produção de borracha e escassez de recursos naturais.', correct: false },
+      { text: 'reivindicação de terra e preservação de mata nativa.', correct: true },
+      { text: 'incentivo governamental e conservação de territórios.', correct: false },
+      { text: 'modernização de plantio e comércio de látex.', correct: false },
+    ]
+  },
+
+
+  {
+    question: '(Enem/2020) As cidades de Puebla, no México, e Legazpi, nas Filipinas, não tem quase nada em comum. Estão muito longe uma da outra e são habitadas por povos muito diferentes. O que as une é um trágico detalhe de sua geografia. Elas foram erguidas na vizinhança de alguns dos vulcões mais perigosos do mundo: o mexicano Popocatepéti e o filipino Mayon. Seus habitantes precisam estar prontos para correr a qualquer hora. Eles fazem parte dos 550 milhões de indivíduos que moram em zonas de risco vulcânico no mundo. Ao contrário do que seria sensato, continuam ali, indiferentes ao perigo que os espreita.   A característica física que justifica a fixação do homem nos locais apresentados no texto é a ocorrência de :' ,
+    
+    resolution: 'O magma despejado pelos vulcões torna o solo fértil, como a Terra Rocha no Brasil.',
+    answers: [
+      { text: 'solo fértil.', correct: true },
+      { text: 'encosta íngreme.', correct: false },
+      { text: 'vegetação diversificada.', correct: false },
+      { text: 'drenagem eficiente.', correct: false },
+      { text: 'clima ameno.', correct: false },
+    ]
+  },
+
+
+  {
+    question: '(Enem/2020) A  colisão entre uma placa continental e uma oceânica provocará a subducção desta última sob a placa continental, que, a exemplo dos arcos e eilhas, produzirá um arco magmático na borda do continente, composto por rochas vulcânicas acompanhado de deformações e metamorfismo tanto de rochas preexistentes como de parte das rochas formadas no processo. Qual feição fisiográfica é gerada pelo processo tectônico apresentado?' ,
+    
+    resolution: 'os Andes, por exemplo, formados pelo choque, geologicamente recente, da placa oceânica de Nazca e a placa continental Sul-Americana, por isso, é chamado de dobramento moderno.',
+    answers: [
+      { text: 'Planícies abissais.', correct: false },
+      { text: 'Planaltos cristalinos.', correct: false },
+      { text: 'Depressões absolutas.', correct: false },
+      { text: 'Bacias sedimentares.', correct: false },
+      { text: 'Dobramentos modernos.', correct: true },
+    ]
+  },
+
+
+  {
+    question: '(Enem/2020) Num mundo como o nosso, por um lado marcado pela fluidez do espaço, as questões ligadas à circulação se tornam ainda mais relevantes e, com elas, a situação de um dos componentes mais emblemáticos dos territórios: seus limites. E é aí que surge um dos grandes paradoxos da geografia contemporânea: ao lado da fluidez globalizada aparecem também os fechamentos, as tentativas de controle da circulação de pessoas.  O texto aborda um paradoxo marcante do mundo contemporâneo, que consiste na oposição entre' ,
+    
+    resolution: 'os Andes, por exemplo, formados pelo choque, geologicamente recente, da placa oceânica de Nazca e a placa continental Sul-Americana, por isso, é chamado de dobramento moderno.',
+    answers: [
+      { text: 'Planícies abissais.', correct: false },
+      { text: 'Planaltos cristalinos.', correct: false },
+      { text: 'Depressões absolutas.', correct: false },
+      { text: 'Bacias sedimentares.', correct: false },
+      { text: 'Dobramentos modernos.', correct: true },
+    ]
   }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
