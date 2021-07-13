@@ -172,7 +172,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) \n\n TEXTO 1 \n\n Os meus pensamentos são todos sensações \n Penso com os olhos e com os ouvidos \n E com as mãos e os pés \n E com o nariz e a boca. \n\n TEXTO II \n\n Tudo aquilo que sei do mundo, mesmo por ciência, eu o sei a partir de uma visão minha ou de uma experiência do mundo sem a qual os símbolos da ciência não poderiam dizer nada. \n\n Sobre a tragédia de Mariana, os textos apresentam divergência quanto ao(à) \n\n\n Os textos mostram-se alinhados a um entendimento acerca da ideia de conhecimento, numa perspectiva que ampara a',
+    question: '(ENEM - 2020) \n\n TEXTO 1 \n\n Os meus pensamentos são todos sensações \n Penso com os olhos e com os ouvidos \n E com as mãos e os pés \n E com o nariz e a boca. \n\n TEXTO II \n\n Tudo aquilo que sei do mundo, mesmo por ciência, eu o sei a partir de uma visão minha ou de uma experiência do mundo sem a qual os símbolos da ciência não poderiam dizer nada. \n\n\n Os textos mostram-se alinhados a um entendimento acerca da ideia de conhecimento, numa perspectiva que ampara a',
 
     resolution: 'A valorização do corpo na apreensão da realidade é um postulado do empirismo.',
     answers: [
