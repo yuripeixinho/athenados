@@ -309,18 +309,100 @@ const questions = [
       { text: 'surgimento de comunidades desabrigadas.', correct: false },
     ]
   },
- 
 
 
+  {
+    question: '(Enem/2019) A pegada ecológica gigante que estamos a deixar no planeta está a transformá-lo de tal forma que os especialistas consideram que já entramos numa nova época geológica, o Antropoceno. E muitos defendem que, se não travarmos a crise ambiental, mais rapidamente transformaremos a Terra em Vênus do que iremos a Marte. A expressão "Antropoceno" é atribuída ao químico e prêmio Nobel Paul Crutzen, que a propôs durante uma conferência em 2000, ao mesmo tempo que anunciou o fim do Holoceno — a época geológica em que os seres humanos se encontram há cerca de 12 mil anos, segundo a União Internacional das Ciências Geológicas (UICG), a entidade que define as unidades de tempo geológicas. \n\n A concepção apresentada considera a existência de uma nova época geológica concebida a partir da capacidade de influência humana nos processos:     ',
+    
+    resolution: 'Mesmo com o aquecimento global e com as mudanças climáticas, não somos capazes de realizar mudanças endógenas em nosso planeta (Endógeno é um fenômeno ou processo geológico que se realiza no interior do planeta Terra), pelo menos por enquanto, mas sim mudanças exógenas.',
+    answers: [
+      { text: 'eruptivos.', correct: false },
+      { text: 'exógenos.', correct: true },
+      { text: 'tectônicos.', correct: false },
+      { text: 'magmáticos.', correct: false },
+      { text: 'metamórficos.', correct: false },
+    ]
+  },
+
+  {
+    question: '(Enem/2019) O Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama) está investigando o extermínio de abelhas por intoxicação por agrotóxicos em colmeias de São Paulo e Minas Gerais. Os estudos com inseticidas do tipo neonicotinoides devem estar concluídos no primeiro semestre de 2015. Trata-se de um problema de escala mundial, presente, inclusive, em países do chamado primeiro mundo, e que traz, como consequência grave ameaça aos seres vivos do planeta, inclusive ao homem. \n\n Qual solução para o problema apresentado garante a produtividade da agricultura moderna?    ',
+    
+    resolution: 'Uma solução para amenizar os efeitos da extinção das abelhas é o controle biológico, e não química. É uma técnica que utiliza meios naturais, notadamente outros organismos vivos, criada para diminuir a população de organismos considerados praga',
+    answers: [
+      { text: 'Preservação da área de mata ciliar.', correct: false },
+      { text: 'Adoção da prática de adubação química.', correct: false },
+      { text: 'Utilização da técnica de controle biológico.', correct: true },
+      { text: 'Ampliação do modelo de monocultura tropical.', correct: false },
+      { text: 'Intensificação da drenagem do solo de várzea.', correct: false },
+    ]
+  },
 
 
+  {
+    question: '(Enem/2019) A fome não é um problema técnico, pois ela não se deve à falta de alimentos, isso porque a fome convive houve com as condições materiais para resolvê-la.\n\n O texto demonstra que o problema alimentar apresentado tem uma dimensão política por estar associado ao(à)',
+    
+    resolution: 'Esta questão já caiu em outros momentos no ENEM. Ela trata sobre a má distribuição de renda e de alimentos no mundo. Lembrando que não temos o aumento populacional como um problema, mas sim uma solução, já que um país com uma grande população é capaz de se desenvolver e possuir um mercado interno importante, como é o caso de países como o Brasil, Nigéria, Paquistão, Índia, China, EUA entre outros.',
+    answers: [
+      { text: 'escala de produtividade regional', correct: false },
+      { text: 'padrão de distribuição de renda', correct: true },
+      { text: 'dificuldade de armazenamento de grãos', correct: false },
+      { text: 'crescimento da população mundial', correct: false },
+      { text: 'custo de escoamento dos produtos', correct: false },
+    ]
+  },
+
+  {
+    question: '(Enem/2019) Os moradores de Utiqiagvik passaram dois meses quase totalmente na escuridão \n\n  Os habitantes desta pequena cidade no Alasca - o estado dos Estados Unidos mais ao norte - já estão acostumados a longas noites sem ver a luz do dia. Em 18 de novembro de 2018, seus pouco mais de 4 mil habitantes viram o último pôr do sol do ano. A oportunidade seguinte para ver a luz do dia ocorreu no dia 23 de janeiro de 2019, às 13 h 04 min (horário local). \n\n O fenômeno descrito está relacionado ao fato de a cidade citada ter uma posição geográfica condicionada pela     ',
+    
+    resolution: 'Questão bem tranquila, exige apenas que o aluno tenha conhecimento sobre coordenadas geográficas, ele poderia se confundir com longitude e latitude. \n\n a) latitude: está intrinsecamente ligada às diferenças da radiação solar sobre a Terra. Assim, quanto mais próximo à Linha do Equador (baixas latitudes), mais as temperaturas tendem a aumentar. Por outro lado, à medida que nos direcionamos rumo às zonas polares (altas latitudes), menores tendem a ser as temperaturas.    ',
+    answers: [
+      { text: 'continentalidade', correct: false },
+      { text: 'maritimidade', correct: false },
+      { text: 'longitude', correct: false },
+      { text: 'latitude', correct: true },
+      { text: 'altitude', correct: false },
+    ]
+  },
 
 
+  {
+    question: 'O bônus demográfico é caracterizado pelo período em que, por causa da redução do número de filhos por mulher, a estrutura populacional fica favorável ao crescimento econômico. Isso acontece porque há proporcionalmente menos crianças na população, e o percentual de idosos ainda não é alto. \n\n A ação estatal que contribui para o aproveitamento do bônus demográfico é o estímulo à:    ',
+    
+    resolution: 'O bônus demográfico é uma grande oportunidade que o país tem em qualificar sua mão de obra jovem e adicionar elas no mercado. Infelizmente o Brasil não soube aproveitar este momento, o que o prejudica muito na competividade internacional, principalmente na indústria.',
+    answers: [
+      { text: 'atração de imigrantes', correct: false },
+      { text: 'elevação da carga tributária', correct: false },
+      { text: 'qualificação da mão de obra', correct: true },
+      { text: 'admissão de exilados políticos', correct: false },
+      { text: 'concessão de aposentadorias', correct: false },
+    ]
+  },
 
+  {
+    question: 'Saudado por centenas de militantes de movimentos sociais de quarenta países, o papa Francisco encerrou no dia 09/07/2015 o 2º Encontro Mundial dos Movimentos Populares, em Santa Cruz de La Sierra, na Bolívia. Segundo ele, a “globalização da esperança, que nasce dos povos e cresce entre os pobres, deve substituir esta globalização da exclusão e da indiferença”. \n\n No texto há uma crítica ao seguinte aspecto do mundo globalizado:    ',
+    
+    resolution: 'Uma crítica do Papa Francisco é a respeito das disparidades econômicas. Observar-se que a escolha do Jorge Mario Bergoglio por São Francisco é baseado justamente no combate a desigualdade e da pobreza.',
+    answers: [
+      { text: 'Liberdade política.', correct: false },
+      { text: 'Mobilidade humana.', correct: false },
+      { text: 'Conectividade cultural.', correct: false },
+      { text: 'Disparidade econômica.', correct: true },
+      { text: 'Complementaridade comercial.', correct: false },
+    ]
+  },
 
-
-
-
+  {
+    question: 'A reestruturação global da indústria, condicionada pelas estratégias de gestão global da cadeia de valor dos grandes grupos transnacionais, promoveu um forte deslocamento do processo produtivo, até mesmo de plantas industriais inteiras, e redirecionou os fluxos de produção e de investimento. Entretanto, o aumento da participação dos países em desenvolvimento no produto global deu-se de forma bastante assimétrica quando se compara o dinamismo dos países do leste asiático com o dos demais  países, sobretudo os latino-americanos, no período 1980-2000. \n\n A dinâmica de transformação da geografia das indústrias descrita expõe a complementaridade entre dispersão espacial e:    ',
+    
+    resolution: 'Questão exige que o aluno tenha conhecimentos básicos sobre os efeitos da globalização, que foi uma dispersão econômica, com uma maior participação dos países periféricos na economia, como os BRICS. Ao mesmo tempo, ocorreu uma concentração econômica dos países centrais (EUA, UE e Japão).',
+    answers: [
+      { text: 'Autonomia tecnológica', correct: false },
+      { text: 'Crises de abastecimento.', correct: false },
+      { text: 'Descentralização política.', correct: false },
+      { text: 'Concentração econômica.', correct: true },
+      { text: 'Compartilhamento de lucros.', correct: false },
+    ]
+  },
 
 
 

@@ -351,8 +351,6 @@ const questions = [
 
   {
     question: '(ENEM - 2020) Afirmar que a cartografia da época moderna integrou o processo de invenção da América por parte dos europeus significa que os conhecimentos dos ameríndios sobre o território foram ignorados pela cartografia europeia ou que eles foram privados de sua representação territorial e da autoridade que seus conhecimentos tinham sobre o espaço. \n\n\n Na análise contida no texto, a representação cartográfica da América foi marcada por',
-
-    images: '../../_image/discordia.png',
     
     resolution: 'Pois, essa negação faz parte do processo de dominação, onde o dominador ignora qualquer conhecimento do dominado por se considerar superior em diversos aspectos.',
     answers: [
@@ -364,8 +362,44 @@ const questions = [
     ]
   },
 
+  {
+    question: '(ENEM - 2019) Tratava-se agora de construir um ritmo novo. Para tanto, era necessário convocar todas as forças vivas da Nação, todos os homens que, com vontade de trabalhar e confiança no futuro, pudessem erguer, num tempo novo, um novo Tempo. E, à grande convocação que conclamava o povo para a gigantesca tarefa, começaram a chegar de todos os cantos da imensa pátria os trabalhadores: os homens simples e quietos, com pés de raiz, rostos de couro e mãos de pedra, e no calcanho, em carro de boi, em lobo de burro, em paus-de-arara, por todas as fomas possíveis e imagináveis, em sua mudez cheia de esperança, muitas vezes deixando para trás mulheres e filho a aguarda suas promessas de melhores dias; foram chegando de tantos povoados, tantas cidades cujos nomes pareciam cantar saudades ais seus ouvidos, dentro dos antigos ritmos da imensa pátria... Terra de sol, Terra de Luz... Brasil! Brasil! Brasília! \n\n\n No texto, a narrativa produzida sobe a construção de Brasília articula os elementos políticos e socioeconômicos indicados, respectivamente, em:',
+    
+    resolution: 'É possível reconhecer no apelo simbólico e na migração inter-regional os elementos políticos e socioeconômicos articulados no texto sobre a construção de Brasília.',
+    answers: [
+      { text: 'apelo simbólico e migração inter-regional', correct: true },
+      { text: 'organização sindical e expansão do capital', correct: false },
+      { text: 'segurança territorial e estabilidade financeira', correct: false },
+      { text: 'consenso partidário e modernização rodoviária', correct: false },
+      { text: 'perspectiva democrática e eficácia dos transportes', correct: false },
+    ]
+  },
 
+  {
+    question: '(ENEM - 2019) O processamento da mandioca era uma atividade já realizada pelos nativos que viviam no Brasil antes da chegada de portugueses e africanos. Entretanto, ao longo do processo de colonização portuguesa, a produção de farinha foi aperfeiçoada e ampliada, tornando-se lugar comum em todo o território da colônia portuguesa na América. Com a consolidação do comércio atlântico em suas diferentes conexões, a farinha atravessou os mares e chegou aos mercados africanos. \n\n\n Considerando a formação do espaço atlântico, esse produto exemplifica historicamente a',
+    
+    resolution: 'Ao longo do processo de colonização portuguesa, o comércio tornou o Atlântico um espaço de conexões entre Europa, América e África.  A chegada da farinha de mandioca, através do comércio transatlântico, aos mercados africanos, exemplifica que as relações estabelecidas permitiram a difusão de hábitos alimentares.',
+    answers: [
+      { text: 'difusão de hábitos alimentares', correct: true },
+      { text: 'disseminação de rituais festivos', correct: false },
+      { text: 'ampliação dos saberes autóctones', correct: false },
+      { text: 'apropriação de costumes guerreiros', correct: false },
+      { text: 'diversificação de oferendas religiosas.', correct: false },
+    ]
+  },
 
+  {
+    question: '(ENEM - 2020) O cristianismo incorporou antigas práticas relativas ao fogo para criar uma festa sincrética. A igreja retomou a distância de seis meses entre os nascimentos de Jesus Cristo e João Batista e instituiu a data de comemoração a este último de tal maneira que as festas do solstício de verão europeu com suas tradicionais fogueiras se tornaram "fogueiras de São João". A festa do fogo e da luz no entanto não foi imediatamente associada a São João Batista. Na Baixa Idade Média, algumas práticas tradicionais da festa (como banhos, danças e cantos) foram perseguidas por monges e bispos. A partir do Concílio de Trento (1545-1563), a Igreja resolveu adotar celebrações em torno do fogo e associá-las à doutrina cristã. \n\n\n\ Com o objetivo de se fortalecer, a instituição mencionada no texto adotou as práticas descritas, que consistem em:',
+    
+    resolution: 'Apropriação de algo que não é cristão, algo secular que é incorporado às práticas cristãs.',
+    answers: [
+      { text: 'promoção de atos ecumênicos. ', correct: false },
+      { text: 'fomento de orientações bíblicas. ', correct: false },
+      { text: 'apropriação de cerimônias seculares. ', correct: true },
+      { text: 'retomada de ensinamentos apostólicos. ', correct: false },
+      { text: 'ressignificação de rituais fundamentalistas.', correct: false },
+    ]
+  },
 
 
 
