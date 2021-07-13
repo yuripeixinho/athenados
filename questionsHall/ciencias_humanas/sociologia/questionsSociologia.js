@@ -374,13 +374,43 @@ const questions = [
     ]
   },
 
+  {
+    question: '(ENEM - 2017)   O comércio soube extrair um bom proveito da interatividade própria do meio tecnológico. A possibilidade de se obter um alto desenho do perfil de interesses do usuário, que deverá levar às últimas consequências o princípio da oferta como isca para o desejo consumista, foi o principal deles.    \n\n Do ponto de vista comercial, o avanço das novas tecnologias indicado no texto está associado à',
+    resolution: 'O texto nos apresenta a ideia de que o comércio tirou bom proveito das interatividades do meio tecnológico: conseguem adquirir o perfil de interesse do usuário, permitindo assim “levar às últimas consequências o princípio da oferta como isca para o desejo consumista”  A definição de perfil de interesse do usuário permite uma individualização das mensagens publicitárias, como diz o texto, acaba por “levar às últimas consequências o princípio da oferta como isca para o desejo consumista”',
+    answers: [
+      { text: 'atuação dos consumidores como fiscalizadores da produção.', correct: false },
+      { text: 'exigência de consumidores conscientes de seus direitos.', correct: false },
+      { text: 'relação direta entre fabricantes e consumidores.', correct: false },
+      { text: 'individualização das mensagens publicitárias.', correct: true },
+      { text: 'manutenção das preferências de consumo.', correct: false },
+    ]
+  },
 
 
+  {
+    question: '(ENEM - 2017)  Uma sociedade é uma associação mais ou menos autossuficiente de pessoas que em suas relações mútuas reconhecem certas regras de conduta como obrigatórias e que, na maioria das vezes, agem de acordo com elas. Uma sociedade é bom ordenada não apenas quando está planejada para promover o bem de seus membros, mas quando é também efetivamente regulada por uma concepção pública de justiça. Isto é, trata-se de uma sociedade na qual todos aceitam, e sabem que os outros aceitam, o mesmo princípio de justiça    \n\n A visão expressa nesse texto do século XX remete a qual aspecto do pensamento moderno?    ',
+    resolution: 'O filósofo John Rawls era um defensor do liberalismo político, em que irá formular sua teoria da justiça e esta como um valor de equidade. A liberdade seria o valor maior que irá conduzir o indivíduo, ou seja, nas esferas públicas existam mecanismos que consigam garantir as liberdades individuais.',
+    answers: [
+      { text: 'A relação entre liberdade e autonomia do Liberalismo.', correct: true },
+      { text: 'A independência entre poder e moral do Racionalismo.', correct: false },
+      { text: 'A convenção entre cidadãos e soberano do Absolutismo.', correct: false },
+      { text: 'A dialética entre indivíduo e governo autocrata do Idealismo.      ', correct: false },
+      { text: 'A contraposição entre bondade e condições selvagem do Naturalismo.', correct: false },
+    ]
+  },
 
 
-
-
-
+  {
+    question: '(ENEM - 2017)  A grande maioria dos países ocidentais democráticos adotou o Tribunal Constitucional como mecanismo de controle dos demais poderes. A inclusão dos Tribunais no cenário político implicou alterações no cálculo para a implementação de políticas públicas. O governo, além de negociar seu plano político com o Parlamento, teve que se preocupar em não infringir a Constituição. Essa nova arquitetura institucional propiciou o desenvolvimento de um ambiente político que viabilizou a participação do Judiciário nos processos decisórios. \n\n O texto faz referência a uma importante mudança na dinâmica de funcionamento dos Estados contemporâneos que, no caso brasileiro, teve como consequência a',
+    resolution: 'Cada vez mais o judiciário precisa fazer parte das decisões políticas, ou seja, a judicialização das questões inerentes ao legislativo é grande nos Estados contemporâneos. Desse modo, os 3 poderes ficam cada vez mais dependentes um do outro, um fator que dificulta uma ditadura, por exemplo, mas deixa o processo de legislativo mais engessado.',
+    answers: [
+      { text: 'adoção de eleições para a alta magistratura.', correct: false },
+      { text: 'diminuição das tensões entre os entes federativos.', correct: false },
+      { text: 'suspensão do princípio geral dos freios e contrapesos.', correct: false },
+      { text: 'judicialização de questões próprias da esfera legislativa.', correct: true },
+      { text: 'profissionalização do quadro de funcionários da Justiça.', correct: false },
+    ]
+  },
 
 
 
