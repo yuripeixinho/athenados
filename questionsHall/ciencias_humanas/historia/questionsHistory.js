@@ -146,7 +146,7 @@ function resolutionStatusOn() {
 
 const questions = [
   {
-    question: '(ENEM - 2020) Dois grandes eventos históricos tomaram possível um caso como o de Menocchio: a invenção da impresa e a Reforma. A imprensa lhe permitiu confrontar os livros com a tradição oral em que havia crescido e lhe forneceu as palavras para organizar o amontoado de ideias e fantasias que nele conviviam. A Reforma lhe deu audácia para comunicar o que pensava ao padre do vilarejo, conterrâneos, inquisidores - mesmo não tendo conseguido dizer tudo diante do papa, dos cardeais e dos príncipes, como queria. Os acontecimentos históricos citados ajudaram esse indivíduo, no século XVI, a repensar a visão católica do mundo ao possibilitarem a...',
+    question: '(ENEM - 2020) Dois grandes eventos históricos tomaram possível um caso como o de Menocchio: a invenção da impresa e a Reforma. A imprensa lhe permitiu confrontar os livros com a tradição oral em que havia crescido e lhe forneceu as palavras para organizar o amontoado de ideias e fantasias que nele conviviam. A Reforma lhe deu audácia para comunicar o que pensava ao padre do vilarejo, conterrâneos, inquisidores - mesmo não tendo conseguido dizer tudo diante do papa, dos cardeais e dos príncipes, como queria. \n\n\n Os acontecimentos históricos citados ajudaram esse indivíduo, no século XVI, a repensar a visão católica do mundo ao possibilitarem a',
     resolution: 'O protestantismo defendia a livre interpretação dos textos bíblicos.',
     answers: [
       { text: ' Consulta pública das bibliotecas reais.', correct: false },
@@ -157,7 +157,7 @@ const questions = [
     ]
   },
   {
-    question: '(ENEM - 2020) A arté pré-histórica africana foi incontestavelmente um veículo de mensagens pedagógicas e sociais. Os San, que constituem hoje o povo mais próximo da realidade das representações rupestres, afirmam que seus antepassados lhes explicaram sua visão do mundo a partir desse gigantesco livro de imagens que são as galerias. A educação dos povos que desconhecem a escrita está baseada sobretudo na imagem e no som, no audiovisual. De acordo com o texto, a arte mencionada é importante para os povos que a cultivam por colaborar para o(a)',
+    question: '(ENEM - 2020) A arté pré-histórica africana foi incontestavelmente um veículo de mensagens pedagógicas e sociais. Os San, que constituem hoje o povo mais próximo da realidade das representações rupestres, afirmam que seus antepassados lhes explicaram sua visão do mundo a partir desse gigantesco livro de imagens que são as galerias. A educação dos povos que desconhecem a escrita está baseada sobretudo na imagem e no som, no audiovisual. \n\n\n De acordo com o texto, a arte mencionada é importante para os povos que a cultivam por colaborar para o(a)',
     resolution: 'Ao final do texto se afirma: “A educação dos povos que desconhecem a escrita está baseada sobretudo na imagem e no som, no audiovisual.” ',
     answers: [
       { text: 'transmissão dos saberes acumulados.', correct: true },
@@ -169,7 +169,7 @@ const questions = [
     ]
   },
   {
-    question: '(ENEM - 2020) Desde o mundo antigo e sua filosofia, que o trabalho tem sido compreendido como expressão de vida e degradação, criação e infelicidade, atividade vital e escravidão, felicidade social e servidão. Trabalho e fadiga. Na modernidade, sob o comando do mundo da mercadoria e do dinheiro, a prevalência do negócio (negar o ócio) veio sepultar o império do repouso, da folga e da preguiça, criando uma ética positiva do trabalho. O processo de ressignificação do trabalho nas sociedades modernas teve início a partir do surgimento de uma nova mentalidade, influenciada pela...',
+    question: '(ENEM - 2020) Desde o mundo antigo e sua filosofia, que o trabalho tem sido compreendido como expressão de vida e degradação, criação e infelicidade, atividade vital e escravidão, felicidade social e servidão. Trabalho e fadiga. Na modernidade, sob o comando do mundo da mercadoria e do dinheiro, a prevalência do negócio (negar o ócio) veio sepultar o império do repouso, da folga e da preguiça, criando uma ética positiva do trabalho. \n\n\n O processo de ressignificação do trabalho nas sociedades modernas teve início a partir do surgimento de uma nova mentalidade, influenciada pela',
     
     resolution: 'Weber trabalha muito a ideia de que a nova visão protestante, especialmente a Calvista, trouxe a ideia do trabalho como positivo, há uma racionalização do trabalho secular que apresenta a ideia de que este leva o indivíduo a um caminho de rentabilidade.',
     answers: [
@@ -181,7 +181,7 @@ const questions = [
     ]
   },
   {
-    question: '(ENEM - 2020) Sexto rei sumério (governante entre os século XVIII e XVII a.C.) e nascido em Babel, "Khammu-rabi" (pronúncia em babilônio) foi fundado do I Império Babilônico (correspondente ao atual Iraque), unificando amplamente o mundo mesopotâmico, unindo os semitas e os sumérios e levando a Babilônia ao máximo esplendor. O nome de Hamurábi permanece indissociavelmente ligado ao código jurídico tido como o mais remoto já descoberto: o Código de Hamurábi. O legislador babilônico consolidou a tradição jurídica, harmonizou os costumes e estendeu o direito e a lei a todos os súditos. Nesse contexto de organização da vida social, as leis contidas no código citado tinham o sentido de...',
+    question: '(ENEM - 2020) Sexto rei sumério (governante entre os século XVIII e XVII a.C.) e nascido em Babel, "Khammu-rabi" (pronúncia em babilônio) foi fundado do I Império Babilônico (correspondente ao atual Iraque), unificando amplamente o mundo mesopotâmico, unindo os semitas e os sumérios e levando a Babilônia ao máximo esplendor. O nome de Hamurábi permanece indissociavelmente ligado ao código jurídico tido como o mais remoto já descoberto: o Código de Hamurábi. O legislador babilônico consolidou a tradição jurídica, harmonizou os costumes e estendeu o direito e a lei a todos os súditos. \n\n\n Nesse contexto de organização da vida social, as leis contidas no código citado tinham o sentido de...',
     
     resolution: 'O Código de Hamurabi é um conjunto de leis que tange majoritariamente sobre punições. É conhecido principalmente devido a lei de Talião “olho por olho, dente por dente."',
     answers: [
@@ -194,7 +194,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) É difícil imaginar que nos anos 1990, num país com setores da população na pobreza absoluta e sem uma rede de benefícios sociais em que se apoiar, um governo possa abandonar o papel de promotor de programas de geração de emprego, de assistência social, de desenvolvimento da infraestrutura e de promoção de regiões excluídas, na expectativa de que o mercado venha algum dia a dar uma resposta adequada a tudo isso. Nesse contexto, a criticada postura dos governos frente à situação social do país coincidiu com a priorização de que medidas?',
+    question: '(ENEM - 2020) É difícil imaginar que nos anos 1990, num país com setores da população na pobreza absoluta e sem uma rede de benefícios sociais em que se apoiar, um governo possa abandonar o papel de promotor de programas de geração de emprego, de assistência social, de desenvolvimento da infraestrutura e de promoção de regiões excluídas, na expectativa de que o mercado venha algum dia a dar uma resposta adequada a tudo isso. \n\n\n Nesse contexto, a criticada postura dos governos frente à situação social do país coincidiu com a priorização de que medidas?',
     
     resolution: 'Na década de 90 um dos grandes problemas do Brasil era sem dúvidas a inflação como uma consequência da década de 80. Os governos focaram em tentar controlar a inflação e em reformas políticas macroeconômica.',
     answers: [
@@ -207,7 +207,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) A Divisão Internacional do Trabalho significa que alguns países se especializam em ganhar e outros, em perder. Nossa comarca no mundo, que hoje chamamos de América Latina, foi precoce: especializou-se em perder desde os remotos tempos em que os europeus do Renascimento se aventuraram pelos mares e lhe cravaram os dentes na garganta. Passaram-se os séculos e a América Latina aprimorou suas funções. Escrito na década de 1970, o texto considera a participação da América Latina na Divisão Internacional do Trabalho marcada pela...',
+    question: '(ENEM - 2020) A Divisão Internacional do Trabalho significa que alguns países se especializam em ganhar e outros, em perder. Nossa comarca no mundo, que hoje chamamos de América Latina, foi precoce: especializou-se em perder desde os remotos tempos em que os europeus do Renascimento se aventuraram pelos mares e lhe cravaram os dentes na garganta. Passaram-se os séculos e a América Latina aprimorou suas funções. \n\n\n Escrito na década de 1970, o texto considera a participação da América Latina na Divisão Internacional do Trabalho marcada pela',
     
     resolution: 'O imperialismo, colonial, aproveitou de nossos recursos territoriais para implantar esse sistema agroexportador e extrativista na América Latina, que se desenvolveu com o passar do tempo, mas, não se alterou.',
     answers: [
@@ -220,7 +220,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) A reabilitação da biografia histórica integrou as aquisições da história social e cultura, oferecendo aos diferentes atores históricos uma importância diferenciada, distinta, individual. Mas não se tratava mais de fazer, simplesmente, a história dos grandes nomes, em formato hagiográfico — quase uma vida de santo —, sem problemas, nem máculas. Mas de como examinar os atores (ou o ator) célebres ou não, como testemunhas, como reflexos, como reveladores de uma época. De acordo com o texto, novos estudos têm valorizado a história do indivíduo por se constituir como possibilidade de...',
+    question: '(ENEM - 2020) A reabilitação da biografia histórica integrou as aquisições da história social e cultura, oferecendo aos diferentes atores históricos uma importância diferenciada, distinta, individual. Mas não se tratava mais de fazer, simplesmente, a história dos grandes nomes, em formato hagiográfico — quase uma vida de santo —, sem problemas, nem máculas. Mas de como examinar os atores (ou o ator) célebres ou não, como testemunhas, como reflexos, como reveladores de uma época. \n\n\n De acordo com o texto, novos estudos têm valorizado a história do indivíduo por se constituir como possibilidade de',
     
     resolution: 'A historiografia ao ampliar as suas fontes e valorizar a história de múltiplos sujeitos incluindo indivíduos comuns vê por meio destes a possibilidade de acesso ao cotidiano das comunidades. “como examinar os atores (ou o ator) célebres ou não, como testemunhas, como reflexos, como reveladores de uma época.”',
     answers: [
@@ -233,7 +233,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) Na Grécia, o conceito de povo abrange tão somente aqueles indivíduos considerados cidadãos. Assim é possível perceber que o conceito do povo era muito restritivo. Mesmo tendo isso em conta, a forma democrática vivenciada e experimentada pelos gregos atenienses nos séculos IV e V a.C. pode ser caracterizada, fundamentalmente, como direta. Naquele contexto, a emergência do sistema de governo mencionado no excerto promoveu o(a):',
+    question: '(ENEM - 2020) Na Grécia, o conceito de povo abrange tão somente aqueles indivíduos considerados cidadãos. Assim é possível perceber que o conceito do povo era muito restritivo. Mesmo tendo isso em conta, a forma democrática vivenciada e experimentada pelos gregos atenienses nos séculos IV e V a.C. pode ser caracterizada, fundamentalmente, como direta. \n\n\n Naquele contexto, a emergência do sistema de governo mencionado no excerto promoveu o(a):',
     
     resolution: 'Com a democracia direta, os indivíduos agraciados com o status de cidadania poderiam participar diretamente das decisões políticas. ',
     answers: [
@@ -246,7 +246,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) Com efeito, até a destruição de Cartago, o povo e o Senado romano governavam a República em harmonia e sem paixão, e não havia entre os cidadãos luta por glória ou dominação, o medo do inimigo mantinha a cidade no cumprimento do dever. Mas, assim que o medo desapareceu dos espíritos, introduziram-se os males pelos quais a prosperidade tem predileção, isto é, a libertinagem e o orgulho. O acontecimento histórico mencionado no texto de Salústio, datado de I a.C., manteve correspondência com o processo de...',
+    question: '(ENEM - 2020) Com efeito, até a destruição de Cartago, o povo e o Senado romano governavam a República em harmonia e sem paixão, e não havia entre os cidadãos luta por glória ou dominação, o medo do inimigo mantinha a cidade no cumprimento do dever. Mas, assim que o medo desapareceu dos espíritos, introduziram-se os males pelos quais a prosperidade tem predileção, isto é, a libertinagem e o orgulho. \n\n\n O acontecimento histórico mencionado no texto de Salústio, datado de I a.C., manteve correspondência com o processo de',
     
     resolution: 'A destruição de Cartago por Roma foi definitiva para o processo de expansão desta sociedade. A partir desta conquista a então República que posteriormente transformou-se em um Império passou a possuir como um característica primordial o expansionismo.',
     answers: [
@@ -259,7 +259,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) Com os ideais liberais oriundos do pensamento iluminista, trazidos à América especialmente pelos emigrantes que foram se estabelecer na Nova Inglaterra, pode-se observar o desenvolvimento de uma situação social de regulamentação da propriedade e de liberdade comercial, o que ilustra, especialmente, a consolidação dos valores burgueses implementados nesses ideais.',
+    question: '(ENEM - 2020) Com os ideais liberais oriundos do pensamento iluminista, trazidos à América especialmente pelos emigrantes que foram se estabelecer na Nova Inglaterra, pode-se observar o desenvolvimento de uma situação social de regulamentação da propriedade e de liberdade comercial, o que ilustra, especialmente, a consolidação dos valores burgueses implementados nesses ideais. \n\n\n O texto tematiza o papel desempenhado por uma norma na criação de um ambiente propício ao(à):',
     
     resolution: 'Na década de 90 um dos grandes problemas do Brasil era sem dúvidas a inflação como uma consequência da década de 80. Os governos focaram em tentar controlar a inflação e em reformas políticas macroeconômica.',
     answers: [
@@ -272,7 +272,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) O toyotismo, a partir dos anos 1970, teve grande impacto no mundo ocidental, quando se mostrou para os países avançados como uma opção possível para a superação de uma crise de acumulação. A característica organizacional do modelo em questão, requerida no contexto de crise, foi o(a)',
+    question: '(ENEM - 2020) O toyotismo, a partir dos anos 1970, teve grande impacto no mundo ocidental, quando se mostrou para os países avançados como uma opção possível para a superação de uma crise de acumulação. \n\n\n A característica organizacional do modelo em questão, requerida no contexto de crise, foi o(a)',
     
     resolution: 'O toyotismo veio, justamente, para efetuar uma produção que se adequava à demanda, para que não ocorresse a mesma crise do ano de 1929.',
     answers: [
@@ -285,7 +285,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) Porque todos confessamos não se pode viver sem alguns escravos, que busquem a lenha e a água, e façam cada dia o pão que se come, e outros serviços que não são possíveis poderem-se fazer pelos Irmãos Jesuítas, máxime sendo tão poucos, que seria necessário deixar as confissões e tudo mais. Parece-me que a Companhia de Jesus deve ter e adquirir escravos, justamente, por meios que as Constituições permitem, quando puder para nossos colégios e casas de meninos. O texto explicita premissas da expansão ultramarina portuguesa ao buscar justificar a...',
+    question: '(ENEM - 2020) Porque todos confessamos não se pode viver sem alguns escravos, que busquem a lenha e a água, e façam cada dia o pão que se come, e outros serviços que não são possíveis poderem-se fazer pelos Irmãos Jesuítas, máxime sendo tão poucos, que seria necessário deixar as confissões e tudo mais. Parece-me que a Companhia de Jesus deve ter e adquirir escravos, justamente, por meios que as Constituições permitem, quando puder para nossos colégios e casas de meninos. \n\n\n O texto explicita premissas da expansão ultramarina portuguesa ao buscar justificar a...',
     
     resolution: 'A partir do texto de apoio da questão, nota-se o esforço por parte da Companhia de Jesus em legitimar e promover o uso da mão de obra escravizada em suas funções desempenhadas na colônia, algo que explicita as premissas da expansão ultramarina portuguesa na medida em que busca legitimar o cativeiro em prol dos movimentos de aculturação e catequização desempenhados por eles.',
     answers: [
@@ -298,7 +298,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) Os representantes do povo francês, tendo em vista que a ignorância, o esquecimento ou o desprezo dos direitos do homem são as únicas causas das infelicidades públicas e da corrupção dos governos, resolveram declarar solenemente os direitos naturais, inalienáveis e sagrados do homem, a fim de que esta declaração, sempre presente em todos os membros do corpo social, lhes lembre permanentemente seus direitos e seus deveres; a fim de que as reivindicações dos cidadãos, fundadas em princípios simples e incontestáveis, se dirijam sempre à conservação da Constituição e à felicidade geral. Esse documento, elaborado no contexto da Revolução Francesa, reflete uma profunda mudança social ao estabelecer a...',
+    question: '(ENEM - 2020) Os representantes do povo francês, tendo em vista que a ignorância, o esquecimento ou o desprezo dos direitos do homem são as únicas causas das infelicidades públicas e da corrupção dos governos, resolveram declarar solenemente os direitos naturais, inalienáveis e sagrados do homem, a fim de que esta declaração, sempre presente em todos os membros do corpo social, lhes lembre permanentemente seus direitos e seus deveres; a fim de que as reivindicações dos cidadãos, fundadas em princípios simples e incontestáveis, se dirijam sempre à conservação da Constituição e à felicidade geral. \n\n\n Esse documento, elaborado no contexto da Revolução Francesa, reflete uma profunda mudança social ao estabelecer a...',
     
     resolution: 'A partir desse documento, considerava-se todos os homens como iguais na França, desde que dotados do status de cidadania.',
     answers: [
@@ -311,7 +311,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) Ao abrigo do teto, sua jornada de fé começava na sala de jantar.  Na équena célula cristã, dividia-se a refeição e durante elas os crentes conversavam, rezavam e liam cartas de correligionários residentes em locais diferentes do Império Romano (século II da Era Cristã). Esse ambiente garantia peculiar apoio emocional às experiências intensamente individuais que abrigava. Um motivo que explica a ambientação da prática descrita no texto encontra-se no(a)',
+    question: '(ENEM - 2020) Ao abrigo do teto, sua jornada de fé começava na sala de jantar.  Na équena célula cristã, dividia-se a refeição e durante elas os crentes conversavam, rezavam e liam cartas de correligionários residentes em locais diferentes do Império Romano (século II da Era Cristã). Esse ambiente garantia peculiar apoio emocional às experiências intensamente individuais que abrigava. \n\n\n Um motivo que explica a ambientação da prática descrita no texto encontra-se no(a)',
     
     resolution: 'Nesse contexto, somente poder-se-ia professar a fé oficial do Império.',
     answers: [
@@ -324,7 +324,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) O movimento sedicioso ocorrido na capitania de Pernambuco, no ano 1817, foi analisado de formas diferentes por dois meios de comunicação daquela época. O Correio Braziliense apontou para o fato de ser "a comoção do Brasil motivada por um descontentamento geral, e não por maquinações de alguns indivíduos". Já a Gazeta do Rio de Janeiro considerou o movimento como um "pontual desvio de norma, apenas uma "mancha" nas páginas da "História Portuguesa", tão distinta pelos testemunhos de amor e respeito que os vassalos desta nação consagram ao seu soberano. Os fragmentos das matérias jornalísticas sobre o acontecimento, embora com percepções diversas, relacionam-se a um aspecto do processo de independência da colônia luso-americana expresso em dissensões entre',
+    question: '(ENEM - 2020) O movimento sedicioso ocorrido na capitania de Pernambuco, no ano 1817, foi analisado de formas diferentes por dois meios de comunicação daquela época. O Correio Braziliense apontou para o fato de ser "a comoção do Brasil motivada por um descontentamento geral, e não por maquinações de alguns indivíduos". Já a Gazeta do Rio de Janeiro considerou o movimento como um "pontual desvio de norma, apenas uma "mancha" nas páginas da "História Portuguesa", tão distinta pelos testemunhos de amor e respeito que os vassalos desta nação consagram ao seu soberano. \n\n\n Os fragmentos das matérias jornalísticas sobre o acontecimento, embora com percepções diversas, relacionam-se a um aspecto do processo de independência da colônia luso-americana expresso em dissensões entre',
     
     resolution: ' No contexto do Período Joanino, diversos grupos regionais disputavam a atenção da corte que se instaurara no Brasil em detrimento do contexto internacional. Os textos demonstram o modo como em cada jornal o interesse dos grupos regionais que controlam tais meios de comunicação sobre o regime.',
     answers: [
@@ -337,7 +337,7 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) Eu sou a terra, eu sou a vida. ',
+    question: '(ENEM - 2020) \O cântico da terra \n Eu sou a terra, eu sou a vida. \n A ti, ó lavrador, tudo quanto é meu. \n Teu arado, tua foice, teu machado. \n O berço pequenino de teu filho. \n O algodão de tua veste \n',
     
     resolution: ' No contexto do Período Joanino, diversos grupos regionais disputavam a atenção da corte que se instaurara no Brasil em detrimento do contexto internacional. Os textos demonstram o modo como em cada jornal o interesse dos grupos regionais que controlam tais meios de comunicação sobre o regime.',
     answers: [
