@@ -263,15 +263,15 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) Em uma usina geradora de energia elétrica, seja através de uma queda-d água ou através de vapor sob pressão, as pás do gerador são postas a girar. O movimento relativo de um imã em relação a um conjunto de bobinas produz um fluxo magnético variável através delas, gerando uma diferença de potencial em seus terminais. Durante o funcionamento de um dos geradores, o operador da usina percebeu que houve um aumento inesperado da diferença de potencial elétrico nos terminais das bobinas. \n\n\n Nessa situação, o aumento do módulo da diferença de potencial obtida nos terminais das bobinas resulta do aumento do(a)',
+    question: '(ENEM - 2019) A maioria das pessoas fica com a visão embaçada ao abrir os olhos debaixo d’água. Mas há uma exceção: o povo moken, que habita a costa da Tailândia. Essa característica se deve principalmente à adaptabilidade do olho e à plasticidade do cérebro, o que significa que você também, com algum treinamento, poderia enxergar relativamente bem debaixo d’água. Estudos mostraram, que as pupilas de olhos de indivíduos moken sofrem redução significativa debaixo d’água, o que faz com que os raios luminosos incidam quase paralelamente ao eixo óptico da pupila. \n\n\n A acuidade visual associada à redução das pupilas é fisicamente explicada pela diminuição',
 
-    resolution: 'A tensão na bobina é dada pela variação do fluxo magnético. A maneira viável de se fazer isso na bobina é aumentando a velocidade de giro das pás do gerador.',
+    resolution: 'Como o enunciado mesmo destacou, para enxergar com mais nitidez debaixo da água é necessário que os raios luminosos chegam paralelos ao eixo óptico, ou seja eles devem sofrer pouco ou nenhum desvio no caminho. Lembrem-se que nosso olho funciona como um instrumento óptico que está embutido de uma lente convergente, ou seja o processo que rege a luz chegar no nosso olho até alcançar o nosso nervo é a refração, nenhum outro processo, como citado nas outras alternativas, corresponde ao processo que o olho faz para focar os raios de luz',
     answers: [
-      { text: 'intervalo de tempo em que as bobinas ficam imersas no campo magnético externo, por meio de uma diminuição de velocidade no eixo de rotação do gerador.', correct: false },
-      { text: 'fluxo magnético através das bobinas, por meio de um aumento em sua área interna exposta ao campo magnético aplicado.', correct: false },
-      { text: 'intensidade do campo magnético no qual as bobinas estão imersas, por meio de aplicação de campos magnéticos mais intensos.', correct: false },
-      { text: 'rapidez com que o fluxo magnético varia através das bobinas, por meio de um aumento em sua velocidade angular.', correct: false },
-      { text: 'resistência interna do condutor que constitui as bobinas, por meio de um aumento na espessura dos terminais.', correct: true },
+      { text: 'da intensidade luminosa incidente na retina.', correct: false },
+      { text: 'da difração dos feixes luminosos que atravessam a pupila.', correct: false },
+      { text: 'da intensidade dos feixes luminosos em uma direção por polarização.', correct: false },
+      { text: 'do desvio dos feixes luminosos refratados no interior do olho.', correct: true },
+      { text: 'das reflexões dos feixes luminosos no interior do olho.', correct: false },
     ]
   },
 
