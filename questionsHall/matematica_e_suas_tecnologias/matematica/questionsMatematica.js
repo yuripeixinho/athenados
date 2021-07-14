@@ -202,18 +202,115 @@ const questions = [
 
 
   {
-    question: '(ENEM - 2020) Amigo secreto é uma brincadeira tradicional nas festas de fim de ano. Um grupo de amigos se reúne e cada um deles sorteia o nome da pessoa que irá presentear. No dia da troca de presentes, uma primeira pessoa presenteia seu amigo secreto. Em seguida, o presenteado revela seu amigo secreto e o presenteia. A brincadeira continua até que todos sejam presenteados, mesmo no caso em que o ciclo se fecha. Dez funcionários de uma empresa, entre eles um casal, participarão de um amigo secreto. A primeira pessoa a revelar será definida por sorteio. \n\n\n Qual é a probabilidade de que a primeira pessoa a revelar o seu amigo secreto e a última presenteada sejam as duas pessoas do casal?',
+    question: '(ENEM - 2020) Um motociclista planeja realizar uma viagem cujo destino fica a 500km de sua casa. Sua moto consome 5 litros de gasolina para cada 100km rodados, e o tanque da moto tem capacidade para 22 litros. Pelo mapa, observou que no trajeto da viagem o último posto disponível para reabastecimento, chamado Estrela, fica a 80 km do seu destino. Ele pretende partir com o tanque da moto cheio e planeja fazer somente duas paradas para reabastecimento, uma na ida e outra na volta, ambas no posto Estrela. No reabastecimento para a viagem de ida deve considerar também combustível suficiente para se deslocar por 200 km no seu destino. \n\n\n A quantidade mínima de combustível, em litro, que esse motociclista deve reabastecer no posto Estrela na viagem de ida, que seja suficiente para fazer o segundo reabastecimento, é',
 
-    resolution: 'Primeiramente, nós podemos sortear as duas pessoas do casal, logo, das 10 pessoas possíveis, 2 podem ser sorteadas a fim de que a primeira pessoa a ser sorteada seja do casal. Logo, esta probabilidade é de ou a primeira pessoa do casal ser escolhida ou a segunda pessoa do casal ser escolhida: \n\n
-    1/10 + 1/10 = 2/10 = 1/5. \n\n Depois, deseja-se que a última pessoa a ser entregue o presente seja também uma pessoa do casal. Como a última pessoa a entregar o presente não pode ser escolhida como pessoa presenteada, então temos um total de 9 pessoas possíveis a serem presentadas. \n\n  Como também esta será a última pessoa a ser presenteada, então a outra pessoa do casal já foi presenteada, nos restando somente uma pessoa desse casal que ainda deve ser presenteada. Logo, isto nos dá a probabilidade de: \n\n  1 pessoa do casal a ser presenteada / 9 pessoas possíveis para se receber o presente = 1/9.',
+    resolution: 'Viagem 500km. \n\n A cada 5 litros de gasolina é possível deslocar 100km, logo, a moto faz 20km/L. \n\n Capacidade do tanque = 22Litros, podendo rodar 440km. \n\n Último posto = 80km do destino. \n\n Considerar necessidade de rodar 200km em seu destino, ou seja, deve colocar 10 litros de gasolina para tal. \n\n  Ele chegará no posto Estrela com, apenas, 1L de gasolina na viagem de ida, já que são 420km, até o pontos (500km- 80km), e o tanque suporta em litros o equivalente a 440km, e cada litro permite a motocicleta rodar 20km. \n\n Assim, ele precisará de 4Litros para chegar na cidade, mais, 10Litros para rodar os 200km na cidade e 4 Litros para retornar ao posto, contudo, já possuirá 1Litro em seu tanque na hora de abastecer na ida. Assim, temos que, 4L+10L+4L-1L=17L \n\n  Dessa forma, chegamos ao gabarito, alternativa C, já que o enunciado pede a quantidade mínima de combustível, em litros, que deve ser abastecida no posto Estrela.',
     answers: [
-      { text: '1/5', correct: false },
-      { text: '1/45', correct: true },
-      { text: '1/50', correct: false },
-      { text: '1/90', correct: false },
-      { text: '1/100', correct: false },
+      { text: '13', correct: false },
+      { text: '14', correct: false },
+      { text: '17', correct: true },
+      { text: '18', correct: false },
+      { text: '21', correct: false },
+    ]
+  },  
+
+  {
+    question: '(ENEM - 2019) Uma pessoa que perdeu um objeto pessoal quando visitou uma cidade pretende divulgar nos meios de comunicação informações a respeito da perda desse objeto e de seu contato para eventual devolução. No entanto, ela lembra que, de acordo com o Art. 1 234 do Código Civil, poderá ter que pagar pelas despesas do transporte desse objeto até sua cidade e poderá ter que recompensar a pessoa que lhe restituir o objeto em, pelo menos, 5 % do valor do objeto. \n\n Ela sabe que o custo com transporte será de um quinto do valor atual do objeto e, como ela tem muito interesse em reavê-lo, pretende ofertar o maior percentual possível de recompensa, desde que o gasto total não ultrapasse o valor atual do objeto. Nessas condições, o percentual sobre o valor do objeto, dado como recompensa, que ela deverá ofertar é igual a',
+
+    resolution: 'O custo do transporte sé de 1/5 do valor total do objeto. Logo: \n\n 1/5 = 0,2 = 20% \n\n Se o custo com transporte corresponde a 20% do valor do objeto, para que o valor da recompensa não ultrapasse o valor do objeto, ela deverá ofertar, no máximo: \n\n 100% - 20% = 80%',
+    
+    answers: [
+      { text: '20%', correct: false },
+      { text: '25%', correct: false },
+      { text: '40%', correct: false },
+      { text: '60%', correct: false },
+      { text: '80%', correct: true },
     ]
   },
+
+  {
+    question: '(ENEM - 2019) Em um jogo on-line, cada jogador procura subir de nível e aumentar sua experiência, que são dois parâmetros importantes no jogo, dos quais dependem as forças de defesa e ataque do participante. A força de defesa de cada jogador é diretamente proporcional ao seu nível e ao quadrado de sua experiência, enquanto sua força de ataque é diretamente proporcional à sua experiência e ao quadrado do seu nível. Nenhum jogador sabe o nível ou experiência dos demais. Os jogadores iniciam o jogo no nível 1 com experiência 1 e possuem força de ataque 2 e de defesa 1. Nesse jogo, cada participante se movimenta em uma cidade em busca de tesouros para aumentar sua experiência. Quando dois deles se encontram, um deles pode desafiar o outro para um confronto, sendo o desafiante considerado o atacante. Compara-se então a força de ataque do desafiante com a força de defesa do desafiado e vence o confronto aquele cuja força for maior. O vencedor do desafio aumenta seu nível em uma unidade. Caso haja empate no confronto, ambos os jogadores aumentam seus níveis em uma unidade. Durante o jogo, o jogador J1, de nível 4 e experiência 5, irá atacar o jogador J2, de nível 2 e experiência 6. O jogador J1 venceu esse confronto porque a diferença entre sua força de ataque e a força de defesa de seu oponente era',
+
+    resolution: 'Explicação dessa questão ainda está em construção...',
+    
+    answers: [
+      { text: '112', correct: false },
+      { text: '88', correct: true },
+      { text: '60', correct: false },
+      { text: '28', correct: false },
+      { text: '24', correct: false },
+    ]
+  },
+
+  {
+    question: '(ENEM - 2019) Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), o rendimento médio mensal dos trabalhadores brasileiros, no ano 2000, era de R$ 1 250,00. Já o Censo 2010 mostrou que, em 2010, esse valor teve um aumento de  7,2% em relação a 2000. Esse mesmo instituto projeta que, em 2020, o rendimento médio mensal dos trabalhadores brasileiros poderá ser 10% maior do que foi em 2010. \n\n\n Supondo que as projeções do IBGE se realizem, o rendimento médio mensal dos brasileiros será de',
+
+    resolution: '1) Em 2000,  o rendimento médio era R$1250,00 \n\n 2) Em 2010, houve um aumento de 7,2%, logo o rendimento médio era R$1250 * 1,072 = R$1340 \n\n 3) Em 2020, o rendimento poderá ser 10% maior do que ocorreu em 2010. Logo, segundo as projeções será R$1340*1,1 = R$1474',
+    
+    answers: [
+      { text: 'R$1.340,00', correct: false },
+      { text: 'R$1.349,00.', correct: false },
+      { text: 'R$1.375,00.', correct: false },
+      { text: 'R$1.465,00. ', correct: false },
+      { text: 'R$1.474,00. ', correct: true },
+    ]
+  },
+
+  {
+    question: '(ENEM - 2019) Durante suas férias, oito amigos, dos quais dois são canhotos, decidem realizar um torneio de vôlei de praia. Eles precisam formar quatro duplas para a realização do torneio. Nenhuma dupla pode ser formada por dois jogadores canhotos. De quantas maneiras diferentes podem ser formadas essas quatro duplas?',
+
+    resolution: '1) Como nenhuma dupla pode ser formada por dois jogadores canhotos, vamos pensar em relação a escolha deles  primeiramente para que fique mais fácil o pensamento. \n\n 2) O primeiro jogador canhoto pode escolher entre os outros 6 amigos destros um para ser sua dupla, o que gera 6 possibilidades. \n\n 3) Após essa escolha, restarão 5 amigos para que esteja junto com o outro jogador canhoto (5 possibilidades) \n\n 4) Com isso, restarão 4 amigo sem formarem times. Um deles possui 3 opções de escolha. \n\n 5) Após isso, restarão 2 amigos sem dupla, o que significa apenas uma possibilidade \n\n 6) Logo, via princípio fundamental da contagem, haverão 6.5.3.1 = 90 possibilidades',
+    
+    answers: [
+      { text: '69', correct: false },
+      { text: '70', correct: false },
+      { text: '90', correct: true },
+      { text: '104', correct: false },
+      { text: '105', correct: false },
+    ]
+  },
+
+  {
+    question: '(ENEM - 2019) O preparador físico de um time de basquete dispõe de um plantel de 20 jogadores, com média de altura igual a  1,80 m. No último treino antes da estreia em um campeonato, um dos jogadores desfalcou o time em razão de uma séria contusão, forçando o técnico a contratar outro jogador para recompor o grupo. \n\n\n Se o novo jogador é  0,20 m mais baixo que o anterior, qual é a média de altura, em metro, do novo grupo?',
+
+    resolution: '1) A soma das alturas do jogadores do time de basquete original é 20 x 1,8 = 36m. \n\n 2) Como o novo jogador é  0,20 m mais baixo que o anterior, a soma das alturas do jogadores será \n\n 3) Com isso, a nova média será 35,8/20 = 1,79m',
+    answers: [
+      { text: '1,60', correct: false },
+      { text: '1,78', correct: false },
+      { text: '1,79', correct: true },
+      { text: '1,81', correct: false },
+      { text: '1,82', correct: false },
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
