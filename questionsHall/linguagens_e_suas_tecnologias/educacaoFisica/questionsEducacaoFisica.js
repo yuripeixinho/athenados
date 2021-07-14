@@ -200,20 +200,7 @@ const questions = [
   {
     question: '(ENEM - 2020) LUTA: prática corporal imprevisível, caracterizada por determinado estado de contato proposital, que possibilita a duas ou mais pessoas se enfrentarem numa constante troca de ações ofensivas e/ou defensivas, regidas por regras, com o objetivo mútuo sobre um alvo móvel personificado no oponente. \n\n\n De acordo com o texto, podemos identificar uma abordagem das lutas nas aulas de educação física quando o professor realiza uma proposta envolvendo',
 
-    resolution: 'A repetição das palavras durante o texto ressalta coisas importantes por detrás do ato. Pois a repetição está acentuando a questão da futilidade do discurso raso e repetitivo, sem profundidade, do poder enquanto capital financeiro "está chovendo dinheiro',
-    answers: [
-      { text: 'contato corporal intenso entre o aluno e seu oponente.', correct: true },
-      { text: 'contenda entre os alunos que se agridem fisicamente.', correct: false },
-      { text: 'confronto corporal em que os vencedores são previamente identificados.', correct: false },
-      { text: 'combate corporal intencional com ações regulamentadas entre os oponentes.', correct: false },
-      { text: 'criticam os estereótipos sociais das visões de mundo elitistas.', correct: false },
-    ]
-  },
-
-  {
-    question: '(ENEM - 2020) \n\n LUTA: prática corporal imprevisível, caracterizada por determinado estado de contato proposital, que possibilita a duas ou mais pessoas se enfrentarem numa constante troca de ações ofensivas e/ou defensivas, regida por regras, com o objetivo mútuo sobre um alvo móvel personificado no oponente. \n\n\n De acordo com o texto, podemos identificar uma abordagem das lutas nas aulas de educação física quando o professor realiza uma proposta envolvendo',
-
-    resolution: 'Conforme a definição apresentada pela questão, a luta, como prática esportiva, implica um conjunto sistematizado de regras em que os objetivos são predeterminados no sentido de garantir disputas éticas, cuja finalidade é o treinamento do corpo e da mente. Por ser organizada pelo professor de educação física, ela é intencional e se difere das brigas, não há conflito, e sim esporte.',
+    resolution: 'Nessa questão de inferência, devem-se relacionar as informações sobre luta apresentadas pelo texto ao trabalho do professor de educação física. Assim, revestida de intenção pedagógica, a luta se converte em atividade dotada de um sistema de regras e valores que são transmitidos aos alunos e às alunas.',
     answers: [
       { text: 'contato corporal intenso entre o aluno e seu oponente.', correct: false },
       { text: 'contenda entre os alunos que se agridem fisicamente.', correct: false },
@@ -224,54 +211,54 @@ const questions = [
   },
 
   {
-    question: '(ENEM - 2020) A vida às vezes é como um jogo brincado na rua: estamos no último minuto de uma brincadeira bem quente e não sabemos que a qualquer momento pode chegar um mais velho a avisar que a brincadeira já acabou e está na hora de jantar. A vida afinal acontece muito de repente — nunca ninguém nos avisou que aquele era mesmo o último Carnaval da Vitória. O Carnaval também chegava sempre de repente. Nós, as crianças, vivíamos num tempo fora do tempo, sem nunca sabermos dos calendários de verdade. [...] O "dia da véspera do Carnaval", como dizia a avó Nhé, era dia de confusão com roupas e pinturas a serem preparadas, sonhadas e inventadas. Mas quando acontecia era um dia rápido, porque os dias mágicos passam depressa deixando marcas fundas na nossa memória, que alguns chamam também do coração. \n\n\n As signficações afetivas engendradas no fragmento pressupõem o reconhecimento da',
+    question: '(ENEM - 2019) \n\n  Mídias: aliadas ou inimigas da educação física escolar? \n\n No caso do esporte, a mediação efetuada pela câmera de TV construiu uma nova modalidade de consumo: o esporte telespetáculo, realidade textual relativamente autônoma face à prática “real” do esporte, construída pela codificação e mediação dos eventos esportivos efetuados pelo enquadramento, edição das imagens e comentários, interpretando para o espectador o que ele está vendo. Esse fenômeno tende a valorizar a forma em relação ao conteúdo, e para tal faz uso privilegiado da linguagem audiovisual com ênfase na imagem cujas possibilidades são levadas cada vez mais adiante, em decorrência dos avanços tecnológicos. Por outro lado, a narração esportiva propõe uma concepção hegemônica de esporte: esporte é esforço máximo, busca da vitória, dinheiro... O preço que se paga por sua espetacularização é a fragmentação do fenômeno esportivo. A experiência global do ser-atleta é modificada: a sociabilização no confronto e a ludicidade não são vivências privilegiadas no enfoque das mídias, mas as eventuais manifestações de violência, em partidas de futebol, por exemplo, são exibidas e reexibidas em todo o mundo. \n\n\n A reflexão trazida pelo texto, que aborda o esporte telespetáculo, está fundamentada na',
 
-    resolution: 'No fragmento, o narrador assume a perspectiva infantil ao descrever as brincadeiras que vivia na época de criança, além de utilizar "nós, as crianças" em determinado momento do texto, evidenciando ainda mais essa perspectiva assumida por ele ao longo do texto.',
+    resolution: 'A distorção da experiência do ser-atleta para os espectadores está sugerida no texto quando o autor ressalta que as manifestações de violência são privilegiadas em relação a, por exemplo, sociabilização e ludicidade. Para o espectador, assim, a imagem que sobressai é o contexto da violência.',
     answers: [
-      { text: 'perspectiva infantil assumida pela voz narrativa.', correct: true },
-      { text: 'suspensão da linearidade temporal da narração.', correct: false },
-      { text: 'tentativa de materializar lembranças da infância.', correct: false },
-      { text: 'incidência da memória sobre as imagens narradas.', correct: false },
-      { text: 'alternância entre impressões subjetivas e relatos factuais.', correct: false },
+      { text: 'distorção da experiência do ser-atleta para os espectadores.', correct: true },
+      { text: 'interpretação dos espectadores sobre o conteúdo transmitido.', correct: false },
+      { text: 'utilização de equipamentos audiovisuais de última geração.', correct: false },
+      { text: 'valorização de uma visão ampliada do esporte.', correct: false },
+      { text: 'equiparação entre a forma e o conteúdo.', correct: false },
     ]
   },
 
   {
-    question: '(ENEM - 2020) \n\n Leandro Aparecido Ferreira, o MC Fioti, compôs em 2017 a música Bum bum tam tam, que gerou, em nove meses, 480 milhões de visualizações do YouTube. É o funk brasileiro mais ouvido na história do site. \n\n A partir de uma gravação da flauta que achou na internet, MC Fioti fez tudo sozinho: compôs, cantou e produziu em uma noite só. "Comecei a pesquisar alguns tipos de flauta, coisas antigas. E nisso eu achei a flautinha do Sebastian Bach", conta. A descoberta foi por acaso: Fioti não sabia quem era o músico alemão e não sabe tocar o instrumento. \n\n A "flauta envolvente" da música é um trecho da Partita em Lá menor, escrita pelo alemão Johann Sebastian Bach por volta de 1723.',
+    question: '(ENEM - 2019) \n\n Esporte e cultura: análise acerca da esportivização de práticas corporais nos jogos indígenas. \n\n Nos Jogos dos Povos Indígenas, observa-se que as práticas corporais realizadas envolvem elementos tradicionais (como as pinturas e adornos corporais) e modernos (como a regulamentação, a fiscalização e a padronização). O arco e flecha e a lança, por exemplo, são instrumentos tradicionalmente utilizados para a caça e a defesa da comunidade na aldeia. Na ocasião do evento, esses artefatos foram produzidos pela própria etnia, porém sua estruturação como “modalidade esportiva” promoveu uma semelhança entre as técnicas apresentadas, com o sentido único da competição. \n\n\n A relação entre os elementos tradicionais e modernos nos Jogos dos Povos Indígenas desencadeou a',
 
-    resolution: 'A proposta de “Bum bum tam tam” é a de mistura de linguagens advindas de meios culturais muito diferentes: a música erudita europeia do século XVIII e as linguagens da favela brasileira contemporânea, que constituem uma inovação no plano musical, com novas e inusitadas sonoridades. A utilização da música distante não é desintencional, pois era o que Mc Fioti buscava, apesar de desconhecer Bach.',
+    resolution: 'O arco e flecha foram deslocados da caça e da pesca (característicos do cotidiano indígena) para se tornarem uma modalidade esportiva.',
     answers: [
-      { text: 'conto, pois exibe a história de vida de Joanie Simpson.', correct: false },
-      { text: 'depoimento, pois expõe o sofrimento da dona do animal.', correct: false },
-      { text: 'reportagem, pois discute cientificamente a cardiomiopatia.', correct: false },
-      { text: 'relato, pois narra um fato estressante vivido pela paciente.', correct: false },
-      { text: 'notícia, pois divulga fatos sobre a síndrome do coração partido.', correct: true },
+      { text: 'padronização de pinturas e adornos corporais.', correct: false },
+      { text: 'sobreposição de elementos tradicionais sobre os modernos.', correct: false },
+      { text: 'individuação das técnicas apresentadas em diferentes modalidades.', correct: false },
+      { text: 'legitimação das práticas corporais indígenas como modalidade esportiva.', correct: true },
+      { text: 'preservação dos significados próprios das práticas corporais em cada cultura', correct: false },
     ]
   },
 
   {
-    question: '(ENEM - 2020) \n\n Por que a indústria do empreendedorismo de palco irá destruir você \n\n Se, antigamente, os livros, enormes, e com suas setecentas páginas, cuspiam fórmulas, equações e cálculos que te ensinavam a lidar com o fluxo de caixa da sua empresa, hoje eles dizem: "Você irá chegar lá! Acredite, você irá vencer!". \n\n Mindset, empoderamento, millenials, networking, coworking, deal, business, deadline, salesman, com perfil hunter...tudo isso faz parte do seu vocabulário. O pacote de livros é sempre idêntico e as experiências são passadas da mesma forma: você está a um único centímetro da vitória. Não pare! \n\n Se desistir agora, será para sempre. Tome, leia a estratégia do oceano azul. Faça mais uma mentoria, participe de mais uma sessão de coaching. O problema é que o seu mindset não está ajustado. Você precisa ser mais proativo. Vamos fazer mais um powermind? Eu consigo um precinho bacana para você... \n\n\n De acordo com o texto, é possível identificar o "empreendedor de palco" por',
+    question: '(ENEM - 2019) \n\n Educação para a saúde mediante programas de educação física escolar \n\n A educação para a saúde deverá ser alcançada mediante interação de ações que possam envolver o próprio homem mediante suas atitudes frente às exigências ambientais representadas pelos hábitos alimentares, estado de estresse, opções de lazer, atividade física, agressões climáticas etc. Dessa forma, parece evidente que o estado de ser saudável não é algo estático. Pelo contrário, torna-se necessário adquiri-lo e construí-lo de forma individualizada constantemente ao longo de toda a vida, apontando para o fato de que saúde é educável e, portanto, deve ser tratada não apenas com base em referenciais de natureza biológica e higienista, mas sobretudo em um contexto didático-pedagógico. \n\n\n A educação para a saúde pressupõe a adoção de comportamentos com base na interação de fatores relacionados à.',
 
-    resolution: 'O empreendedor de palco ele possui um padrão de linguagem, não só ao falar as palavras em Inglês, mas ter, na ponta da língua, os motivos do sucesso não ter sido alcançado, portanto letra D.',
+    resolution: 'A educação para a saúde, segundo o texto, envolve práticas como “atitudes frente às exigências ambientais representadas pelos hábitos alimentares, estado de estresse, opções de lazer, atividade física, agressões climáticas”, que constituem hábitos saudáveis.',
     answers: [
-      { text: 'livros por ele indicados.', correct: false },
-      { text: 'suas habilidades em língua inglesa.', correct: false },
-      { text: 'experiências por ele compartilhadas.', correct: false },
-      { text: 'padrões de linguagem por ele utilizados.', correct: true },
-      { text: 'preços acessíveis de seus treinamentos.', correct: false },
+      { text: 'adesão a programas de lazer.', correct: false },
+      { text: 'opção por dietas balanceadas.', correct: false },
+      { text: 'constituição de hábitos saudáveis.', correct: true },
+      { text: 'evasão de ambientes estressores.', correct: false },
+      { text: 'realização de atividades físicas regulares', correct: false },
     ]
   },
 
   {
-    question: '(ENEM - 2020) Em 2000 tivermos a primeira experiência do futebol feminino em um jogo de videogame, o Mia Hamm Soccer. Doze anos depois, uma petição on-line pedia que a EA Sports incluísse o futebol feminino no Fifa 13. Contudo, só em 2015, com uma nova petição on-line, que arrecadou milhares de assinaturas, tivemos o futebol feminino incluído no Fifa 16. Vendo um nicho de mercado inexplorado, a EA Sports produziu o jogo com 12 seleções femininas e o apresentou como invação. A empresa sabe que mais de 40% dos praticantes de futebol nos EUA são meninas. Para elas, ver o futebol feminino representado em um jogo de videogame é extremamente importante. Ter o futebol feminino no Fifa 16 é um grande passo para a sua popularização na luta pela igualdade de gênero, num contexto machista, sexista, misôgino e homofóbico. \n\n\n Os jogos eletrônicos presentes na cultura juvenil podem desempenhar uma relevante função na abordagem do futebol ao',
+    question: '(ENEM - 2019) No Brasil, a disseminação de uma expectativa de corpo com base na estética da magreza é bastante grande e apresenta uma enorme repercussão, especialmente, se considerada do ponto de vista da realização pessoal. Em pesquisa feita na cidade de São Paulo, aparecem os percentuais de 90% entre as mulheres pesquisadas que se dizem preocupadas com seu peso corporal, sendo que 95% se sentem insatisfeitas com “seu próprio corpo”. \n\n\n A preocupação excessiva com o “peso” corporal pode provocar o desenvolvimento de distúrbios associados diretamente à imagem do corpo, tais como',
 
-    resolution: 'Como não há narração de uma história, o texto não pode ser um conto, bem como não aparece predominância da 1ª pessoa, característica importante de depoimentos e relatos. O texto apresenta características que são observadas nas notícias, como objetividade na linguagem, relato dos fatos ocorridos de maneira direta e descritiva, sem a presença de uma opinião, apenas relatando o fato, diferentemente da reportagem, onde o relato é mais extenso e aprofundado e menos objetivo, mais subjetivo, fazendo com que a letra [E] se apresente como a correta, pois o texto descreve e divulga um caso de síndrome do coração partido de forma clara.',
+    resolution: 'Tendo em vista os conceitos biológicos relacionados ao processo de distúrbios alimentares associados à imagem corporal, destacam-se a anorexia e a bulimia.',
     answers: [
-      { text: 'disseminarem uma modalidade, promovendo a igualdade de gênero.', correct: true },
-      { text: 'superarem jogos malsucedidos no mercado, lançados anteriormente.', correct: false },
-      { text: 'inovarem a modalidade com novas ofertas de jogos ao mercado.', correct: false },
-      { text: 'explorarem nichos de mercado antes ignorados, produzindo mais lucro.', correct: false },
-      { text: 'reforçarem estereótipos de gênero masculino ou feminino nos esportes.', correct: false },
+      { text: 'anorexia e bulimia.', correct: true },
+      { text: 'ortorexia e vigorexia.', correct: false },
+      { text: 'ansiedade e depressão.', correct: false },
+      { text: 'sobrepeso e fobia social.', correct: false },
+      { text: 'sedentarismo e obesidade.', correct: false },
     ]
   },
 
