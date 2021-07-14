@@ -35,9 +35,8 @@ body {
     word-spacing: 2px;
 }
 .header-class2 a:hover {
-    color: rgb(208, 125, 211);
+    color: rgb(244, 222, 96);
 }
-
 #matematicaHover:hover {
     color: rgb(224, 93, 93);
 }
@@ -52,13 +51,15 @@ body {
 }
 
 
+
+
 /* ============================ NAV SUBJECTIVES ============================ */
 .nav-subjectives {
     width: 100%;
     height: 6vh;
     position: fixed;
     top: 7%;
-    background: radial-gradient(circle, rgb(190, 109, 206) 36%, rgb(204, 111, 196) 62%, rgb(214, 114, 189) 90%);
+    background: radial-gradient(circle, rgba(236,209,107,1) 14%, rgba(218,201,114,1) 52%, rgba(247,233,137,1) 90%);
     z-index: 99999;
 }
 .nav-subjectives nav {
@@ -86,10 +87,9 @@ body {
     transition-duration: 0.2s;
 }
 .nav-subjectives a:hover {
-    color: black;
+    color: rgb(0, 0, 0);
     transition-duration: 0.2s;
 }
-
 
 
 
@@ -123,7 +123,7 @@ body {
 }
 .sub-headerAbout h1 {
     font-size: 35px;
-    color: rgb(208, 125, 211);
+    color: rgb(244, 222, 96);
     text-transform: uppercase;
     font-family: 'Raleway';
     margin-bottom: 3.5%;
@@ -170,12 +170,12 @@ body {
 /* ============================ MAIN-CLASS ============================ */
 .main-class {
     width: 100%;
-    height: 330vh;
+    height: 238vh;
 }
 
 .subjective-container {
     width: 70%;
-    height: 300vh;
+    height: 200vh;
     margin: 0% auto;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -248,13 +248,13 @@ body {
 
 
 
-/* ============================ PORTUGUES ============================ */
-.portugues {
+/* ============================ HISTORY ============================ */
+.history {
     width: 82%;
     padding: 4%;
     margin: 0% auto;
 }
-.portugues h1 {
+.history h1 {
     margin-bottom: 2%;
     margin-left: 2.5%;
     font-family: 'Raleway';
@@ -262,13 +262,14 @@ body {
     text-transform: uppercase;
 }
 
-/* ============================ ARTES ============================ */
-.artes {
+
+/* ============================ GEOGRAPHY ============================ */
+.geography {
     width: 82%;
     padding: 4%;
     margin: 0% auto;
 }
-.artes h1 {
+.geography h1 {
     margin-bottom: 2%;
     margin-left: 2.5%;
     font-family: 'Raleway';
@@ -276,26 +277,14 @@ body {
     text-transform: uppercase;
 }
 
-/* ============================ EDFISICA ============================ */
-.edFisica {
+
+/* ============================ PHILOSOPHY ============================ */
+.philosophy {
     width: 82%;
     padding: 4%;
     margin: 0% auto;
 }
-.edFisica h1 {
-    margin-bottom: 2%;
-    margin-left: 2.5%;
-    font-family: 'Raleway';
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-/* ============================ INGLES ============================ */
-.ingles {
-    width: 82%;
-    padding: 4%;
-    margin: 0% auto;
-}
-.ingles h1 {
+.philosophy h1 {
     margin-bottom: 2%;
     margin-left: 2.5%;
     font-family: 'Raleway';
@@ -303,13 +292,13 @@ body {
     text-transform: uppercase;
 }
 
-/* ============================ ESPANHOL ============================ */
-.espanhol {
+/* ============================ SOCIOLOGY ============================ */
+.sociology {
     width: 82%;
     padding: 4%;
     margin: 0% auto;
 }
-.espanhol h1 {
+.sociology h1 {
     margin-bottom: 2%;
     margin-left: 2.5%;
     font-family: 'Raleway';
