@@ -258,7 +258,7 @@ const questions = [
       { text: 'acrescentar fusível de segurança na cerca.', correct: false },
       { text: 'realizar o aterramento da rede de alta tensão.', correct: false },
       { text: 'instalar fusível de segurança na rede de alta tensão.', correct: false },
-      { text: 'utilizar fios encapados com isolantes na rede de alta tensão.', correct: true },
+      { text: 'utilizar fios encapados com isolantes na rede de alta tensão.', correct: false },
     ]
   },
 
