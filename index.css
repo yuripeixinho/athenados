@@ -51,6 +51,28 @@ body {
     color: rgb(244, 222, 96);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ========== SUB-HEADER =========== */
 .sub-header {
     width: 100%;
@@ -480,4 +502,123 @@ body {
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================== RESPONSIVIDADE   =========================== */
+/* ==== MOBILE SMALL ==== */
+@media (max-width: 768px) {
+
+    body {
+        background-color: rgb(236, 1, 1);
+    }
+    
+   .header-class nav {
+       display: block;
+       height: 80%;
+       left: 34%;
+       top: 14%;
+       text-align: center;
+   }
+   
+       
+   .header-class li {
+    display: block;
+    height: 80%;
+    left: 40%;
+    width: 100%;
+    margin-top: -4%;
+
+   }
+   .header-class ul {
+       left: 20%;
+       
+   }
+   
+    .tracinho {
+        visibility: hidden;
+    }
+
+    .logo-class {
+        left: 34%;
+        top: 30%;
+        width: 100%;
+    }
+    .logo-class img {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+    .sub-header {
+        width: 120%;
+        background-color: lightcoral;
+    }
+
+    .main-text-container  {
+        width: 100%;
+    }
+    .main-text-container h1 {
+        font-size: 50px;
+        margin-bottom: 7%;
+    }
+    
+    .main-text-container p {
+        width: 80%;
+        font-size: 18px;
+        margin-bottom: 5%;
+    }
+
+    .main-text-container button {
+        width: 20%;
+        height: 5vh;
+    }
+
+    .main-text-container a {
+       font-size: 14px;
+    }
+
+    .sub-header img {
+        visibility: hidden;
+    }
+
+
+
+    
+}
+
+
+
+
+
+
 
