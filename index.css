@@ -705,7 +705,7 @@ body {
 /* ========== SERVICES =========== */
 .explanation-container {
     margin-top: 90%;
-    width: 110%;
+    width: 112%;
 }
 .explanation-container h2 {
     font-size: 32px;
@@ -713,9 +713,10 @@ body {
     margin-left: -90%;
 }
 .explanation-container p {
-    font-size: 18px;
+    font-size: 14px;
     margin-left: -90%;
     margin-top: 10%;
+    margin-right: 14%;
 }
 .explanation-container button {
     width: 50%;
