@@ -540,38 +540,38 @@ body {
     
    .header-class nav {
        display: block;
-       height: 80%;
-       left: 28%;
-       top: 14%;
+       height: 80vh;
+       left: 10%;
+       top: 20%;
+       width: 70%;
        text-align: center;
    }
    
+   .header-class {
+       width: 100%;
+       height: 12vh;
+   }
        
    .header-class li {
     display: block;
     height: 80%;
     left: 40%;
-    width: 100%;
-    margin-top: -4%;
-
+    margin-top: -1.6%;
+    
    }
+
    .header-class ul {
+       width: 100%;
        left: 20%;
-       
    }
    
     .tracinho {
         visibility: hidden;
     }
-
     .logo-class {
-        position: none;
-        margin-top: 4%;
+        display: none;
     }
-    .logo-class img {
-        position: none;
-        max-width: 26%;
-    }
+
 
 
 
@@ -580,12 +580,13 @@ body {
 
 
     .sub-header {
-        width: 120%;
+        width: 112%;
         height: 80vh;
     }
 
     .main-text-container  {
         width: 100%;
+        margin-top: 7%;
     }
     .main-text-container h1 {
         font-size: 40px;
@@ -593,13 +594,13 @@ body {
     }
     
     .main-text-container p {
-        width: 100%;
+        width: 80%;
         font-size: 18px;
         margin-bottom: 5%;
     }
 
     .main-text-container button {
-        height: 5vh;
+        width: 40%;
     }
 
     .main-text-container a {
