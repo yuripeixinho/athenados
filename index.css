@@ -538,13 +538,13 @@ body {
 /* ====== HEADER ====== */ 
    .header-class {
        width: 100%;
-       height: 9.5vh;
+       height: 11vh;
    }
        
    .header-class nav {
         position: relative;
-        left: 36%;
-        margin-top: 3%;
+        left: 29%;
+        margin-top: 5%;
     }
 
     .header-class ul {
@@ -553,7 +553,8 @@ body {
 
    .header-class li {
         display: block;
-        margin-top: -1%;
+        margin-top: -6%;
+        width: 140%;
     }
 
    
@@ -576,7 +577,7 @@ body {
 /* ======= SUB-HEADER ======= */
     .sub-header {
         width: 100%;
-        height: 70vh;
+        height: 100vh;
     }
 
     .main-text-container  {
@@ -638,6 +639,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     margin-bottom: 10%;
+    margin-left: 2%;
 }
 
 .card-container {
@@ -702,13 +704,13 @@ body {
 
 /* ========== SERVICES =========== */
 .explanation-container {
-    margin-top: 90%;
+    margin-top: 110%;
     width: 100%;
-    height: 40vh;
+    height: 66vh;
 }
 .explanation-container h2 {
     font-size: 32px;
-    margin-top: 20%;
+    margin-top: 40%;
     margin-left: -90%;
 }
 .explanation-container p {
@@ -744,35 +746,28 @@ body {
 /* =========================== FOOTER =========================== */
 .footer-class {
     width: 100%;
-    height: 32vh;
     margin-top: 0;
     background-color: rgb(6, 15, 53);
     color: white;
+    height: 30vh;
 }
 
 .footer-content {
     width: 60%; 
     position: relative;
-    top: -6%;
+    top: -1%;
     margin: auto;
     border-top: 1px solid rgb(112, 112, 112);
     border-bottom: 1px solid rgb(112, 112, 112);
     padding: 4% 10%;
+    height: 14vh;
 }
 
-.athenadosAbout {
-    width: 40%;
-    margin-left: -12%;
-}
 .athenadosAbout h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-    margin-bottom: 2%;
+    visibility: hidden;
 }
 .athenadosAbout p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    padding: 1% 0%;
+    visibility: hidden;
 }
 
 
@@ -781,8 +776,6 @@ body {
 
 
 .footer-logo img{ 
-    width: 12%;
-    margin-left: 44%;
     visibility: hidden;
 }
 
@@ -792,8 +785,8 @@ body {
 .links ul {
     position: absolute;
     list-style: none;
-    top: 31%;
-    left: 38%;
+    top: 10%;
+    left: 10%;
 }
 .links h5 {
     font-family: 'Raleway', sans-serif;
@@ -813,8 +806,8 @@ body {
 .developments ul {
     list-style: none;
     position: absolute;
-    left: 67%;
-    top: 31%;
+    left: 50%;
+    top: 10%;
 }
 .developments h5 {
     font-family: 'Raleway', sans-serif;
@@ -853,8 +846,8 @@ body {
 
 .copyright {
     position: absolute;
-    left: 30%;
-    bottom: -12%;
+    left: 14%;
+    bottom: -20%;
     font-weight: 200;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
