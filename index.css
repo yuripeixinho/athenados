@@ -705,6 +705,7 @@ body {
 /* ========== SERVICES =========== */
 .explanation-container {
     margin-top: 90%;
+    width: 100%;
 }
 .explanation-container h2 {
     font-size: 32px;
