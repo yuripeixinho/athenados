@@ -541,7 +541,7 @@ body {
    .header-class nav {
        display: block;
        height: 80%;
-       left: 34%;
+       left: 28%;
        top: 14%;
        text-align: center;
    }
@@ -565,12 +565,12 @@ body {
     }
 
     .logo-class {
-        left: 34%;
-        top: 30%;
-        width: 100%;
+        position: none;
+        margin-top: 4%;
     }
     .logo-class img {
-        width: 50%;
+        position: none;
+        max-width: 26%;
     }
 
 
@@ -581,25 +581,24 @@ body {
 
     .sub-header {
         width: 120%;
-        background-color: lightcoral;
+        height: 80vh;
     }
 
     .main-text-container  {
         width: 100%;
     }
     .main-text-container h1 {
-        font-size: 50px;
+        font-size: 40px;
         margin-bottom: 7%;
     }
     
     .main-text-container p {
-        width: 80%;
+        width: 100%;
         font-size: 18px;
         margin-bottom: 5%;
     }
 
     .main-text-container button {
-        width: 20%;
         height: 5vh;
     }
 
