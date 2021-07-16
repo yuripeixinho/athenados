@@ -663,8 +663,56 @@ body {
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
 }
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 776px) and (max-width: 1200px) {
+
+    .sub-headerAbout {
+        width: 60%;
+    }
+
+    .sub-headerImage img {
+        visibility: hidden;
+    }
+
+
+    /* ======== MAIN CLASS ======== */
+    .subject-cards li {
+        width: 40%;
+    }
+
+
+
+    /* ======== FOOTER CLASS ======== */
+    .footer-logo img {
+        visibility: hidden;
+    }
+    .athenadosAbout h1 {
+        visibility: hidden;
+    }
+    .copyright {
+        left: 35%;
+    }
+
+    .developments ul {
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+
