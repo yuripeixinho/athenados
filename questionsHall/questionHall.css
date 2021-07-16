@@ -4,7 +4,7 @@
 }
 
 body {
-    overflow: hidden;
+    
 }
 
 
@@ -26,8 +26,8 @@ body {
 /* ====== NAV ====== */
 .header-class nav {
     position: relative;
-    left: 48.8%;
     top: 34%;
+    margin-left: 50%;
 }
 .header-class ul {
     list-style: none;
@@ -146,6 +146,96 @@ body {
 
 
 
+
+
+
+
+
+/* ==================== RESPONSIVIDADE ==================== */
+@media (max-width: 768px) {
+.mainClass {
+    width: 90%;
+    height: 140vh;
+    margin: 10% auto;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+}
+
+.mainClass h1 {
+    text-align: center;
+    margin: 6% auto;
+    font-family: 'Raleway';
+    font-size: 28px;
+}
+.mainClass a {
+    text-decoration: none;
+}
+.mainClass img {
+    margin: -1% 39%;
+    width: 24%;
+}
+
+
+.cHumanas {
+    grid-column: 1;
+    margin: 1%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+
+.tLinguagens {
+    margin: 1%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5%;
+
+}
+
+
+
+.cNaturais {
+    margin: 1%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5%;
+
+}
+
+
+.tMatematica {
+    margin: 1%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
