@@ -275,7 +275,7 @@ body {
 
 .header-class li {
      display: block;
-     width: 310%;
+     width: 360%;
      margin-top: -12%;
  }
 
@@ -317,7 +317,7 @@ body {
   #resolution {
     width: 76%;
     position: absolute;
-    top: 118%;
+    top: 124%;
     left: 10%;
     padding: 2%;
     border-radius: 12px;
@@ -337,7 +337,7 @@ body {
     height: 4.5vh;
     position: absolute;
     left: 25%;
-    top: 106%;
+    top: 112%;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
