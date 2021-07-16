@@ -446,3 +446,247 @@ body {
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
 }
+
+
+/* ================= RESPONSIVIDADE ================== */
+@media (max-width: 768px) {
+
+    body {
+        
+    }
+    /* ============================ SUB HEADER ============================ */
+.sub-header {
+    background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
+    width: 100%;
+    height: 60vh;
+}
+.sub-headerAbout {
+    width: 64%;
+    height: 28vh;
+    position: relative;
+    left: 8%;
+    top: 30%;
+    animation-name: subHeader;
+    animation-duration: 2s;
+}
+@keyframes subHeader {
+    from {
+        top: 60%;
+        opacity: 0%;
+    } 
+    to {
+        bottom: 0%;
+        opacity: 100%;
+    }
+}
+.sub-headerAbout h1 {
+    font-size: 24px;
+    color: rgb(244, 222, 96);
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    margin-bottom: 3.5%;
+}
+
+.sub-headerAbout p {
+    padding: 2% 0%;
+    font-size: 14px;
+    width: 88%;
+    color: white;
+    font-family: 'Poppins';
+}
+.sub-headerImage img {
+    position: absolute;
+    width: 26%;
+    right: 5%;
+    top: 25%;
+    animation-duration: 2s;
+    animation-name: subHeaderImage;
+    filter: invert(100%);
+}
+@keyframes subHeaderImage {
+    from {
+        top: 30%;
+        opacity: 0%;
+    } to {
+        bottom: 0%;
+        opacity: 100%;
+    }
+}
+
+
+/* ============================ MAIN-CLASS ============================ */
+.main-class {
+    width: 100%;
+    height: 90vh;
+}
+
+.subjective-container {
+    width: 70%;
+    height: 88.5vh;
+    margin: 0% auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+/* ================= CARDS ================= */
+.subject-cards a {
+    text-decoration: none;
+}
+.subject-cards li {
+    width: 76%;
+    height: 10vh;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 2.2%;
+    box-shadow: rgba(0, 0, 0, 0.164) 0px 10px 10px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+.subject-cards li:hover {
+    transform: scale(0.9);
+    transition-duration: 1.5s;
+    box-shadow: none;
+}
+
+.liImage {
+    flex: 0.5;
+}
+.liImage img {
+    width: 58%;
+    margin-top: 35%;
+    margin-left: 24%;
+}
+.h3Title {
+    flex: 1;
+}
+
+.h3Title h3 {
+    width: 80%;
+    color: black;
+    margin-left: 10%;
+    margin-top: 18%;
+    font-size: 13px;
+    font-family: 'Lato';
+}
+
+.lih3 {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+
+}
+
+
+
+/* =========================== FOOTER =========================== */
+.footer-class {
+    width: 100%;
+    margin-top: 0;
+    background-color: rgb(6, 15, 53);
+    color: white;
+    height: 30vh;
+}
+
+.footer-content {
+    width: 60%; 
+    position: relative;
+    top: -1%;
+    margin: auto;
+    border-top: 1px solid rgb(112, 112, 112);
+    border-bottom: 1px solid rgb(112, 112, 112);
+    padding: 4% 10%;
+    height: 14vh;
+}
+
+.athenadosAbout h1 {
+    visibility: hidden;
+}
+.athenadosAbout p {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+
+
+
+
+.footer-logo img{ 
+    visibility: hidden;
+}
+
+
+
+
+.links ul {
+    position: absolute;
+    list-style: none;
+    top: 10%;
+    left: 10%;
+}
+.links h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+.links li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.links a {
+    color: white;
+}
+
+
+
+
+.developments ul {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+.developments h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    margin-left: 13.2%;
+}
+
+
+
+
+.yagopeixinho a, .yuripeixinho a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.yuripeixinho {
+    position: absolute;
+    left: 26%;
+    bottom: -100%;
+    
+}
+
+.yagopeixinho {
+    position: absolute;
+    bottom: -160%;
+    left: 26%;
+}
+
+.yuripeixinho img, .yagopeixinho img {
+    filter: invert(100%);
+    visibility: hidden;
+}
+
+
+.copyright {
+    position: absolute;
+    left: 20%;
+    bottom: -20%;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
