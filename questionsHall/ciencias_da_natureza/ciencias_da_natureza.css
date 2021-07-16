@@ -454,7 +454,7 @@ body {
 }
 .sub-headerAbout h1 {
     font-size: 24px;
-    color: rgb(244, 222, 96);
+    color: rgb(114, 170, 114);
     text-transform: uppercase;
     font-family: 'Raleway';
     margin-bottom: 3.5%;
@@ -490,12 +490,12 @@ body {
 /* ============================ MAIN-CLASS ============================ */
 .main-class {
     width: 100%;
-    height: 90vh;
+    height: 67vh;
 }
 
 .subjective-container {
     width: 70%;
-    height: 88.5vh;
+    height: 65.5vh;
     margin: 0% auto;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -662,4 +662,9 @@ body {
     font-weight: 200;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
+}
+
+
+
+
 }
