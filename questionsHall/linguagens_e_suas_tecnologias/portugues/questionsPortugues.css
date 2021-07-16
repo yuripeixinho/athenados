@@ -253,6 +253,10 @@ body {
 
   @media (max-width: 768px) { 
 
+    body {
+      height: 150vh;
+    }
+
     /* ====== HEADER ====== */ 
    .header-class {
     width: 100%;
@@ -318,15 +322,15 @@ body {
     width: 76%;
     position: absolute;
     top: 124%;
-    left: 10%;
-    padding: 2%;
+    left: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
     border-radius: 12px;
     height: 10vh;
     visibility: hidden;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Arial', Times, serif;
     border: 1px solid rgba(255, 255, 255, 0);
-    text-align: justify;
     background: linear-gradient(90deg, rgb(21, 50, 126) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
     color: white;
     overflow: auto;
@@ -337,7 +341,7 @@ body {
     height: 4.5vh;
     position: absolute;
     left: 25%;
-    top: 112%;
+    top: 114%;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
