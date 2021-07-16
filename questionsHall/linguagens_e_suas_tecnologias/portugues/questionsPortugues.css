@@ -83,6 +83,7 @@ body {
     background-color: rgb(248, 247, 247);
     border-radius: 15px;
     border: 1.5px solid rgb(233, 233, 233);
+    overflow: auto;
   }
 
   #question {
@@ -238,7 +239,188 @@ body {
   }
 
 
+  @media (max-width: 768px) { 
+
+    /* ======================== QUESTIONS CONTAINER ========================= */
+:root {
+  --hue-neutral: 21;
+  --hue-wrong: 0;
+  --hue-correct: 147;
+}
+
+
+  .container {
+    width: 80%;
+    height: 90vh;
+    padding: 2.5%;
+    margin: 2% auto;
+    border-radius: 15px;
+    border: 1.5px solid rgb(233, 233, 233);
+  }
+
+  #question {
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Arial', Times, serif;
+    text-align: justify;
+    margin-bottom: 2%;
+  }
+ 
+
+/* ======================== RESOLUTION CONTAINER ========================= */
+  #resolution {
+    width: 76%;
+    position: absolute;
+    top: 140%;
+    left: 10%;
+    padding: 2%;
+    border-radius: 12px;
+    height: 10vh;
+    visibility: hidden;
+    font-size: 18px;
+    font-family: 'Arial', Times, serif;
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-align: justify;
+    background: linear-gradient(90deg, rgb(21, 50, 126) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
+    color: white;
+    overflow: auto;
+  }
+
+  .next-btn {
+    width: 8%;
+    height: 4.5vh;
+    position: absolute;
+    left: 20%;
+    top: 130%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    z-index: 10000;
+    transition: 0.3s;
+    box-shadow: 0px 8px rgb(192, 192, 192);
+  }
+  .next-btn:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+    box-shadow: none;
+  }
+
+
+
+/* ======== TODOS OS BOTÕES ======== */
+.btn {
+  --hue: var(--hue-neutral);
+  background-color: hsl(var(--hue), 0%, 96%);
+  border: 0.1px solid rgba(196, 194, 194, 0.74);
+  margin-top: 2.8%;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5.6px 30px;
+  border-radius: 8px;
+  width: 60%;
+}
+.btn:hover {
+  background-color: rgb(240, 240, 240);
   
+}
+
+  
+
+  .btn-grid {
+    display: grid;
+    grid-template-columns: max-content;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+  
+  button.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+  }
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  .btn.correct {
+    background-color: hsl(var(--hue-correct), 50%, 47%);
+    color: black;
+    transition: 1s;
+  }
+  
+  .btn.wrong {
+    background-color: hsl(var(--hue-wrong), 60%, 50%);
+    transition: 1s;
+  }
+  
+
+
+
+
+
+
+  
+  
+  .start-btn {
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    z-index: 9999;
+    transition: 0.3s;
+    box-shadow: 0px 8px rgb(192, 192, 192);
+  }
+  .start-btn:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+    box-shadow: none;
+  }
+
+  
+
+  
+
+
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+}
   
   
   
