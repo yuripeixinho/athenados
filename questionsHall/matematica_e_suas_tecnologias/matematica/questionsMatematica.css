@@ -288,7 +288,7 @@ body {
   @media (max-width: 768px) { 
 
     body {
-      height: 150vh;
+      height: 120vh;
     }
 
 /* ====== HEADER ====== */ 
@@ -336,7 +336,7 @@ body {
 
   .container {
     width: 80%;
-    height: 90vh;
+    height: 70vh;
     padding: 2.5%;
     margin: 2% auto;
     border: 1.5px solid rgb(233, 233, 233);
@@ -355,7 +355,7 @@ body {
   #resolution {
     width: 76%;
     position: absolute;
-    top: 130%;
+    top: 100%;
     left: 8%;
     padding-left: 5%;
     padding-right: 5%;
@@ -375,7 +375,7 @@ body {
     height: 4.5vh;
     position: absolute;
     left: 25%;
-    top: 116%;
+    top: 90%;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;

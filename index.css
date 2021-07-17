@@ -25,16 +25,15 @@
 /* ====== NAV ====== */
 .header-class nav {
     flex: 1;
-    background-color: lightblue;
 }
 
 .header-class ul {
     list-style: none;
-    background-color: lightcoral;
+    background-color: lightblue;
 }
 
 .header-class li {
-    display: inline;
+    display: inline-block;
 }
 
 .header-class a {
