@@ -11,29 +11,33 @@
     display: flex;
 }
 
-/* ====== LOGO  ====== */
-.logo-class {
-    background: url(_image/logoAthenas.png) left /200px no-repeat;
-    flex: 1;
-}
 
-.logo-class h1 {
-    margin: 3% 5%;
+/* ========== LOGO  ========== */
+.logo {
+    background: url(_image/logoAthenas.png) left /220px no-repeat;
+    flex: 3;
+}
+.logo h1 {
+    padding: 2.5% 3%;
     display: inline-block;
-    opacity: 0;
-}
-/* ====== NAV ====== */
-.header-class nav {
-    flex: 1;
+    opacity: 0%;
 }
 
+
+
+/* ========== NAV ========== */
+.header-class nav {
+    flex: 5;
+    text-align: end;
+    padding: 1.2% 2.5%;
+}
 .header-class ul {
     list-style: none;
-    background-color: lightblue;
 }
 
 .header-class li {
     display: inline-block;
+    padding-left: 2.5%;
 }
 
 .header-class a {
@@ -44,6 +48,9 @@
     font-weight: 700;
     text-transform: uppercase;
     font-size: 13px;
+}
+.header-class a:hover {
+    color: rgb(244, 222, 96);
 }
 
 
