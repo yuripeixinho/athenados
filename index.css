@@ -275,9 +275,55 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* =========================== DIVISORIA =========================== */
+.divisoria {
+   background-color: rgb(255, 255, 255);
+   width: 100%;
+   height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* =========================== FOOTER =========================== */
 .footer-class {
-
+    background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
+    color: white;
+    padding-bottom: 5% ;
 }
 
 
@@ -293,30 +339,95 @@
 
 
 
-
-
+/* ======== FOOTER CONTENT ======== */
 .footer-content {
-    width: 80%;
+    width: 70%;
     margin: 0% auto;
-    padding: 5%;
+    border-top: 1px solid rgb(112, 112, 112);
+    border-bottom: 1px solid rgb(112, 112, 112);
+    display: flex;
+    padding: 3.5%;
 }
 
 .athenadosAbout {
-    width: 40%;
-    display: inline-block;
+    flex: 1.2;
+    padding: 0 2%;
 }
+
+.athenadosAbout h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+}
+
+.athenadosAbout p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 1% 0%;
+}
+
+/* ======== ABOUT ======== */
 .links {
-    width: 10%;
-    display: inline-block;
-    margin-left: 5%;
+    flex: 1;
+    padding: 0 2%;
+    margin-left: 5.5%;
+}
+.links ul {
+    list-style: none;
+}
+.links h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+.links li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.links a {
+    color: white;
 }
 
+
+/* ======== DESENVOLVEDORES ======== */
 .developments {
-    display: inline-block;
-    width: 20%;
-    margin-left: 5%;
+    flex: 0.5;
+    padding: 0 2%;
+    list-style: none;
+}
+.developments h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
 }
 
+.developments ul {
+    list-style: none;
+}
+
+
+.yuripeixinho {
+    margin-top: 12%;
+}
+
+.yagopeixinho a, .yuripeixinho a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.yuripeixinho img, .yagopeixinho img {
+    filter: invert(100%);
+}
+
+
+
+/* ======== DIREITOS AUTORAIS ======== */
+.copyright {
+    text-align: center;
+    margin-top: 1.5%;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
 
 
 
