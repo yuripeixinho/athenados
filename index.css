@@ -95,6 +95,13 @@
     border: none;
     border-radius: 25px;
     background-color: yellow;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.main-text-container button:hover {
+    transform: translateY(5%);
+    transition-duration: 0.5s;
+    background-color: rgb(252, 252, 113);
 }
 .main-text-container a {
     text-decoration: none;
@@ -166,6 +173,7 @@
     margin: 0 auto;
     margin-bottom: 10%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition-duration: 1s;
 }
 
 .img-card {
@@ -191,7 +199,8 @@
 }
 
 .card:hover {
-    
+    transform: translateY(15%);
+    transition-duration: 1s;
 }
 
 
@@ -208,28 +217,67 @@
 
 /* =========================== EXPLANATION CONTAINER =========================== */
 .explanation-container {
-    background-color: lightcoral;
+    background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
     width: 100%;
+    float: left;
 }
 
-.explanation-container img {
-    width: 45%;
-    background-color: lightgreen;
+.explanation-background {
+   width: 40%;
+}
+.explanation-background img {
+    width: 100%;
+    float: left;
+    text-align: center;
 }
 
 .explanation-elements {
-    width: 55%;
-    background-color: lightsalmon;
+    width: 50%;
     float: right;
+    margin-top: 7%;
 }
-
+.explanation-elements h2 {
+    display: inline-block;
+    font-size: 45px;
+    color: white;
+    font-family: 'Raleway';
+}
+.explanation-container p {
+    width: 80%;
+    font-size: 18px;
+    color: white;
+    font-family: 'Raleway';
+    margin-top: 5%;
+}
+.explanation-container button {
+    margin-top: 7%;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 25px;
+    background-color: yellow;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.explanation-container button:hover {
+    transform: translateY(5%);
+    transition-duration: 0.5s;
+    background-color: rgb(252, 252, 113);
+}
+.explanation-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
 
 
 
 
 /* =========================== FOOTER =========================== */
 .footer-class {
-    background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
+
 }
 
 
