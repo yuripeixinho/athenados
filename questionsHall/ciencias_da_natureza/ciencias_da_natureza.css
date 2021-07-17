@@ -97,14 +97,14 @@ body {
 .sub-header {
     background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
     width: 100%;
-    height: 58vh;
+    height: 68vh;
 }
 .sub-headerAbout {
     width: 34%;
     height: 28vh;
     position: relative;
     left: 23%;
-    top: 40%;
+    top: 32%;
     animation-name: subHeader;
     animation-duration: 2s;
 }
@@ -424,10 +424,7 @@ body {
 /* ================= RESPONSIVIDADE ================== */
 @media (max-width: 768px) {
 
-    body {
-        
-    }
-    /* ============================ SUB HEADER ============================ */
+/* ============================ SUB HEADER ============================ */
 .sub-header {
     background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
     width: 100%;
@@ -713,6 +710,10 @@ body {
 
 
 
+@media (min-width: 1200px) and (max-width: 1920px) {
 
+
+
+}
 
 
