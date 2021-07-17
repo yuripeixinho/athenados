@@ -895,6 +895,7 @@ body {
     position: absolute;
     top: -22%;
     left: 10%;
+    visibility: hidden;
 }
 /* ====== NAV ====== */
 .header-class nav {
