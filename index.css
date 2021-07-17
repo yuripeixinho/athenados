@@ -136,12 +136,19 @@
     width: 100%;
 }
 
-.benefits-class h1 {
+.title-benefits {
+    width: 100%;
     text-align: center;
-    font-size: 38px;
-    font-family: 'Raleway';
+    display: inline-block;
+    margin-top: 5%;
     margin-bottom: 5%;
+
 }
+.title-benefits h2 {
+    font-size: 33px;
+    font-family: 'Raleway';
+}
+
 
 
 
@@ -155,7 +162,7 @@
 
 .card {
     width: 20%;
-    padding: 1.5%;
+    padding: 3% 1%;
     margin: 0 auto;
     margin-bottom: 10%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -181,6 +188,10 @@
     text-align: center;
     margin-top: 5%;
     font-family: 'Lato';
+}
+
+.card:hover {
+    
 }
 
 
