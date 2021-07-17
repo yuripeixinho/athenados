@@ -109,7 +109,6 @@
 .main-image-container {
     width: 45%;
     float: left;
-    position: relative;
     text-align: center;
 }
 .main-image-container img {
@@ -134,28 +133,54 @@
 
 /* =========================== MAIN CLASS =========================== */
 .benefits-class {
-    background-color: lightsalmon;
+    width: 100%;
 }
 
 .benefits-class h1 {
     text-align: center;
-    background-color: lightgreen;
+    font-size: 38px;
+    font-family: 'Raleway';
+    margin-bottom: 5%;
 }
 
 
 
 
-
-
+/* ===== CARD CONTAINER ===== */
 .card-container {
-    width: 100%;
-    background-color: lightblue;
+    width: 85%;
     display: flex;
+    margin: 0 auto;
+}
+
+.card {
+    width: 20%;
+    padding: 1.5%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.img-card {
+    text-align: center;
 }
 
 .card img {
-    width: 20%;
-    flex: 1;
+    width: 30%;
+    margin-top: 5%;
+}
+
+.card h3 {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Lato';
+}
+
+.card p {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Lato';
 }
 
 
