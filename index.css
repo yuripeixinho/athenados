@@ -59,6 +59,32 @@
 
 
 
+/* =========================== SUB HEADER =========================== */
+.sub-header {
+    width: 100%;
+    background-color: lightblue;
+    float: left;
+}
+
+.main-text-container {
+    width: 40%;
+    padding: 3% 7% 5%;
+    float: left;
+    background-color: lightgreen;
+}
+.main-text-container h1 {
+    font-size: 55px;
+}
+
+.main-image-container {
+    width: 46%;
+    float: left;
+    background-color: lightcoral;
+}
+.main-image-container img {
+    width: 75%;
+    transform: scaleX(-1);
+}
 
 
 
