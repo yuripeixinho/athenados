@@ -100,6 +100,31 @@
 
 
 
+/* =========================== MAIN CLASS =========================== */
+.benefits-class {
+    background-color: lightsalmon;
+}
+
+.benefits-class h1 {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+
+
+
+
+
+.card-container {
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+}
+
+.card img {
+    width: 20%;
+    flex: 1;
+}
 
 
 
@@ -113,6 +138,41 @@
 
 
 
+/* =========================== EXPLANATION CONTAINER =========================== */
+.explanation-container {
+    background-color: lightcoral;
+    width: 100%;
+}
+
+.explanation-container img {
+    width: 45%;
+    background-color: lightgreen;
+}
+
+.explanation-elements {
+    width: 55%;
+    background-color: lightsalmon;
+    float: right;
+}
+
+
+
+
+
+/* =========================== FOOTER =========================== */
+.footer-class {
+    background-color: lightblue;
+}
+
+
+
+.footer-logo {
+    background-color: lightsalmon;
+    text-align: center;
+}
+.footer-logo img {
+    width: 14%;
+}
 
 
 
@@ -120,13 +180,31 @@
 
 
 
+.footer-content {
+    width: 80%;
+    background-color: lightgreen;
+    margin: 0% auto;
+    padding: 5%;
+}
 
+.athenadosAbout {
+    width: 40%;
+    background-color: lightblue;
+    display: inline-block;
+}
+.links {
+    width: 10%;
+    display: inline-block;
+    background-color: lightblue;
+    margin-left: 5%;
+}
 
-
-
-
-
-
+.developments {
+    background-color: lightblue;
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+}
 
 
 
