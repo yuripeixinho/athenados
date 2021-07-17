@@ -107,13 +107,15 @@
 
 /* ===== IMAGE CONTAINER ===== */
 .main-image-container {
-    width: 50%;
+    width: 45%;
     float: left;
-    background-color: lightblue;
+    position: relative;
+    text-align: center;
 }
 .main-image-container img {
-    width: 75%;
+    width: 64.6%;
     transform: scaleX(-1);
+    filter: invert(100%);
 }
 
 

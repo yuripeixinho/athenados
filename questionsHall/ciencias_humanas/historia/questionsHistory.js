@@ -149,8 +149,8 @@ const questions = [
     question: '(ENEM - 2020) Dois grandes eventos históricos tomaram possível um caso como o de Menocchio: a invenção da impresa e a Reforma. A imprensa lhe permitiu confrontar os livros com a tradição oral em que havia crescido e lhe forneceu as palavras para organizar o amontoado de ideias e fantasias que nele conviviam. A Reforma lhe deu audácia para comunicar o que pensava ao padre do vilarejo, conterrâneos, inquisidores - mesmo não tendo conseguido dizer tudo diante do papa, dos cardeais e dos príncipes, como queria. \n\n\n Os acontecimentos históricos citados ajudaram esse indivíduo, no século XVI, a repensar a visão católica do mundo ao possibilitarem a',
     resolution: 'O protestantismo defendia a livre interpretação dos textos bíblicos.',
     answers: [
-      { text: ' Consulta pública das bibliotecas reais.', correct: false },
-      { text: ' Sofisticação barroca do ritual litúrgico.', correct: false },
+      { text: 'Consulta pública das bibliotecas reais.', correct: false },
+      { text: 'Sofisticação barroca do ritual litúrgico.', correct: false },
       { text: 'Aceitação popular da educação secular.', correct: false },
       { text: 'Interpretação autônoma dos textos bíblicos.', correct: true },
       { text: 'correção doutrinária das heresias medievais.', correct: false },
