@@ -12,7 +12,7 @@
 }
 
 
-/* ========== LOGO  ========== */
+/* ========== LOGO ========== */
 .logo {
     background: url(_image/logoAthenas.png) left /220px no-repeat;
     flex: 3;
@@ -62,24 +62,54 @@
 /* =========================== SUB HEADER =========================== */
 .sub-header {
     width: 100%;
-    background-color: lightblue;
+    background-color: rgb(10, 31, 70);
     float: left;
 }
 
+/* ===== TEXT CONTAINER ===== */
 .main-text-container {
-    width: 40%;
-    padding: 3% 7% 5%;
+    width: 30%;
+    padding: 3% 12% 5%;
     float: left;
-    background-color: lightgreen;
+    margin-top: 2.2%;
 }
 .main-text-container h1 {
     font-size: 55px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: white;
+}
+.main-text-container p {
+    font-size: 18px;
+    font-family: 'Raleway';
+    margin-top: 5%;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1.5px;
 }
 
+
+.main-text-container button {
+    margin-top: 9%;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 25px;
+    background-color: yellow;
+}
+.main-text-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+/* ===== IMAGE CONTAINER ===== */
 .main-image-container {
-    width: 46%;
+    width: 50%;
     float: left;
-    background-color: lightcoral;
+    background-color: lightblue;
 }
 .main-image-container img {
     width: 75%;
@@ -161,13 +191,12 @@
 
 /* =========================== FOOTER =========================== */
 .footer-class {
-    background-color: lightblue;
+    background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
 }
 
 
 
 .footer-logo {
-    background-color: lightsalmon;
     text-align: center;
 }
 .footer-logo img {
@@ -182,25 +211,21 @@
 
 .footer-content {
     width: 80%;
-    background-color: lightgreen;
     margin: 0% auto;
     padding: 5%;
 }
 
 .athenadosAbout {
     width: 40%;
-    background-color: lightblue;
     display: inline-block;
 }
 .links {
     width: 10%;
     display: inline-block;
-    background-color: lightblue;
     margin-left: 5%;
 }
 
 .developments {
-    background-color: lightblue;
     display: inline-block;
     width: 20%;
     margin-left: 5%;

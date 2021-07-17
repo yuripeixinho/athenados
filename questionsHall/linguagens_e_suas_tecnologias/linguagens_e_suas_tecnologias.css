@@ -448,12 +448,13 @@ body {
 }
 
 
-/* ================= RESPONSIVIDADE ================== */
 @media (max-width: 768px) {
 
     body {
         
     }
+    
+
     /* ============================ SUB HEADER ============================ */
 .sub-header {
     background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
@@ -481,10 +482,9 @@ body {
 }
 .sub-headerAbout h1 {
     font-size: 24px;
-    color: rgb(208, 125, 211);
+    color: rgb(244, 222, 96);
     text-transform: uppercase;
     font-family: 'Raleway';
-    margin-bottom: 3.5%;
 }
 
 .sub-headerAbout p {
@@ -517,12 +517,12 @@ body {
 /* ============================ MAIN-CLASS ============================ */
 .main-class {
     width: 100%;
-    height: 105vh;
+    height: 90vh;
 }
 
 .subjective-container {
     width: 70%;
-    height: 103vh;
+    height: 88.5vh;
     margin: 0% auto;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -690,7 +690,12 @@ body {
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
 }
+
 }
+
+
+
+
 
 
 
@@ -708,6 +713,16 @@ body {
         visibility: hidden;
     }
 
+    .subject-cards li {
+        width: 30%;
+        height: 11vh;
+        display: inline-block;
+        margin-top: 1%;
+        margin-left: 2.2%;
+        box-shadow: rgba(0, 0, 0, 0.164) 0px 10px 10px;
+        border-radius: 5px;
+        transition-duration: 0.5s;
+    }
 
     /* ======== MAIN CLASS ======== */
     .subject-cards li {
@@ -730,4 +745,19 @@ body {
     .developments ul {
         visibility: hidden;
     }
+}
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+    .subject-cards li {
+        width: 30%;
+        height: 14vh;
+        display: inline-block;
+        margin-top: 1%;
+        margin-left: 2.2%;
+        box-shadow: rgba(0, 0, 0, 0.164) 0px 10px 10px;
+        border-radius: 5px;
+        transition-duration: 0.5s;
+    }
+
 }
