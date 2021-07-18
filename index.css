@@ -69,9 +69,8 @@
 /* ===== TEXT CONTAINER ===== */
 .main-text-container {
     width: 30%;
-    padding: 3% 12% 5%;
     float: left;
-    margin-top: 2.2%;
+    padding: 5% 12%;
 }
 .main-text-container h1 {
     font-size: 55px;
@@ -116,12 +115,11 @@
 .main-image-container {
     width: 45%;
     float: left;
-    text-align: center;
 }
 .main-image-container img {
-    width: 64.6%;
+    width: 70%;
     transform: scaleX(-1);
-    filter: invert(100%);
+    margin-left: 8%;
 }
 
 
@@ -440,12 +438,123 @@
 
 
 /* =========================== DISPOSITIVOS PEQUENOS =========================== */
-/* MOBILE SMALL */
+
+
+/*============= MOBILE SMALL =============*/
 @media (min-width: 320px) and (max-width: 375px) {
     body {
         background-color: lightblue;
     }
+
+    .header-class {
+        width: 122.5%;
+    }
+
+    .main-image-container img {
+        visibility: hidden;
+    }
+
+
+
+
+
+    .sub-header {
+        width: 122.5%;
+    }
+    
 }
+
+
+
+
+
+
+/*
+ .sub-header {
+    width: 100%;
+    background-color: rgb(10, 31, 70);
+    float: left;
+}
+
+.main-text-container {
+    width: 30%;
+    float: left;
+    padding: 5% 12%;
+}
+.main-text-container h1 {
+    font-size: 55px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: white;
+}
+.main-text-container p {
+    font-size: 18px;
+    font-family: 'Raleway';
+    margin-top: 5%;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+
+.main-text-container button {
+    margin-top: 9%;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 25px;
+    background-color: yellow;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.main-text-container button:hover {
+    transform: translateY(5%);
+    transition-duration: 0.5s;
+    background-color: rgb(252, 252, 113);
+}
+.main-text-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.main-image-container {
+    width: 45%;
+    float: left;
+}
+.main-image-container img {
+    width: 70%;
+    transform: scaleX(-1);
+    margin-left: 8%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MOBILE MEDIUM */
 @media (min-width: 375px) and (max-width: 425px) {
@@ -478,7 +587,7 @@
 /* LAPTOP LARGE */
 @media (min-width: 1440px) and (max-width: 2560px) {
     body {
-        background-color: rgb(3, 3, 3);
+        background-color: rgba(3, 3, 3, 0.322);
     }
 }
 
