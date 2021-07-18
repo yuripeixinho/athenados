@@ -11,9 +11,10 @@ body {
 /* ======= NAV CLASS ======= */
 .header-class2 {
     width: 100%;
-    height: 7vh;
-    background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
+    background-color: rgb(29, 46, 119);
     z-index: 9999;
+    height: 8vh;
+    position: fixed;
 }
 .header-class2 nav {
     text-align: center;
@@ -71,10 +72,11 @@ body {
 /* ============================ NAV SUBJECTIVES ============================ */
 .nav-subjectives {
     width: 100%;
+    margin-top: 3.4%;
     height: 6vh;
-    top: 7%;
     background: radial-gradient(circle, rgba(236,209,107,1) 14%, rgba(218,201,114,1) 52%, rgba(247,233,137,1) 90%);
     z-index: 99999;
+    position: fixed;
 }
 .nav-subjectives nav {
     text-align: center;
@@ -131,39 +133,47 @@ body {
 
 /* ============================ SUB HEADER ============================ */
 .sub-header {
-    background-color: rgb(10, 31, 70);
+    background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
     width: 100%;
-    float: left;
+    display: flex;
+    align-content: flex-end;
 }
 
 .sub-headerAbout {
     width: 34%;
-    background-color: lightblue;
-    float: left;
+    flex: 1;
+    padding: 13% 5% 11% 22.5%;
+    animation-name: subHeader;
+    animation-duration: 2s;
 }
 
 .sub-headerAbout h1 {
-    font-size: 35px;
+    font-size: 36px;
     color: rgb(244, 222, 96);
     text-transform: uppercase;
     font-family: 'Raleway';
+    display: inline-block;
+    margin-bottom: 3%;
 }
 .sub-headerAbout p {
+    width: 92%;
     padding: 2% 0%;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     font-family: 'Poppins';
 }
 
 .sub-headerImage {
-    background-color: rgb(230, 184, 173);
     display: inline-block;
+    flex: 1;
 }
 .sub-headerImage img {
-    width: 30%;
-    margin: 6% 70%;
+    width: 40%;
     filter: invert(100%);
-    background-color: lightcoral;
+    flex: 1;
+    margin-top: 30%;
+    margin-left: 2%;
+    
 }
 
 
@@ -195,127 +205,67 @@ body {
 /* ============================ MAIN-CLASS ============================ */
 .main-class {
     width: 100%;
-    height: 238vh;
 }
 
 .subjective-container {
     width: 70%;
-    height: 200vh;
-    margin: 0% auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 3.5% auto;
+    box-shadow: rgba(32, 32, 32, 0.2) 0px 8px 24px;
+    padding: 5px 0;
 }
 
 
 
 /* ========== CARDS ========== */
-.subject-cards a {
-    text-decoration: none;
-}
 .subject-cards li {
     width: 22%;
-    height: 10vh;
-    display: inline-block;
-    margin-top: 1%;
-    margin-left: 2.2%;
-    box-shadow: rgba(129, 99, 99, 0.164) 0px 10px 10px;
-    border-radius: 5px;
-    transition-duration: 0.5s;
-}
-.subject-cards li:hover {
-    transform: scale(0.9);
-    transition-duration: 1.5s;
-    box-shadow: none;
+    list-style: none;
+    border: 
 }
 
+
+.lih3 {
+    display: flex;
+}
+
+
 .liImage {
-    flex: 0.5;
+    width: 20%;
+    padding: 15px;
 }
 .liImage img {
-    width: 58%;
-    margin-top: 35%;
-    margin-left: 24%;
+    width: 100%;
+    
 }
+
+
 .h3Title {
-    flex: 1;
+    padding-top: 5.5%;
+    padding-left: 12%;
 }
 
 .h3Title h3 {
-    width: 80%;
-    color: black;
-    margin-left: 10%;
-    margin-top: 18%;
-    font-size: 15px;
+    color: rgb(0, 0, 0);
     font-family: 'Lato';
-}
-
-.lih3 {
-    width: 100%;
-    height: 12vh;
-    display: flex;
-
+    font-size: 17px;
 }
 
 
 
-/* ============================ HISTORY ============================ */
-.history {
+
+
+/* ============================ SUBJECTIVES ============================ */
+.history, .geography, .philosophy, .sociology  {
     width: 82%;
-    padding: 4%;
-    margin: 0% auto;
+    margin: 5% auto;
 }
-.history h1 {
-    margin-bottom: 2%;
-    margin-left: 2.5%;
+.history h1, .geography h1, .philosophy h1, .sociology h1 {
+    margin-bottom: 3%;
     font-family: 'Raleway';
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-
-/* ============================ GEOGRAPHY ============================ */
-.geography {
-    width: 82%;
-    padding: 4%;
-    margin: 0% auto;
-}
-.geography h1 {
-    margin-bottom: 2%;
-    margin-left: 2.5%;
-    font-family: 'Raleway';
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-
-/* ============================ PHILOSOPHY ============================ */
-.philosophy {
-    width: 82%;
-    padding: 4%;
-    margin: 0% auto;
-}
-.philosophy h1 {
-    margin-bottom: 2%;
-    margin-left: 2.5%;
-    font-family: 'Raleway';
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-/* ============================ SOCIOLOGY ============================ */
-.sociology {
-    width: 82%;
-    padding: 4%;
-    margin: 0% auto;
-}
-.sociology h1 {
-    margin-bottom: 2%;
-    margin-left: 2.5%;
-    font-family: 'Raleway';
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
 
 
 
@@ -342,6 +292,26 @@ body {
 
 
 /* =========================== FOOTER =========================== */
+.footer-class {
+    background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
+    color: white;
+    padding-bottom: 5% ;
+}
+
+
+
+.footer-logo {
+    text-align: center;
+}
+.footer-logo img {
+    width: 14%;
+}
+
+
+
+
+
+/* ======== FOOTER CONTENT ======== */
 .footer-content {
     width: 70%;
     margin: 0% auto;
@@ -430,7 +400,6 @@ body {
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
 }
-
 
 
 
