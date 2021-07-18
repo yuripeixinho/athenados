@@ -11,9 +11,10 @@ body {
 /* =========================== HEADER =========================== */
 .header-class {
     width: 100%;
-    height: 7vh;
     background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
     z-index: 99999;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* ====== LOGO  ====== */
