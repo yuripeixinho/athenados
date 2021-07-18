@@ -62,7 +62,7 @@
 /* =========================== SUB HEADER =========================== */
 .sub-header {
     width: 100%;
-    background: linear-gradient(90deg, rgb(10, 27, 70) 19%, rgb(25, 42, 117) 52%, rgb(13, 35, 90) 90%);
+    background-color: rgb(58, 102, 211);
     float: left;
 }
 
@@ -80,11 +80,11 @@
 }
 .main-text-container p {
     font-size: 18px;
-    font-family: 'Raleway';
+    font-family: 'Poppins';
     margin-top: 5%;
     color: white;
     font-weight: 400;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 
@@ -172,6 +172,7 @@
     margin-bottom: 10%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition-duration: 1s;
+    border-radius: 20px;
 }
 
 .img-card {
@@ -199,6 +200,7 @@
 .card:hover {
     transform: translateY(15%);
     transition-duration: 1s;
+    box-shadow: none;
 }
 
 
@@ -245,8 +247,10 @@
     width: 80%;
     font-size: 18px;
     color: white;
-    font-family: 'Raleway';
+    font-family: '';
     margin-top: 5%;
+    font-family: 'Poppins';
+
 }
 .explanation-container button {
     margin-top: 7%;
@@ -288,7 +292,7 @@
 .divisoria {
    background-color: rgb(255, 255, 255);
    width: 100%;
-   height: 100vh;
+   height: 80vh;
 }
 
 
@@ -1080,11 +1084,14 @@
     .explanation-container {
         width: 100%;
     }
+    .explanation-container button {
+        margin-bottom: 10%;
+    }
     
     /* ==== DIVISOR ==== */
     .divisoria {
         width: 100%;
-        height: 10vh;
+        height: 20vh;
         float: left;
     }
 
