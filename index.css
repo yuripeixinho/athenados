@@ -433,3 +433,52 @@
 
 
 
+
+
+
+
+
+
+/* =========================== DISPOSITIVOS PEQUENOS =========================== */
+/* MOBILE SMALL */
+@media (min-width: 320px) and (max-width: 375px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* MOBILE MEDIUM */
+@media (min-width: 375px) and (max-width: 425px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+
+/* MOBILE LARGE */
+@media (min-width: 425px) and (max-width: 768px) {
+    body {
+        background-color: rgb(128, 240, 128);
+    }
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: rgb(240, 214, 128);
+    }
+}
+
+/* LAPTOP */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    body {
+        background-color: rgb(240, 128, 231);
+    }
+}
+
+/* LAPTOP LARGE */
+@media (min-width: 1440px) and (max-width: 2560px) {
+    body {
+        background-color: rgb(3, 3, 3);
+    }
+}
+
