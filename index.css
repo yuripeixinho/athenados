@@ -437,7 +437,22 @@
 
 
 
-/* =========================== DISPOSITIVOS PEQUENOS =========================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================== DISPOSITIVOS MOBILE =========================== */
 
 
 /*============= MOBILE SMALL =============*/
@@ -450,7 +465,16 @@
     .header-class {
         width: 100%;
     }
-   
+    .logo {
+        display: none;
+    }
+
+    .header-class nav {
+        text-align: center;
+    }
+    .header-class li {
+        display: block;
+    }
 
     /* ==== SUB-HEADER ==== */
     .sub-header {
@@ -462,19 +486,27 @@
         margin-top: 12%;
     }
     .main-text-container h1 {
-        font-size: 33px;
+        font-size: 26px;
         text-align: center;
     }
     .main-text-container p {
         text-align: center;
-    }
-    .main-text-container button {
-        width: 100%;
+        font-size: 16px;
     }
 
+    .button-sub-header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    .main-text-container button {
+        padding: 10px 20px;
+    }
+    .main-text-container a {
+        font-size: 17px;
+    }
     .main-image-container img {
-        position: absolute;
-        visibility: hidden;
+       display: none;
     }
 
     /* ==== MAIN ==== */
@@ -482,11 +514,18 @@
         width: 100%;
     }
 
+    .title-benefits h2 {
+        font-size: 20px;
+        margin-bottom: 12%;
+        margin-top: 12%;
+    }
+
     .card-container {
         flex-direction: column;
     }
     .card {
         width: 80%;
+        padding: 10px;
     }
 
     /* ==== EXPLANATION CONTAINER ==== */
@@ -494,24 +533,31 @@
         width: 100%;
     }
     .explanation-background img {
-        position: absolute;
-        visibility: hidden;
+        display: none;
     }
-
 
     .explanation-elements {
         width: 100%;
     }
     .explanation-elements h2 {
+        font-size: 22px;
+        display: block;
         text-align: center;
     }
     .explanation-elements p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 20px;
+        width: 87.5%;
+    }
+
+    .button-explanation-elements {
         width: 100%;
-        font-size: 17px;
         text-align: center;
     }
     .explanation-elements button {
-        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 10%;
     }
     
     /* ==== DIVISOR ==== */
@@ -523,154 +569,14 @@
 
     
     /* ==== FOOTER ==== */
-    .footer-class {
-
-    }
-
     .athenadosAbout {
-        visibility: hidden;
-        position: absolute;
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 40%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-/* 
-.footer-class {
-    background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
-    color: white;
-    padding-bottom: 5% ;
-}
-
-
-
-.footer-logo {
-    text-align: center;
-}
-.footer-logo img {
-    width: 14%;
-}
-
-
-
-
-
-.footer-content {
-    width: 70%;
-    margin: 0% auto;
-    border-top: 1px solid rgb(112, 112, 112);
-    border-bottom: 1px solid rgb(112, 112, 112);
-    display: flex;
-    padding: 3.5%;
-}
-
-.athenadosAbout {
-    flex: 1.2;
-    padding: 0 2%;
-}
-
-.athenadosAbout h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-}
-
-.athenadosAbout p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    padding: 1% 0%;
-}
-
-.links {
-    flex: 1;
-    padding: 0 2%;
-    margin-left: 5.5%;
-}
-.links ul {
-    list-style: none;
-}
-.links h5 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-}
-.links li {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-}
-.links a {
-    color: white;
-}
-
-
-.developments {
-    flex: 0.5;
-    padding: 0 2%;
-    list-style: none;
-}
-.developments h5 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-}
-
-.developments ul {
-    list-style: none;
-}
-
-
-.yuripeixinho {
-    margin-top: 12%;
-}
-
-.yagopeixinho a, .yuripeixinho a {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    text-decoration: none;
-}
-
-.yuripeixinho img, .yagopeixinho img {
-    filter: invert(100%);
-}
-
-
-
-.copyright {
-    text-align: center;
-    margin-top: 1.5%;
-    font-weight: 200;
-    font-size: 12px;
-    font-family: 'Raleway', sans-serif;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -686,33 +592,667 @@
     body {
         background-color: lightcoral;
     }
+
+     /* ==== HEADER ==== */
+     .header-class {
+        width: 100%;
+    }
+    .logo {
+        display: none;
+    }
+
+    .header-class nav {
+        text-align: center;
+    }
+    .header-class li {
+        display: block;
+    }
+
+    /* ==== SUB-HEADER ==== */
+    .sub-header {
+        width: 100%;
+    }
+
+    .main-text-container {
+        width: 75%;
+        margin-top: 12%;
+    }
+    .main-text-container h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .main-text-container p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .button-sub-header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    .main-text-container button {
+        padding: 10px 20px;
+    }
+    .main-text-container a {
+        font-size: 17px;
+    }
+    .main-image-container img {
+       display: none;
+    }
+
+    /* ==== MAIN ==== */
+    .main-class {
+        width: 100%;
+    }
+
+    .title-benefits h2 {
+        font-size: 20px;
+        margin-bottom: 12%;
+        margin-top: 12%;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+    .card {
+        width: 80%;
+        padding: 10px;
+    }
+
+    /* ==== EXPLANATION CONTAINER ==== */
+    .explanation-container {
+        width: 100%;
+    }
+    .explanation-background img {
+        display: none;
+    }
+
+    .explanation-elements {
+        width: 100%;
+    }
+    .explanation-elements h2 {
+        font-size: 22px;
+        display: block;
+        text-align: center;
+    }
+    .explanation-elements p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 20px;
+        width: 87.5%;
+    }
+
+    .button-explanation-elements {
+        width: 100%;
+        text-align: center;
+    }
+    .explanation-elements button {
+        padding: 10px 20px;
+        margin-bottom: 10%;
+    }
+    
+    /* ==== DIVISOR ==== */
+    .divisoria {
+        width: 100%;
+        height: 10vh;
+        float: left;
+    }
+
+    
+    /* ==== FOOTER ==== */
+    .athenadosAbout {
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MOBILE LARGE */
 @media (min-width: 425px) and (max-width: 768px) {
     body {
         background-color: rgb(128, 240, 128);
     }
+     /* ==== HEADER ==== */
+     .header-class {
+        width: 100%;
+    }
+    .logo {
+        display: none;
+    }
+
+    .header-class nav {
+        text-align: center;
+    }
+    .header-class li {
+        display: block;
+    }
+
+    /* ==== SUB-HEADER ==== */
+    .sub-header {
+        width: 100%;
+    }
+
+    .main-text-container {
+        width: 75%;
+        margin-top: 12%;
+    }
+    .main-text-container h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .main-text-container p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .button-sub-header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    .main-text-container button {
+        padding: 10px 20px;
+    }
+    .main-text-container a {
+        font-size: 17px;
+    }
+    .main-image-container img {
+       display: none;
+    }
+
+    /* ==== MAIN ==== */
+    .main-class {
+        width: 100%;
+    }
+
+    .title-benefits h2 {
+        font-size: 20px;
+        margin-bottom: 12%;
+        margin-top: 12%;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+    .card {
+        width: 80%;
+        padding: 10px;
+    }
+
+    /* ==== EXPLANATION CONTAINER ==== */
+    .explanation-container {
+        width: 100%;
+    }
+    .explanation-background img {
+        display: none;
+    }
+
+    .explanation-elements {
+        width: 100%;
+    }
+    .explanation-elements h2 {
+        font-size: 22px;
+        display: block;
+        text-align: center;
+    }
+    .explanation-elements p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 20px;
+        width: 87.5%;
+    }
+
+    .button-explanation-elements {
+        width: 100%;
+        text-align: center;
+    }
+    .explanation-elements button {
+        padding: 10px 20px;
+        margin-bottom: 10%;
+    }
+    
+    /* ==== DIVISOR ==== */
+    .divisoria {
+        width: 100%;
+        height: 10vh;
+        float: left;
+    }
+
+    
+    /* ==== FOOTER ==== */
+    .athenadosAbout {
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
     body {
         background-color: rgb(240, 214, 128);
     }
+
+     /* ==== HEADER ==== */
+     .header-class {
+        width: 100%;
+    }
+    .logo {
+        display: none;
+    }
+
+    .header-class nav {
+        text-align: center;
+    }
+    .header-class li {
+        display: block;
+    }
+
+    /* ==== SUB-HEADER ==== */
+    .sub-header {
+        width: 100%;
+    }
+
+    .main-text-container {
+        width: 75%;
+        margin-top: 12%;
+    }
+    .main-text-container h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .main-text-container p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .button-sub-header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    .main-text-container button {
+        padding: 10px 20px;
+    }
+    .main-text-container a {
+        font-size: 17px;
+    }
+    .main-image-container img {
+       display: none;
+    }
+
+    /* ==== MAIN ==== */
+    .main-class {
+        width: 100%;
+    }
+
+    .title-benefits h2 {
+        font-size: 20px;
+        margin-bottom: 12%;
+        margin-top: 12%;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+    .card {
+        width: 80%;
+        padding: 10px;
+    }
+
+    /* ==== EXPLANATION CONTAINER ==== */
+    .explanation-container {
+        width: 100%;
+    }
+    .explanation-background img {
+        display: none;
+    }
+
+    .explanation-elements {
+        width: 100%;
+    }
+    .explanation-elements h2 {
+        font-size: 22px;
+        display: block;
+        text-align: center;
+    }
+    .explanation-elements p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 20px;
+        width: 87.5%;
+    }
+
+    .button-explanation-elements {
+        width: 100%;
+        text-align: center;
+    }
+    .explanation-elements button {
+        padding: 10px 20px;
+        margin-bottom: 10%;
+    }
+    
+    /* ==== DIVISOR ==== */
+    .divisoria {
+        width: 100%;
+        height: 10vh;
+        float: left;
+    }
+
+    
+    /* ==== FOOTER ==== */
+    .athenadosAbout {
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
 }
 
+
+
+
+
+
+/* =========================== LAPTOP =========================== */
 /* LAPTOP */
 @media (min-width: 1024px) and (max-width: 1440px) {
     body {
         background-color: rgb(240, 128, 231);
     }
+
+     /* ==== HEADER ==== */
+     .header-class {
+        width: 100%;
+    }
+    .logo {
+        display: none;
+    }
+
+    .header-class nav {
+        text-align: center;
+    }
+    .header-class li {
+        display: block;
+    }
+
+    /* ==== SUB-HEADER ==== */
+    .sub-header {
+        width: 100%;
+    }
+
+    .main-text-container {
+        width: 75%;
+        margin-top: 12%;
+    }
+    .main-text-container h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .main-text-container p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .button-sub-header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    .main-text-container button {
+        padding: 10px 20px;
+    }
+    .main-text-container a {
+        font-size: 17px;
+    }
+    .main-image-container img {
+       display: none;
+    }
+
+    /* ==== MAIN ==== */
+    .main-class {
+        width: 100%;
+    }
+
+    .title-benefits h2 {
+        font-size: 20px;
+        margin-bottom: 12%;
+        margin-top: 12%;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+    .card {
+        width: 80%;
+        padding: 10px;
+    }
+
+    /* ==== EXPLANATION CONTAINER ==== */
+    .explanation-container {
+        width: 100%;
+    }
+    .explanation-background img {
+        display: none;
+    }
+
+    .explanation-elements {
+        width: 100%;
+    }
+    .explanation-elements h2 {
+        font-size: 22px;
+        display: block;
+        text-align: center;
+    }
+    .explanation-elements p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 20px;
+        width: 87.5%;
+    }
+
+    .button-explanation-elements {
+        width: 100%;
+        text-align: center;
+    }
+    .explanation-elements button {
+        padding: 10px 20px;
+        margin-bottom: 10%;
+    }
+    
+    /* ==== DIVISOR ==== */
+    .divisoria {
+        width: 100%;
+        height: 10vh;
+        float: left;
+    }
+
+    
+    /* ==== FOOTER ==== */
+    .athenadosAbout {
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* LAPTOP LARGE */
 @media (min-width: 1440px) and (max-width: 2560px) {
     body {
         background-color: rgba(3, 3, 3, 0.322);
     }
-}
 
+     /* ==== HEADER ==== */
+     .header-class {
+        width: 100%;
+    }
+    .logo {
+        display: none;
+    }
+
+    .header-class nav {
+        text-align: center;
+    }
+    .header-class li {
+        display: block;
+    }
+
+    /* ==== SUB-HEADER ==== */
+    .sub-header {
+        width: 100%;
+    }
+
+    .main-text-container {
+        width: 75%;
+        margin-top: 12%;
+    }
+    .main-text-container h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .main-text-container p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .button-sub-header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+    .main-text-container button {
+        padding: 10px 20px;
+    }
+    .main-text-container a {
+        font-size: 17px;
+    }
+    .main-image-container img {
+       display: none;
+    }
+
+    /* ==== MAIN ==== */
+    .main-class {
+        width: 100%;
+    }
+
+    .title-benefits h2 {
+        font-size: 20px;
+        margin-bottom: 12%;
+        margin-top: 12%;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+    .card {
+        width: 80%;
+        padding: 10px;
+    }
+
+    /* ==== EXPLANATION CONTAINER ==== */
+    .explanation-container {
+        width: 100%;
+    }
+    .explanation-background img {
+        display: none;
+    }
+
+    .explanation-elements {
+        width: 100%;
+    }
+    .explanation-elements h2 {
+        font-size: 22px;
+        display: block;
+        text-align: center;
+    }
+    .explanation-elements p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 20px;
+        width: 87.5%;
+    }
+
+    .button-explanation-elements {
+        width: 100%;
+        text-align: center;
+    }
+    .explanation-elements button {
+        padding: 10px 20px;
+        margin-bottom: 10%;
+    }
+    
+    /* ==== DIVISOR ==== */
+    .divisoria {
+        width: 100%;
+        height: 10vh;
+        float: left;
+    }
+
+    
+    /* ==== FOOTER ==== */
+    .athenadosAbout {
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
+}
