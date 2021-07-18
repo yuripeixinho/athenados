@@ -452,6 +452,36 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* =========================== DISPOSITIVOS MOBILE =========================== */
 
 
@@ -1005,42 +1035,35 @@
         background-color: rgb(240, 128, 231);
     }
 
-     /* ==== HEADER ==== */
+    /* ==== HEADER ==== */
      .header-class {
         width: 100%;
     }
     .logo {
-        display: none;
+        background: url(_image/logoAthenas.png) left /130px no-repeat;
+    }
+    
+    .header-class a {
+        font-size: 11px;
     }
 
-    .header-class nav {
-        text-align: center;
-    }
-    .header-class li {
-        display: block;
-    }
+   
 
     /* ==== SUB-HEADER ==== */
     .sub-header {
         width: 100%;
     }
 
-    .main-text-container {
-        width: 75%;
-        margin-top: 12%;
-    }
     .main-text-container h1 {
-        font-size: 26px;
-        text-align: center;
+        font-size: 35px;
     }
     .main-text-container p {
-        text-align: center;
         font-size: 16px;
+        width: 110%;
     }
 
     .button-sub-header {
         width: 100%;
-        text-align: center;
         margin-bottom: 15%;
     }
     .main-text-container button {
@@ -1049,59 +1072,12 @@
     .main-text-container a {
         font-size: 17px;
     }
-    .main-image-container img {
-       display: none;
-    }
 
-    /* ==== MAIN ==== */
-    .main-class {
-        width: 100%;
-    }
-
-    .title-benefits h2 {
-        font-size: 20px;
-        margin-bottom: 12%;
-        margin-top: 12%;
-    }
-
-    .card-container {
-        flex-direction: column;
-    }
-    .card {
-        width: 80%;
-        padding: 10px;
-    }
+    
 
     /* ==== EXPLANATION CONTAINER ==== */
     .explanation-container {
         width: 100%;
-    }
-    .explanation-background img {
-        display: none;
-    }
-
-    .explanation-elements {
-        width: 100%;
-    }
-    .explanation-elements h2 {
-        font-size: 22px;
-        display: block;
-        text-align: center;
-    }
-    .explanation-elements p {
-        font-size: 14px;
-        text-align: center;
-        padding: 0 20px;
-        width: 87.5%;
-    }
-
-    .button-explanation-elements {
-        width: 100%;
-        text-align: center;
-    }
-    .explanation-elements button {
-        padding: 10px 20px;
-        margin-bottom: 10%;
     }
     
     /* ==== DIVISOR ==== */
@@ -1118,141 +1094,8 @@
     }
 
     .footer-logo img {
-        width: 40%;
+        width: 20%;
     }
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* LAPTOP LARGE */
-@media (min-width: 1440px) and (max-width: 2560px) {
-    body {
-        background-color: rgba(3, 3, 3, 0.322);
-    }
-
-     /* ==== HEADER ==== */
-     .header-class {
-        width: 100%;
-    }
-    .logo {
-        display: none;
-    }
-
-    .header-class nav {
-        text-align: center;
-    }
-    .header-class li {
-        display: block;
-    }
-
-    /* ==== SUB-HEADER ==== */
-    .sub-header {
-        width: 100%;
-    }
-
-    .main-text-container {
-        width: 75%;
-        margin-top: 12%;
-    }
-    .main-text-container h1 {
-        font-size: 26px;
-        text-align: center;
-    }
-    .main-text-container p {
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .button-sub-header {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 15%;
-    }
-    .main-text-container button {
-        padding: 10px 20px;
-    }
-    .main-text-container a {
-        font-size: 17px;
-    }
-    .main-image-container img {
-       display: none;
-    }
-
-    /* ==== MAIN ==== */
-    .main-class {
-        width: 100%;
-    }
-
-    .title-benefits h2 {
-        font-size: 20px;
-        margin-bottom: 12%;
-        margin-top: 12%;
-    }
-
-    .card-container {
-        flex-direction: column;
-    }
-    .card {
-        width: 80%;
-        padding: 10px;
-    }
-
-    /* ==== EXPLANATION CONTAINER ==== */
-    .explanation-container {
-        width: 100%;
-    }
-    .explanation-background img {
-        display: none;
-    }
-
-    .explanation-elements {
-        width: 100%;
-    }
-    .explanation-elements h2 {
-        font-size: 22px;
-        display: block;
-        text-align: center;
-    }
-    .explanation-elements p {
-        font-size: 14px;
-        text-align: center;
-        padding: 0 20px;
-        width: 87.5%;
-    }
-
-    .button-explanation-elements {
-        width: 100%;
-        text-align: center;
-    }
-    .explanation-elements button {
-        padding: 10px 20px;
-        margin-bottom: 10%;
-    }
-    
-    /* ==== DIVISOR ==== */
-    .divisoria {
-        width: 100%;
-        height: 10vh;
-        float: left;
-    }
-
-    
-    /* ==== FOOTER ==== */
-    .athenadosAbout {
-        display: none;
-    }
-
-    .footer-logo img {
-        width: 40%;
-    }
-}
