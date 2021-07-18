@@ -12,7 +12,7 @@ body {
 .header-class2 {
     width: 100%;
     height: 7vh;
-    background-color: rgb(29, 46, 119);
+    background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
     z-index: 9999;
 }
 .header-class2 nav {
@@ -48,6 +48,22 @@ body {
 #humanasHover:hover {
     color: rgb(244, 222, 96);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -94,58 +110,84 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ============================ SUB HEADER ============================ */
 .sub-header {
-    background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
+    background-color: rgb(10, 31, 70);
     width: 100%;
-}
-.sub-headerAbout {
-    width: 34%;
-    margin-left: 12%;
-    animation-name: subHeader;
-    animation-duration: 2s;
-    
+    float: left;
 }
 
-@keyframes subHeader {
-    from {
-        top: 60%;
-        opacity: 0%;
-    } 
-    to {
-        bottom: 0%;
-        opacity: 100%;
-    }
+.sub-headerAbout {
+    width: 34%;
+    background-color: lightblue;
+    float: left;
 }
+
 .sub-headerAbout h1 {
     font-size: 35px;
     color: rgb(244, 222, 96);
     text-transform: uppercase;
     font-family: 'Raleway';
 }
-
 .sub-headerAbout p {
     padding: 2% 0%;
     font-size: 15px;
     color: white;
     font-family: 'Poppins';
 }
+
+.sub-headerImage {
+    background-color: rgb(230, 184, 173);
+    display: inline-block;
+}
 .sub-headerImage img {
-    width: 14%;
+    width: 30%;
     margin: 6% 70%;
-    animation-duration: 2s;
-    animation-name: subHeaderImage;
     filter: invert(100%);
+    background-color: lightcoral;
 }
-@keyframes subHeaderImage {
-    from {
-        top: 30%;
-        opacity: 0%;
-    } to {
-        bottom: 0%;
-        opacity: 100%;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -279,55 +321,60 @@ body {
 
 
 
-/* =========================== FOOTER =========================== */
-.footer-class {
-    width: 100%;
-    height: 41vh;
-    margin-top: 0;
-    background-color: rgb(6, 15, 53);
-    color: white;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================== FOOTER =========================== */
 .footer-content {
-    width: 60%; 
-    position: relative;
-    top: -6%;
-    margin: auto;
+    width: 70%;
+    margin: 0% auto;
     border-top: 1px solid rgb(112, 112, 112);
     border-bottom: 1px solid rgb(112, 112, 112);
-    padding: 4% 10%;
+    display: flex;
+    padding: 3.5%;
 }
 
 .athenadosAbout {
-    width: 40%;
-    margin-left: -12%;
+    flex: 1.2;
+    padding: 0 2%;
 }
+
 .athenadosAbout h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 28px;
 }
+
 .athenadosAbout p {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     padding: 1% 0%;
 }
 
-
-
-
-.footer-logo img{ 
-    width: 12%;
-    margin-left: 44%;
+/* ======== ABOUT ======== */
+.links {
+    flex: 1;
+    padding: 0 2%;
+    margin-left: 5.5%;
 }
-
-
-
-
 .links ul {
-    position: absolute;
     list-style: none;
-    top: 31%;
-    left: 38%;
 }
 .links h5 {
     font-family: 'Raleway', sans-serif;
@@ -342,21 +389,25 @@ body {
 }
 
 
-
-
-.developments ul {
+/* ======== DESENVOLVEDORES ======== */
+.developments {
+    flex: 0.5;
+    padding: 0 2%;
     list-style: none;
-    position: absolute;
-    left: 53%;
-    top: 31%;
 }
 .developments h5 {
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
 }
 
+.developments ul {
+    list-style: none;
+}
 
 
+.yuripeixinho {
+    margin-top: 12%;
+}
 
 .yagopeixinho a, .yuripeixinho a {
     color: white;
@@ -365,20 +416,16 @@ body {
     text-decoration: none;
 }
 
-.yuripeixinho {
-    position: absolute;
-    left: 20%;
-    bottom: 2.8%;
-}
-
 .yuripeixinho img, .yagopeixinho img {
     filter: invert(100%);
 }
 
+
+
+/* ======== DIREITOS AUTORAIS ======== */
 .copyright {
-    position: absolute;
-    left: 84%;
-    bottom: -12%;
+    text-align: center;
+    margin-top: 1.5%;
     font-weight: 200;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
