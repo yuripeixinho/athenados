@@ -47,7 +47,19 @@
 }
 
 
+/* ========= MOBILE NAV ========= */
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
 
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
 
 
 
@@ -412,3 +424,232 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* =========================== DISPOSITIVOS MOBILE =========================== */
+
+
+/*============= MOBILE SMALL =============*/
+@media (min-width: 320px) and (max-width: 375px) {
+    body {
+        background-color: lightblue;
+        overflow-x: hidden;
+    }
+
+    .header-class2 {
+        padding: 2px;
+    }
+
+    .header-class2 ul {
+        position: absolute;
+        top: 8vh;
+        right: 0%;
+        width: 50vw;
+        height: 92vh;
+        background-color: lightblue;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .header-class2 li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    .mobile-menu.active .line2 {
+        opacity: 0;
+    }
+    .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+
+    }
+
+
+    
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px)
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+
+
+
+
+
+
+    .nav-subjectives {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+    .sub-header img {
+        display: none;
+    }
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ==== FOOTER ==== */
+    .athenadosAbout {
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
+
+  
+}
+
+
+
+
+
+
+
+
+/* MOBILE MEDIUM */
+@media (min-width: 375px) and (max-width: 425px) {
+    body {
+        background-color: lightcoral;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE LARGE */
+@media (min-width: 425px) and (max-width: 768px) {
+    body {
+        background-color: rgb(128, 240, 128);
+    }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: rgb(240, 214, 128);
+    }
+
+}
+
+
+
+
+
+
+/* =========================== LAPTOP =========================== */
+/* LAPTOP */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    body {
+        background-color: rgb(240, 128, 231);
+    }
+
+
+}
