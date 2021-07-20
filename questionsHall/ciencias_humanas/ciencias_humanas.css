@@ -445,20 +445,19 @@
         overflow-x: hidden;
     }
 
+
+    /* =========== HEADER =========== */
     .header-class2 {
         padding: 2px;
     }
 
     .header-class2 ul {
         position: absolute;
-        top: 8vh;
+        top: 7.3vh;
         right: 0%;
-        width: 50vw;
-        height: 92vh;
-        background-color: lightblue;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        width: 102vw;
+        height: 93vh;
+        background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
     }
@@ -466,6 +465,12 @@
     .header-class2 li {
         margin-left: 0;
         opacity: 0;
+        display: block;
+        margin-top: 12%;
+        padding: 10px;
+    }
+    #tracinho {
+        visibility: hidden;
     }
 
     .mobile-menu {
@@ -484,8 +489,6 @@
     }
 
 
-    
-
     .nav-list.active {
         transform: translateX(0);
     }
@@ -502,11 +505,6 @@
     }
 
 
-
-
-
-
-
     .nav-subjectives {
         display: none;
     }
@@ -514,50 +512,62 @@
 
 
 
-
-
-
-
-
-
-    .sub-header img {
+    /* =========== SUB HEADER =========== */
+    .sub-headerAbout {
+        padding: 12% 5% 7.5% 6%;
+        margin-top: 12%;
+    }
+    .sub-headerAbout h1 {
+        font-size: 24px;
+        display: block;
+        text-align: center;
+    }
+    .sub-headerAbout p {
+        width: 100%;
+        padding: 2% 0%;
+        font-size: 12px;
+        color: white;
+        font-family: 'Poppins';
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .sub-headerImage {
         display: none;
     }
 
 
 
 
+    /* =========== MAIN CLASS =========== */
 
+    .subjective-container {
+        width: 100%;
+    }
 
+    .subject-cards li {
+        width: 100px;
+    }
+
+    .liImage {
+        display: none;
+    }
     
+    .h3Title h3 {
+        font-size: 12px;
+    }
 
+    .history, .geography, .philosophy, .sociology  {
+        width: 82%;
+        margin: 10% auto;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .history h1, .geography h1, .philosophy h1, .sociology h1 {
+        margin-bottom: 5%;
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+ 
+    
     /* ==== FOOTER ==== */
     .athenadosAbout {
         display: none;
