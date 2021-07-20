@@ -224,13 +224,25 @@
 
 
 /* ========== CARDS ========== */
+.subject-cards {
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-top: 2.2%;
+}
+
+.subject-cards a {
+    text-decoration: none;
+}
+
 .subject-cards li {
-    width: 230px;
+    width: 220px;
     list-style: none;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.164) 0px 10px 10px;
     border-radius: 5px;
     transition-duration: 0.5s;
+    margin-left: 21%;
+    
 }
 .subject-cards li:hover {
     transform: scale(0.9);
@@ -238,10 +250,10 @@
     box-shadow: none;
 }
 
-
 .lih3 {
     display: flex;
     padding: 8px;
+
 }
 
 
@@ -264,26 +276,27 @@
     font-family: 'Lato';
     font-size: 16px;
 }
-.subject-cards a {
-    text-decoration: none;
-}
 
 
 
 
 
 /* ============================ SUBJECTIVES ============================ */
-.history, .geography, .philosophy, .sociology  {
-    width: 82%;
-    margin: 5% auto;
+.geography, .philosophy, .sociology  {
+    width: 86%;
+    margin: 12% auto;
 }
 .history h1, .geography h1, .philosophy h1, .sociology h1 {
-    margin-bottom: 3%;
     font-family: 'Raleway';
     letter-spacing: 2px;
     text-transform: uppercase;
-}
+    text-align: center;
 
+}
+.history {
+    width: 86%;
+    margin: 0% auto;
+}
 
 
 
@@ -1083,6 +1096,17 @@
 
     .history h1, .geography h1, .philosophy h1, .sociology h1 {
         margin-bottom: 5%;
+    }
+
+    .subject-cards li {
+        width: 200px;
+        list-style: none;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.164) 0px 10px 10px;
+        border-radius: 5px;
+        transition-duration: 0.5s;
+        margin-left: 6%;
+        
     }
 
 }

@@ -127,14 +127,13 @@ function clearStatusClass(element) {
 }
 
 function resolutionStatusOff() {
-  document.getElementById('resolution').style.visibility = 'hidden';
+  document.getElementById('resolution').style.display = 'none';
   
 }
 
 function resolutionStatusOn() {
-  document.getElementById('resolution').style.visibility = 'visible';
+  document.getElementById('resolution').style.display = 'block';
 }
-
 
 
 
