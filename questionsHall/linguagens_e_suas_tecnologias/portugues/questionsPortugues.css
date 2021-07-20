@@ -3,41 +3,46 @@
   margin: 0%;
 }
 body {
-  background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(223,223,223,1) 20%, rgba(224,224,224,1) 41%, rgba(229,219,219,1) 62%, rgba(229,229,229,1) 100%);
+  /* background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(223,223,223,1) 20%, rgba(224,224,224,1) 41%, rgba(229,219,219,1) 62%, rgba(229,229,229,1) 100%); */
 }
 
   
 /* =========================== HEADER =========================== */
 .header-class {
   width: 100%;
-  height: 7vh;
-  background: linear-gradient(90deg, rgb(9, 35, 99) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
+  background-color: rgb(29, 46, 119);
+  display: flex;
 }
 
-/* ====== LOGO  ====== */
-.logo-class {
-  width: 58%;
-  position: absolute;
-  bottom: 89.7%;
-  left: 5.4%;
-   
-  
+
+/* ========== LOGO ========== */
+.logo {
+  background: url(../../../_image/logoAthenas.png) left /130px no-repeat;
+  flex: 3;
 }
-/* ====== NAV ====== */
-.header-class nav {
-  width: 13%;
-  position: relative;
+.logo h1 {
+  padding: 2.5% 3%;
   display: inline-block;
-  left: 79.8%;
-  top: 34%;
+  opacity: 0%;
+}
+
+
+
+/* ========== NAV ========== */
+.header-class nav {
+  flex: 5;
+  text-align: end;
+  padding: 1.2% 2.5%;
 }
 .header-class ul {
   list-style: none;
 }
+
 .header-class li {
   display: inline-block;
-  margin-left: 1.8%;
+  padding-left: 2.5%;
 }
+
 .header-class a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -66,7 +71,6 @@ body {
 
 
 
-
 /* ======================== QUESTIONS CONTAINER ========================= */
 :root {
   --hue-neutral: 21;
@@ -78,9 +82,9 @@ body {
   .container {
     width: 80%;
     padding: 2.5%;
-    margin: 2% auto;
+    margin: 5% auto;
     background-color: rgb(248, 247, 247);
-    border-radius: 15px;
+    border-radius: 5px;
     border: 1.5px solid rgb(233, 233, 233);
   }
 
@@ -97,8 +101,8 @@ body {
   #resolution {
     width: 96%;
     padding: 2%;
-    border-radius: 12px;
-    visibility: hidden;
+    border-radius: 4px;
+    display: none;
     font-size: 18px;
     margin-top: 2%;
     font-family: 'Arial', Times, serif;
@@ -110,7 +114,6 @@ body {
 
   .next-btn {
     width: 10%;
-    height: 4.5vh;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
@@ -142,12 +145,10 @@ body {
   
 }
 
-  
-
-  .btn-grid {
-    display: grid;
-    grid-template-columns: max-content;
-  }
+.btn-grid {
+  display: grid;
+  grid-template-columns: max-content;
+}
   
   
   
@@ -246,126 +247,226 @@ body {
 
 
 
+/* =========================== RESPONSIVIDADE =========================== */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  @media (max-width: 768px) { 
-    .btn-grid {
-      display: grid;
-      grid-template-columns: 100%;
+/*============= MOBILE SMALL =============*/
+  @media (min-width: 320px) and (max-width: 375px) {
+    body {
+      background-color: lightsteelblue;
     }
 
+
+    /* ===== HEADER CLASS ===== */
+    .logo {
+      display: none;
+    }
+    
+    .header-class ul {
+      text-align: center;
+      margin-left: 4%;
+    }
+    .header-class a {
+      font-size: 11px;
+    }
+
+
+    /* ====== CONTAINER INICIAL ======== */
+    .start-btn {
+      width: 100px;
+      margin-bottom: 3%;
+    }
+
+    button.btn {
+      font-size: 14px;
+    }
+  
+    /* ====== GRID DE ALTERNATIVAS =======*/
+    .container {
+      width: 90%;
+    }
+    #question {
+      width: 88%;
+      font-size: 13.5px;
+      margin-bottom: 2%;
+      padding: 6%;
+    }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: 98%;
+    }
+ 
     .next-btn {
-      width: 30%;
-      height: 6vh;
+      width: 100px;
       font-size: 1.5rem;
       font-weight: bold;
       padding: 10px 20px;
       z-index: 10000;
       transition: 0.3s;
       box-shadow: 0px 8px rgb(192, 192, 192);
-      margin-bottom: 2%;
+      margin-bottom: 3%;
+    }
+    button.btn {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
     }
 
-    .start-btn {
-      height: 6vh;
-      width: 30%;
-      font-size: 1.5rem;
-      font-weight: bold;
-      padding: 10px 20px;
-      z-index: 9999;
-      transition: 0.3s;
-      box-shadow: 0px 8px rgb(192, 192, 192);
-      margin-bottom: 2%;
-    }
-  }
 
- 
+    /* ======= RESOLUTION CONTAINER ======= */
+    #resolution {
+      width: 90.5%;
+      padding: 14px;
+      border-radius: 4px;
+      font-size: 13.5px;
+      margin-top: 2%;
+      font-family: 'Arial', Times, serif;
+      border: 1px solid rgba(255, 255, 255, 0);
+      text-align: justify;
+      background: linear-gradient(90deg, rgb(21, 50, 126) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
+      color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE MEDIUM */
+@media (min-width: 375px) and (max-width: 425px) {
+    body {
+      background-color: maroon;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE LARGE */
+@media (min-width: 425px) and (max-width: 768px) {
+    body {
+      background-color: green
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+      background-color: yellow;
+    }
+
+    
+}
+
+
+
+
+
+
+/* =========================== LAPTOP =========================== */
+/* LAPTOP */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    body {
+      background-color: lightseagreen;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
-@media (min-width: 768px) and (max-width: 1200px) {
-  .btn-grid {
-    display: grid;
-    grid-template-columns: 100%;
-  }
 
-  .next-btn {
-    width: 24%;
-    height: 6vh;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    z-index: 10000;
-    transition: 0.3s;
-    box-shadow: 0px 8px rgb(192, 192, 192);
-    margin-bottom: 2%;
-  }
 
-  .start-btn {
-    width: 24%;
-    height: 6vh;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    z-index: 9999;
-    transition: 0.3s;
-    box-shadow: 0px 8px rgb(192, 192, 192);
-    margin-bottom: 2%;
-  }
-}
 
-@media (min-width: 1200px) and (max-width: 1920px) {
-  .next-btn {
-    width: 14%;
-    height: 6vh;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    z-index: 10000;
-    transition: 0.3s;
-    box-shadow: 0px 8px rgb(192, 192, 192);
-    margin-bottom: 2%;
-  }
 
-  .start-btn {
-    width: 14%;
-    height: 6vh;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    z-index: 9999;
-    transition: 0.3s;
-    box-shadow: 0px 8px rgb(192, 192, 192);
-    margin-bottom: 2%;
-  }
 
-}
+
+
 
   
   

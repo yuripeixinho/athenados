@@ -13,7 +13,7 @@
 
 /* ========== LOGO ========== */
 .logo {
-    background: url(_image/logoAthenas.png) left /220px no-repeat;
+    background: url(/_image/athenadosLogo.png) left /220px no-repeat;
     flex: 3;
 }
 .logo h1 {
