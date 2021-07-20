@@ -253,7 +253,7 @@ body {
 /*============= MOBILE SMALL =============*/
   @media (min-width: 320px) and (max-width: 375px) {
     body {
-      background-color: lightsteelblue;
+      background-color: rgb(255, 0, 0);
     }
 
 
@@ -350,11 +350,82 @@ body {
 /* MOBILE MEDIUM */
 @media (min-width: 375px) and (max-width: 425px) {
     body {
-      background-color: maroon;
+      background-color: lightseagreen;
     }
 
+    /* ===== HEADER CLASS ===== */
+    .logo {
+      display: none;
+    }
     
+    .header-class ul {
+      text-align: center;
+      margin-left: 4%;
+    }
+    .header-class a {
+      font-size: 12px;
+    }
+
+
+    /* ====== CONTAINER INICIAL ======== */
+    .start-btn {
+      width: 100px;
+      margin-bottom: 3%;
+    }
+
+    button.btn {
+      font-size: 15px;
+    }
+  
+    /* ====== GRID DE ALTERNATIVAS =======*/
+    .container {
+      width: 90%;
+    }
+    #question {
+      width: 88%;
+      font-size: 14px;
+      margin-bottom: 2%;
+      padding: 6%;
+    }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: 98%;
+    }
+ 
+    .next-btn {
+      width: 100px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding: 10px 20px;
+      z-index: 10000;
+      transition: 0.3s;
+      box-shadow: 0px 8px rgb(192, 192, 192);
+      margin-bottom: 3%;
+    }
+    button.btn {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+    }
+
+
+    /* ======= RESOLUTION CONTAINER ======= */
+    #resolution {
+      width: 90.5%;
+      padding: 14px;
+      border-radius: 4px;
+      font-size: 14px;
+      margin-top: 2%;
+      font-family: 'Arial', Times, serif;
+      border: 1px solid rgba(255, 255, 255, 0);
+      text-align: justify;
+      background: linear-gradient(90deg, rgb(21, 50, 126) 19%, rgb(35, 51, 126) 52%, rgb(24, 46, 102) 90%);
+      color: white;
+    }
 }
+
+    
+
 
 
 
