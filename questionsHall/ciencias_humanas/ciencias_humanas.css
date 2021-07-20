@@ -862,7 +862,7 @@
 
     /* =========== MAIN CLASS =========== */
     .subjective-container {
-        width: 100%;
+        width: 95%;
     }
 
     .subject-cards li {
@@ -874,8 +874,8 @@
     }
     
     .h3Title h3 {
-        font-size: 17px;
-        padding-right: 3%;
+        font-size: 15px;
+        padding-bottom: 5px;
     }
 
     .history, .geography, .philosophy, .sociology  {
@@ -885,7 +885,7 @@
 
     .history h1, .geography h1, .philosophy h1, .sociology h1 {
         margin-bottom: 5%;
-        font-size: 30px;
+        font-size: 27px;
     }
  
     
