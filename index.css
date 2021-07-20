@@ -6,7 +6,6 @@
 /* =========================== HEADER =========================== */
 .header-class {
     width: 100%;
-    height: 7vh;
     background-color: rgb(29, 46, 119);
     display: flex;
 }

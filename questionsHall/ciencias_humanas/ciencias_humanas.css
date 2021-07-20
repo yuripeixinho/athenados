@@ -142,7 +142,7 @@ body {
 .sub-headerAbout {
     width: 34%;
     flex: 1;
-    padding: 13% 5% 11% 22.5%;
+    padding: 13% 5% 7.5% 22.5%;
     animation-name: subHeader;
     animation-duration: 2s;
 }
