@@ -453,7 +453,7 @@
 
     .header-class2 ul {
         position: absolute;
-        top: 7.3vh;
+        top: 7.1vh;
         right: 0%;
         width: 102vw;
         height: 93vh;
@@ -524,10 +524,7 @@
     }
     .sub-headerAbout p {
         width: 100%;
-        padding: 2% 0%;
         font-size: 12px;
-        color: white;
-        font-family: 'Poppins';
         text-align: center;
         margin-bottom: 10%;
     }
@@ -563,7 +560,6 @@
 
     .history h1, .geography h1, .philosophy h1, .sociology h1 {
         margin-bottom: 5%;
-        text-transform: uppercase;
         font-size: 22px;
     }
  
@@ -587,13 +583,160 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE MEDIUM */
 @media (min-width: 375px) and (max-width: 425px) {
     body {
         background-color: lightcoral;
+        overflow-x: hidden;
+
     }
 
+    /* =========== HEADER =========== */
+    .header-class2 {
+        padding: 2px;
+    }
+
+    .header-class2 ul {
+        position: absolute;
+        top: 7.1vh;
+        right: 0%;
+        width: 102vw;
+        height: 93vh;
+        background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .header-class2 li {
+        margin-left: 0;
+        opacity: 0;
+        display: block;
+        margin-top: 12%;
+        padding: 10px;
+    }
+    #tracinho {
+        visibility: hidden;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    .mobile-menu.active .line2 {
+        opacity: 0;
+    }
+    .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+
+    }
+
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px)
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+
+    .nav-subjectives {
+        display: none;
+    }
+
+
+
+
+    /* =========== SUB HEADER =========== */
+    .sub-headerAbout {
+        padding: 12% 5% 7.5% 6%;
+        margin-top: 12%;
+    }
+    .sub-headerAbout h1 {
+        font-size: 24px;
+        display: block;
+        text-align: center;
+    }
+    .sub-headerAbout p {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .sub-headerImage {
+        display: none;
+    }
+
+
+
+
+    /* =========== MAIN CLASS =========== */
+    .subjective-container {
+        width: 100%;
+    }
+
+    .subject-cards li {
+        width: 120px;
+    }
+
+    .liImage {
+        display: none;
+    }
+    
+    .h3Title h3 {
+        font-size: 14px;
+    }
+
+    .history, .geography, .philosophy, .sociology  {
+        width: 82%;
+        margin: 10% auto;
+    }
+
+    .history h1, .geography h1, .philosophy h1, .sociology h1 {
+        margin-bottom: 5%;
+        font-size: 24px;
+    }
+ 
+    
+    /* ==== FOOTER ==== */
+    .athenadosAbout {
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
+
+  
 }
+
+
 
 
 
@@ -621,10 +764,140 @@
 
 /* MOBILE LARGE */
 @media (min-width: 425px) and (max-width: 768px) {
+
     body {
-        background-color: rgb(128, 240, 128);
+        background-color: rgb(128, 240, 133);
+        overflow-x: hidden;
+
     }
-     
+
+    /* =========== HEADER =========== */
+    .header-class2 {
+        padding: 2px;
+    }
+
+    .header-class2 ul {
+        position: absolute;
+        top: 7.1vh;
+        right: 0%;
+        width: 102vw;
+        height: 93vh;
+        background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .header-class2 li {
+        margin-left: 0;
+        opacity: 0;
+        display: block;
+        margin-top: 6%;
+        padding: 10px;
+    }
+    #tracinho {
+        visibility: hidden;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    .mobile-menu.active .line2 {
+        opacity: 0;
+    }
+    .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+
+    }
+
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px)
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+
+    .nav-subjectives {
+        display: none;
+    }
+
+
+
+
+     /* =========== SUB HEADER =========== */
+     .sub-headerAbout {
+        padding: 12% 5% 7.5% 6%;
+        margin-top: 12%;
+    }
+    .sub-headerAbout h1 {
+        font-size: 24px;
+        display: block;
+        text-align: center;
+    }
+    .sub-headerAbout p {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .sub-headerImage {
+        display: none;
+    }
+
+
+
+
+    /* =========== MAIN CLASS =========== */
+    .subjective-container {
+        width: 100%;
+    }
+
+    .subject-cards li {
+        width: 160px;
+    }
+
+    .liImage {
+        display: none;
+    }
+    
+    .h3Title h3 {
+        font-size: 17px;
+        padding-right: 3%;
+    }
+
+    .history, .geography, .philosophy, .sociology  {
+        width: 82%;
+        margin: 10% auto;
+    }
+
+    .history h1, .geography h1, .philosophy h1, .sociology h1 {
+        margin-bottom: 5%;
+        font-size: 30px;
+    }
+ 
+    
+    /* ==== FOOTER ==== */
+    .athenadosAbout {
+        display: none;
+    }
+
+    .footer-logo img {
+        width: 40%;
+    }
+
 }
 
 
@@ -644,9 +917,123 @@
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {
     body {
-        background-color: rgb(240, 214, 128);
+        background-color: yellow;
+        overflow-x: hidden;
     }
 
+    /* =========== HEADER =========== */
+    .header-class2 {
+        padding: 2px;
+    }
+
+    .header-class2 ul {
+        position: absolute;
+        top: 7.1vh;
+        right: 0%;
+        width: 102vw;
+        height: 93vh;
+        background: linear-gradient(90deg, rgb(4, 18, 53) 19%, rgb(6, 15, 61) 52%, rgb(7, 18, 44) 100%);
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .header-class2 li {
+        margin-left: 0;
+        opacity: 0;
+        display: block;
+        margin-top: 6%;
+        padding: 10px;
+    }
+    #tracinho {
+        visibility: hidden;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu.active .line1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    .mobile-menu.active .line2 {
+        opacity: 0;
+    }
+    .mobile-menu.active .line3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+
+    }
+
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px)
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+
+    .nav-subjectives {
+        display: none;
+    }
+
+
+
+
+    /* =========== SUB HEADER =========== */
+    .sub-headerAbout {
+        padding: 10% 5% 7.5% 17%;
+        margin-top: 6%;
+    }
+    .sub-headerAbout h1 {
+        font-size: 36px;
+        display: block;
+        text-align: center;
+        display: block;
+    }
+    .sub-headerAbout p {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .sub-headerImage img {
+        width: 220px;
+        padding: 50px 10%;
+    }
+
+
+
+
+    /* =========== MAIN CLASS =========== */
+    .subjective-container {
+        width: 90%;
+    }
+    .subject-cards li {
+        width: 200px;
+    }
+    
+    .h3Title h3 {
+        font-size: 15px;
+        padding-right: 7%;
+    }
+
+    .history, .geography, .philosophy, .sociology  {
+        width: 82%;
+        margin: 8% auto;
+    }
+
+    .history h1, .geography h1, .philosophy h1, .sociology h1 {
+        margin-bottom: 5%;
+    }
+    
 }
 
 
@@ -661,5 +1048,45 @@
         background-color: rgb(240, 128, 231);
     }
 
+    /* =========== SUB HEADER =========== */
+    .sub-headerAbout {
+        padding: 10% 5% 7.5% 17%;
+        margin-top: 6%;
+    }
+    .sub-headerAbout h1 {
+        font-size: 36px;
+        display: block;
+        text-align: center;
+        display: block;
+    }
+    .sub-headerAbout p {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .sub-headerImage img {
+        width: 220px;
+        padding: 50px 10%;
+    }
+
+
+
+
+    /* =========== MAIN CLASS =========== */
+    .subjective-container {
+        width: 85%;
+    }
+    
+    
+    
+
+    .history, .geography, .philosophy, .sociology  {
+        margin: 5% auto;
+    }
+
+    .history h1, .geography h1, .philosophy h1, .sociology h1 {
+        margin-bottom: 5%;
+    }
 
 }
