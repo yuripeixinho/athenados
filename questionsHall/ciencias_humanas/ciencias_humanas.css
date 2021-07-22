@@ -222,13 +222,10 @@
     text-align: center;
 }
 
-
-
 /* ========== CARDS ========== */
 .subject-cards {
     display: inline-block;
-    margin-left: 2.5%;
-    margin-top: 2.2%;
+    margin: 0.7%;
 }
 
 .subject-cards a {
@@ -291,7 +288,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
-
+    margin-bottom: 2.5%;
 }
 .history {
     width: 86%;
