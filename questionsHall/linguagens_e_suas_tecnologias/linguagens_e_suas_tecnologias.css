@@ -1059,7 +1059,7 @@
 
     /* =========== SUB HEADER =========== */
     .sub-headerAbout {
-        padding: 10% 5% 7.5% 17%;
+        padding: 5% 5% 0% 17%;
         margin-top: 6%;
     }
     .sub-headerAbout h1 {
@@ -1084,7 +1084,7 @@
 
     /* =========== MAIN CLASS =========== */
     .subjective-container {
-        width: 85%;
+        width: 100%;
     }
     
     
