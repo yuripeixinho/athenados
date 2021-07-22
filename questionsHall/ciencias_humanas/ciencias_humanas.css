@@ -269,7 +269,7 @@
 .h3Title h3 {
     color: rgb(0, 0, 0);
     font-family: 'Lato';
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 5%;
     margin-left: 5%;
 }
@@ -613,7 +613,6 @@
 @media (min-width: 375px) and (max-width: 425px) {
     body {
         overflow-x: hidden;
-
     }
 
     /* =========== HEADER =========== */
@@ -776,7 +775,6 @@
 
     body {
         overflow-x: hidden;
-
     }
 
     /* =========== HEADER =========== */
@@ -1052,6 +1050,7 @@
 /* LAPTOP */
 @media (min-width: 1024px) and (max-width: 1440px) {
     body {
+        
     }
 
     /* =========== SUB HEADER =========== */
@@ -1103,7 +1102,11 @@
         border-radius: 5px;
         transition-duration: 0.5s;
         margin-left: 6%;
-        
+    }
+
+    .h3Title h3 {
+        font-size: 16px;
+        padding-right: 7%;
     }
 
 }

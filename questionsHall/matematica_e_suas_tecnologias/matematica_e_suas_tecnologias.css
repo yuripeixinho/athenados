@@ -269,7 +269,7 @@
 .h3Title h3 {
     color: rgb(0, 0, 0);
     font-family: 'Lato';
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 5%;
     margin-left: 5%;
 }
@@ -1093,5 +1093,10 @@
 
     .matematica h1 {
         margin-bottom: 5%;
+    }
+
+    .h3Title h3 {
+        font-size: 16px;
+        padding-right: 7%;
     }
 }
