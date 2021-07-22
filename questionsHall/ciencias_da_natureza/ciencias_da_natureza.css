@@ -269,7 +269,7 @@
 .h3Title h3 {
     color: rgb(0, 0, 0);
     font-family: 'Lato';
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 5%;
     margin-left: 5%;
 }
@@ -1097,7 +1097,7 @@
     }
 
     .h3Title h3 {
-        font-size: 16px;
+        font-size: 14px;
         padding-right: 7%;
     }
 }
