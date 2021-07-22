@@ -224,13 +224,25 @@
 
 
 /* ========== CARDS ========== */
+.subject-cards {
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-top: 2.2%;
+}
+
+.subject-cards a {
+    text-decoration: none;
+}
+
 .subject-cards li {
-    width: 230px;
+    width: 220px;
+    height: 60px;
     list-style: none;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.164) 0px 10px 10px;
     border-radius: 5px;
     transition-duration: 0.5s;
+    padding: 8px;
 }
 .subject-cards li:hover {
     transform: scale(0.9);
@@ -238,10 +250,8 @@
     box-shadow: none;
 }
 
-
 .lih3 {
     display: flex;
-    padding: 8px;
 }
 
 
@@ -254,18 +264,16 @@
 }
 
 
-.h3Title {
-   padding-top: 3%;
-   padding-left: 10%;
+.h3Title {  
+   width: 100%;
 }
 
 .h3Title h3 {
     color: rgb(0, 0, 0);
     font-family: 'Lato';
-    font-size: 16px;
-}
-.subject-cards a {
-    text-decoration: none;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 
@@ -274,14 +282,19 @@
 
 /* ============================ SUBJECTIVES ============================ */
 .matematica  {
-    width: 82%;
-    margin: 5% auto;
+    width: 86%;
+    margin: 12% auto;
 }
 .matematica h1 {
-    margin-bottom: 3%;
     font-family: 'Raleway';
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.matematica {
+    width: 86%;
+    margin: 5% auto;
 }
 
 

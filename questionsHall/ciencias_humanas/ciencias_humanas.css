@@ -242,7 +242,6 @@
     box-shadow: rgba(0, 0, 0, 0.164) 0px 10px 10px;
     border-radius: 5px;
     transition-duration: 0.5s;
-    background-color: lightblue;
     padding: 8px;
 }
 .subject-cards li:hover {
