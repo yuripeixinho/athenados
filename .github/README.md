@@ -81,8 +81,8 @@ As stated earlier, Brazilian education is precarious and completely unequal. Our
 <div align="left">
 
 - As it is an initial project, the panel of questions is not large, with a maximum of 20 questions each subject.
-- To run the project easily, access the link: [yagopeixinho.github.io/athenados/](yagopeixinho.github.io/athenados/)
-- 
+- To run the project easily, [click here](https://athenados.netlify.app)
+- At the moment only the "Review all content" button is available, the other separate stories have no content yet.
 
  </div>
  
